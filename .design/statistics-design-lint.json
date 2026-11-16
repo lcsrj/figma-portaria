@@ -1,7 +1,0 @@
-{
-  "command": "npx.cmd --yes -p @google/design.md designmd lint DESIGN.md",
-  "exitCode": 0,
-  "errors": 0,
-  "warnings": 27,
-  "note": "Avisos de tokens sem referência no frontmatter; as vinculações Figma constam do sidecar."
-}

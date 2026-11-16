@@ -89,10 +89,10 @@ O índice geral da pasta do projeto, com os documentos vigentes e históricos fo
 ## 7. Orientações para consulta
 
 1. Comece por este README e pela [Matriz de Rastreabilidade](Matriz-de-Rastreabilidade.md), que mostra como tudo se liga.
-2. Para avaliar as interfaces, leia o [Artefato 7](07-Interfaces-do-Sistema/Documentacao-das-Interfaces.md) e abra as [capturas](07-Interfaces-do-Sistema/Capturas/).
+2. Para avaliar as interfaces, leia o [Artefato 7](07-Interfaces-do-Sistema/Documentacao-das-Interfaces.md) e abra as [capturas](07-Interfaces-do-Sistema/Capturas).
 3. Identificadores com hífen e três dígitos (`RF-001`, `RN-001`, `CA-001`) são **desta entrega**. Identificadores sem hífen (`RF1`, `RN1`, `CA01`, `D01`, `T01`, `J01`) são do **documento-fonte** ou do **plano v3.2**. `M01`–`M32`, `C01`–`C12`, `R1`–`R5` e `D25`–`D28` são do **plano de estatísticas v1.2**.
 4. A palavra **"Prototipado"** significa que existe no Figma, não que funciona em software.
-5. Os diagramas Mermaid são exibidos no GitHub, no GitLab e em editores com suporte; as fontes estão em [Diagramas](Diagramas/).
+5. Os diagramas Mermaid são exibidos no GitHub, no GitLab e em editores com suporte; as fontes estão em [Diagramas](Diagramas).
 6. IDs como `5:2` ou `229:4207` identificam quadros do arquivo Figma.
 
 ## 8. Relação entre esta documentação e o projeto existente
@@ -101,7 +101,7 @@ O índice geral da pasta do projeto, com os documentos vigentes e históricos fo
 - **Precedência adotada:** decisão confirmada mais recente (15/11/2026, depois 11/11/2026) > documento-fonte > plano v3.2 e plano de estatísticas v1.2 > registros históricos.
 - **Capturas:** copiadas sem alteração das pastas do projeto; nenhuma captura nova foi gerada pela documentação. As de 11/11/2026 que não representam mais o protótipo foram movidas para `Capturas/historico-2026-11-11/`.
 - **Arquivos do projeto:** a atualização de 15/11/2026 alterou apenas esta pasta, os planos de estatísticas (v1.0 copiado de Downloads e v1.2 criado), o plano v3.2 (nota de atualização no topo) e criou o índice `LEIA-ME_DOCUMENTACAO.md`.
-- **Repositório:** a pasta é um repositório Git local **sem commits e sem remoto**. Nenhum comando Git que altere o repositório foi executado e nada foi publicado.
+- **Repositório (organização atualizada em 16/11/2026):** documentação publicada em [lcsrj/figma-portaria](https://github.com/lcsrj/figma-portaria), com commits e remoto configurados. A árvore atual mantém esta entrega, documentos complementares e referências; planos avulsos e arquivos internos foram retirados. Menções a essas fontes descrevem o acervo usado na elaboração, não arquivos da seleção atual.
 
 ## 9. Informações que não puderam ser confirmadas
 

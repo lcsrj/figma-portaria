@@ -18,10 +18,10 @@
 
 | Item | Informação |
 |---|---|
-| Origem | Exportações do próprio arquivo Figma, feitas pelo projeto e guardadas em `.design/previews/` e `.impeccable/review/`; copiadas, sem alteração, para [Capturas](Capturas/). Origem de cada arquivo em [_origem-das-capturas.txt](Capturas/_origem-das-capturas.txt) |
+| Origem | Exportações do próprio arquivo Figma, feitas pelo projeto e guardadas em `.design/previews/` e `.impeccable/review/`; copiadas, sem alteração, para [Capturas](Capturas). Origem de cada arquivo em [_origem-das-capturas.txt](Capturas/_origem-das-capturas.txt) |
 | Geração nesta documentação | **Nenhuma captura nova foi gerada** pela documentação: as imagens vêm das validações do projeto (a de 15/11/2026 tem 217 capturas, catalogadas em `VALIDACAO_VISUAL_FIGMA_2026-11-15.md`) |
 | Prefixos | **A** acesso · **B** recuperação · **C** Início e menu · **E** estatísticas, relatórios e acompanhamento |
-| Histórico | Capturas de 11/11/2026 que não representam mais o protótipo estão em [Capturas/historico-2026-11-11](Capturas/historico-2026-11-11/) |
+| Histórico | Capturas de 11/11/2026 que não representam mais o protótipo estão em [Capturas/historico-2026-11-11](Capturas/historico-2026-11-11) |
 | Dados exibidos | Fictícios (Marina Costa, Eduardo Almeida, Sofia Ribeiro, André Souza, Patrícia Ramos, Helena Martins; portarias 128/2026, 129/2026; projetos P01–P21) |
 | Imagens reais | Marca do IFC Campus Videira, biblioteca e refeitório (fontes em `assets/institucional/FONTES.md`) |
 

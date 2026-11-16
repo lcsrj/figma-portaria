@@ -1,8 +1,0 @@
-{
-  "command": "npx.cmd --yes -p @google/design.md designmd lint DESIGN.md",
-  "errors": 0,
-  "warnings": 27,
-  "infos": 1,
-  "warningRule": "orphaned-tokens",
-  "note": "Tokens incumbentes preservados; o lint verifica referências dos snippets YAML, não as ligações efetivas no Figma."
-}

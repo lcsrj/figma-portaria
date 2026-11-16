@@ -1,28 +1,22 @@
-# Gestor de Portarias — documentação e protótipo
+# Gestor de Portarias — documentação
 
-Acervo do projeto Gestor de Portarias do Campus Videira: planos, regras de negócio, requisitos, diagramas, referências, entregas, capturas e evidências de validação do protótipo Figma.
+Documentação do Gestor de Portarias do Instituto Federal Catarinense, Campus Videira.
 
-**Trabalho pausado a pedido do usuário em 15/11/2026.** O ponto de retomada está em [STATUS_PAUSA_2026-11-15.md](STATUS_PAUSA_2026-11-15.md).
+O repositório reúne a **Entrega 2 — nove artefatos**, os documentos de produto, interação e design, os dois relatórios de 15/11/2026 e oito referências originais.
 
-## Por onde começar
+## Consulta
 
-- [Índice da documentação](LEIA-ME_DOCUMENTACAO.md)
-- [Documentação da entrega 2](ENTREGA-2-DOCUMENTACAO/README.md)
-- [Plano de interface v3.2](PLANO_INTERFACE_GESTOR_PORTARIAS_v3.2.md)
-- [Plano de estatísticas e relatórios v1.2](PLANO_ESTATISTICAS_RELATORIOS_v1.2.md)
-- [Contrato de interação vigente](UX-CONTRACT.md)
-- [Contexto do produto](PRODUCT.md) e [sistema visual](DESIGN.md)
-- [Entrega de implementação e validação de 15/11](ENTREGA_IMPLEMENTACAO_VALIDACAO_FIGMA_2026-11-15.md)
-- [Correção de Assinaturas, Administração e menus](CORRECAO_ASSINATURAS_ADMINISTRACAO_MENU_2026-11-15.md)
+- [Índice geral](LEIA-ME_DOCUMENTACAO.md)
+- [Entrega 2: nove artefatos, matriz e diagramas](ENTREGA-2-DOCUMENTACAO/README.md)
+- [Produto e decisões vigentes](PRODUCT.md)
+- [Contratos de interação](UX-CONTRACT.md)
+- [Sistema visual](DESIGN.md)
+- [Relatório de implementação e validação de 15/11](ENTREGA_IMPLEMENTACAO_VALIDACAO_FIGMA_2026-11-15.md)
+- [Catálogo de validação visual de 15/11](VALIDACAO_VISUAL_FIGMA_2026-11-15.md)
+- [Referências originais](referencias)
 
-## Organização
+A Entrega 2 inclui 20 capturas atuais, 13 capturas históricas identificadas e oito diagramas Mermaid. O Plano de Projeto faz parte do artefato 1. Os planos avulsos da raiz e os arquivos internos de construção não integram esta versão do repositório.
 
-- `referencias/`: documentos originais e materiais de referência, incluindo Word, Excel e PDF.
-- `ENTREGA-2-DOCUMENTACAO/`: documentação organizada por assunto, diagramas e capturas.
-- `assets/`: imagens institucionais e registro de suas fontes.
-- `.design/`: scripts de construção, estados, dados demonstrativos e verificações do Figma.
-- `.impeccable/`: contexto visual, capturas e pareceres de revisão.
+O [protótipo editável está no Figma](https://www.figma.com/design/yHEP1gOormT6A2nBhLhT3b). Não há aplicação implementada. O trabalho no protótipo permanece pausado; esta atualização organiza somente a documentação.
 
-O [protótipo editável permanece no Figma](https://www.figma.com/design/yHEP1gOormT6A2nBhLhT3b). Este repositório reúne os arquivos locais do projeto e suas evidências; não contém uma exportação nativa `.fig` nem uma aplicação operacional.
-
-Os relatórios distinguem verificações de estrutura/ações persistidas de testes reais de interação. A automação de interface não iniciou neste ambiente, portanto não houve validação por cliques e rolagem reais.
+Os relatórios preservam os resultados e limites de sua data. Links para evidências técnicas fora desta seleção consultam o commit de arquivo anterior. Eles não representam validação por cliques reais, teste com usuários ou homologação institucional.
