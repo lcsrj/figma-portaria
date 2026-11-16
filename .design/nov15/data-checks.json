@@ -1,0 +1,46 @@
+{
+  "checks": [
+    {
+      "name": "Reconciliação exclusiva dos 21 projetos",
+      "passed": true
+    },
+    {
+      "name": "Ativos e inativos totalizam 7",
+      "passed": true
+    },
+    {
+      "name": "Conclusões e não realizados não duplicam",
+      "passed": true
+    },
+    {
+      "name": "Coorte de retrabalho explícita",
+      "passed": true
+    },
+    {
+      "name": "Taxa de aprovação tem denominador de decisões",
+      "passed": true
+    },
+    {
+      "name": "7 pendências pertencem a 6 projetos",
+      "passed": true
+    },
+    {
+      "name": "Janela semanal com 7 dias e mesma duração anterior",
+      "passed": true
+    },
+    {
+      "name": "Sem conflito com 12 atos já publicados",
+      "passed": true
+    },
+    {
+      "name": "Tempos não incluem projetos abertos",
+      "passed": true
+    },
+    {
+      "name": "32 métricas documentadas",
+      "passed": true
+    }
+  ],
+  "passed": 10,
+  "total": 10
+}

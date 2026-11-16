@@ -1,0 +1,119 @@
+{
+  "method": "Avaliação dos arrays de ações e condições lidos novamente do Figma, com transições automáticas intermediárias; sem execução visual de sessão ou backend.",
+  "tests": [
+    {
+      "device": "D",
+      "scenario": "Servidor nível 2 aguarda assinatura",
+      "expected": "229:4408",
+      "actual": "229:4408",
+      "pass": true
+    },
+    {
+      "device": "D",
+      "scenario": "DG nível 3 segue para a própria assinatura",
+      "expected": "7:2508",
+      "actual": "7:2508",
+      "pass": true
+    },
+    {
+      "device": "D",
+      "scenario": "Vice nível 3 segue para a própria assinatura",
+      "expected": "14:1585",
+      "actual": "14:1585",
+      "pass": true
+    },
+    {
+      "device": "D",
+      "scenario": "externalEnter",
+      "expected": "229:4207",
+      "actual": "229:4207",
+      "pass": true
+    },
+    {
+      "device": "D",
+      "scenario": "externalList",
+      "expected": "229:4281",
+      "actual": "229:4281",
+      "pass": true
+    },
+    {
+      "device": "D",
+      "scenario": "externalDetail",
+      "expected": "229:4325",
+      "actual": "229:4325",
+      "pass": true
+    },
+    {
+      "device": "D",
+      "scenario": "externalDocument",
+      "expected": "229:4281",
+      "actual": "229:4281",
+      "pass": true
+    },
+    {
+      "device": "D",
+      "scenario": "Vice preserva identidade ao navegar",
+      "expected": "6:751",
+      "actual": "6:751",
+      "identity": "Sofia Ribeiro",
+      "pass": true
+    },
+    {
+      "device": "M",
+      "scenario": "Servidor nível 2 aguarda assinatura",
+      "expected": "229:4964",
+      "actual": "229:4964",
+      "pass": true
+    },
+    {
+      "device": "M",
+      "scenario": "DG nível 3 segue para a própria assinatura",
+      "expected": "9:3038",
+      "actual": "9:3038",
+      "pass": true
+    },
+    {
+      "device": "M",
+      "scenario": "Vice nível 3 segue para a própria assinatura",
+      "expected": "14:3452",
+      "actual": "14:3452",
+      "pass": true
+    },
+    {
+      "device": "M",
+      "scenario": "externalEnter",
+      "expected": "229:4803",
+      "actual": "229:4803",
+      "pass": true
+    },
+    {
+      "device": "M",
+      "scenario": "externalList",
+      "expected": "229:4861",
+      "actual": "229:4861",
+      "pass": true
+    },
+    {
+      "device": "M",
+      "scenario": "externalDetail",
+      "expected": "229:4897",
+      "actual": "229:4897",
+      "pass": true
+    },
+    {
+      "device": "M",
+      "scenario": "externalDocument",
+      "expected": "229:4861",
+      "actual": "229:4861",
+      "pass": true
+    },
+    {
+      "device": "M",
+      "scenario": "Vice preserva identidade ao navegar",
+      "expected": "8:2091",
+      "actual": "8:2091",
+      "identity": "Sofia Ribeiro",
+      "pass": true
+    }
+  ]
+}

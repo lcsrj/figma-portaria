@@ -1,0 +1,44 @@
+Origem das capturas (copiadas sem alteração das pastas do projeto; atualizado em 15/11/2026)
+
+CAPTURAS VIGENTES (estado do protótipo em 15/11/2026)
+
+A01-entrada-unificada-computador.png              <- .impeccable/review/nov15/login-D.png          (15/11/2026)
+A02-entrada-unificada-celular.png                 <- .impeccable/review/nov15/login-M.png          (15/11/2026)
+A03-acesso-demonstrativo-computador.png           <- .impeccable/review/nov15/demo-direcao-D.png   (15/11/2026)
+A04-acesso-demonstrativo-celular.png              <- .impeccable/review/nov15/demo-direcao-M.png   (15/11/2026)
+B02-confira-seu-email-computador.png              <- .impeccable/review/routing-fix/email.png      (23/10/2026 09:23, 1440x1000)
+B03-confira-seu-email-celular.png                 <- .impeccable/review/routing-fix/mobileEmail.png (23/10/2026 09:23, 390x844)
+C01-inicio-gabinete-nivel3-computador.png         <- .impeccable/review/nov15/home-D.png           (15/11/2026)
+C02-inicio-direcao-geral-nivel4-computador.png    <- .impeccable/review/nov15/home-direcao-D.png   (15/11/2026)
+C03-inicio-direcao-geral-nivel4-celular.png       <- .impeccable/review/nov15/home-direcao-M.png   (15/11/2026)
+C04-contas-e-niveis-administracao-computador.png  <- .impeccable/review/quatro-contas-desktop.png  (11/11/2026 11:07; escala 1-4 vigente)
+C05-inicio-servidor-nivel2-computador.png         <- .impeccable/review/nov15/home-servidor-D.png  (15/11/2026)
+C06-consulta-externa-nivel1-computador.png        <- .impeccable/review/nov15/home-externo-D.png   (15/11/2026)
+C07-consulta-externa-nivel1-celular.png           <- .impeccable/review/nov15/home-externo-M.png   (15/11/2026)
+E01-estatisticas-panorama-computador.png          <- .impeccable/review/nov15/stats-D.png          (15/11/2026)
+E02-estatisticas-panorama-celular.png             <- .impeccable/review/nov15/final-stats-M.png    (15/11/2026, recaptura F01)
+E03-grafico-pizza-C01.png                         <- .impeccable/review/nov15/grafico-C01.png      (15/11/2026)
+E04-notificacoes-computador.png                   <- .impeccable/review/nov15/notifications-D.png  (15/11/2026)
+E05-acompanhamento-computador.png                 <- .impeccable/review/nov15/detail-D.png         (15/11/2026)
+E06-previa-relatorio-semanal-pagina1.png          <- .impeccable/review/nov15/pdf-W-1.png          (15/11/2026)
+E07-editor-abas-revisao04-computador.png          <- .impeccable/review/nov15/editor-04-text-D.png (15/11/2026)
+
+CAPTURAS HISTÓRICAS (pasta historico-2026-11-11/; não representam o protótipo atual)
+
+A01-entrada-servidores-computador.png             <- .impeccable/review/niveis-login-desktop.png            (11/11/2026 10:03) - entrada de servidores com botão Acesso externo
+A02-acesso-externo-computador.png                 <- .impeccable/review/niveis-externo-desktop.png          (11/11/2026 10:03) - entrada externa separada
+A03-acesso-externo-celular.png                    <- .impeccable/review/niveis-externo-mobile.png           (11/11/2026 10:03)
+B01-recuperar-acesso-celular.png                  <- .design/previews/recuperacao-celular-2026-11-11.png    (11/11/2026 08:06) - anterior à remoção do bloco "Usa a conta institucional?"
+C01-inicio-gabinete-nivel2-computador.png         <- .design/previews/niveis-servidor-desktop-2026-11-11.png (11/11/2026 09:56) - Gabinete ainda no nível 2
+C02-inicio-direcao-geral-nivel3-computador.png    <- .impeccable/review/niveis-gestao-desktop.png           (11/11/2026 10:05) - Direção ainda no nível 3
+C03-inicio-direcao-geral-nivel3-celular.png       <- .impeccable/review/niveis-gestao-mobile.png            (11/11/2026 10:03)
+C04-perfis-e-niveis-administracao-computador.png  <- .impeccable/review/niveis-perfis-desktop.png           (11/11/2026 10:03) - catálogo de três níveis
+C05-transicao-preparando-assinatura-nivel3.png    <- .impeccable/review/niveis-transicao-desktop.png        (11/11/2026 10:11) - selo nível 3 da Direção
+C06-consulta-externa-nivel1-computador.png        <- .impeccable/review/niveis-consulta-externa-desktop.png (11/11/2026 10:03)
+C07-consulta-externa-nivel1-celular.png           <- .impeccable/review/niveis-consulta-externa-mobile.png  (11/11/2026 10:03)
+H01-entrada-celular-375-antes-da-remocao-do-acesso-institucional.png <- .design/previews/referencia-375x812.png  (11/11/2026 09:03)
+H02-entrada-tablet-768-antes-da-remocao-do-acesso-institucional.png  <- .design/previews/referencia-768x1024.png (11/11/2026 09:03)
+
+As imagens são exportações do arquivo Figma feitas durante o projeto. Dados de pessoas, portarias e credenciais demonstrativas são fictícios.
+Imagens reais nelas contidas: marca do IFC Campus Videira, biblioteca e refeitório (fontes em assets/institucional/FONTES.md).
+O conjunto completo da validação de 15/11/2026 (217 capturas) está em .impeccable/review/nov15/ e é catalogado em VALIDACAO_VISUAL_FIGMA_2026-11-15.md.

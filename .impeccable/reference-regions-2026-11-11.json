@@ -1,0 +1,317 @@
+{
+  "regions": [
+    {
+      "id": "header-logo",
+      "kind": "image",
+      "box": [
+        148,
+        25,
+        304,
+        80
+      ],
+      "snap": false,
+      "note": "Marca oficial IFC Campus Videira",
+      "grid": "A0:C1"
+    },
+    {
+      "id": "header-description",
+      "kind": "text",
+      "box": [
+        512,
+        46,
+        300,
+        32
+      ],
+      "snap": false,
+      "note": "Gestão institucional de portarias",
+      "grid": "D0:F0"
+    },
+    {
+      "id": "title",
+      "kind": "text",
+      "box": [
+        183,
+        191,
+        438,
+        159
+      ],
+      "snap": false,
+      "note": "Gestor de Portarias em duas linhas, verde escuro, peso muito forte",
+      "grid": "B1:D3"
+    },
+    {
+      "id": "intro",
+      "kind": "text",
+      "box": [
+        188,
+        370,
+        557,
+        63
+      ],
+      "snap": false,
+      "note": "Solicitação, emissão e acompanhamento dos atos do Campus Videira.",
+      "grid": "B3:E4"
+    },
+    {
+      "id": "library",
+      "kind": "image",
+      "box": [
+        15,
+        520,
+        467,
+        307
+      ],
+      "snap": false,
+      "note": "Foto da biblioteca com recorte diagonal e etiqueta",
+      "grid": "A5:D8"
+    },
+    {
+      "id": "refectory",
+      "kind": "image",
+      "box": [
+        331,
+        522,
+        522,
+        314
+      ],
+      "snap": false,
+      "note": "Refeitório com recorte diagonal à esquerda; preservar edifício completo",
+      "grid": "C5:F8"
+    },
+    {
+      "id": "library-caption",
+      "kind": "text",
+      "box": [
+        97,
+        780,
+        220,
+        21
+      ],
+      "snap": false,
+      "note": "Biblioteca - Campus Videira",
+      "grid": "A7:B8"
+    },
+    {
+      "id": "card",
+      "kind": "chrome",
+      "box": [
+        864,
+        111,
+        558,
+        823
+      ],
+      "snap": false,
+      "note": "Cartão branco arredondado com sombra difusa",
+      "grid": "F1:I9",
+      "container": true
+    },
+    {
+      "id": "card-logo",
+      "kind": "image",
+      "box": [
+        1002,
+        163,
+        297,
+        77
+      ],
+      "snap": false,
+      "note": "Marca oficial dentro do cartão",
+      "grid": "G1:I2"
+    },
+    {
+      "id": "card-title",
+      "kind": "text",
+      "box": [
+        918,
+        279,
+        420,
+        41
+      ],
+      "snap": false,
+      "note": "Acesse sua conta na interface institucional",
+      "grid": "F2:I3"
+    },
+    {
+      "id": "card-subtitle",
+      "kind": "text",
+      "box": [
+        920,
+        330,
+        300,
+        26
+      ],
+      "snap": false,
+      "note": "Gestor de Portarias na interface institucional",
+      "grid": "F3:H3"
+    },
+    {
+      "id": "username-label",
+      "kind": "text",
+      "box": [
+        920,
+        380,
+        120,
+        24
+      ],
+      "snap": false,
+      "note": "Usuário na interface institucional",
+      "grid": "F3:G4"
+    },
+    {
+      "id": "username-input",
+      "kind": "control",
+      "box": [
+        920,
+        413,
+        452,
+        53
+      ],
+      "snap": false,
+      "note": "Campo usuário com ícone",
+      "grid": "F4:I4"
+    },
+    {
+      "id": "password-label",
+      "kind": "text",
+      "box": [
+        920,
+        487,
+        120,
+        24
+      ],
+      "snap": false,
+      "note": "Senha na interface institucional",
+      "grid": "F4:G5"
+    },
+    {
+      "id": "password-input",
+      "kind": "control",
+      "box": [
+        920,
+        520,
+        452,
+        53
+      ],
+      "snap": false,
+      "note": "Campo senha com cadeado e olho",
+      "grid": "F5:I5"
+    },
+    {
+      "id": "forgot",
+      "kind": "text",
+      "box": [
+        1185,
+        598,
+        188,
+        26
+      ],
+      "snap": false,
+      "note": "Esqueci minha senha na interface institucional",
+      "grid": "H6:I6"
+    },
+    {
+      "id": "sign-in",
+      "kind": "control",
+      "box": [
+        917,
+        648,
+        458,
+        56
+      ],
+      "snap": false,
+      "note": "Entrar com ícone na interface institucional",
+      "grid": "F6:I7"
+    },
+    {
+      "id": "institutional",
+      "kind": "control",
+      "box": [
+        917,
+        719,
+        458,
+        55
+      ],
+      "snap": false,
+      "note": "Acesso institucional com ícone",
+      "grid": "F7:I7"
+    },
+    {
+      "id": "external",
+      "kind": "control",
+      "box": [
+        917,
+        785,
+        458,
+        55
+      ],
+      "snap": false,
+      "note": "Acesso externo com ícone",
+      "grid": "F7:I8"
+    },
+    {
+      "id": "card-footer",
+      "kind": "text",
+      "box": [
+        918,
+        874,
+        320,
+        38
+      ],
+      "snap": false,
+      "note": "Instituto Federal Catarinense / Gestão institucional de portarias",
+      "grid": "F8:H9"
+    },
+    {
+      "id": "background-right",
+      "kind": "image",
+      "box": [
+        1422,
+        140,
+        164,
+        600
+      ],
+      "snap": false,
+      "note": "Arquitetura suave no lado direito",
+      "grid": "I1:J7"
+    },
+    {
+      "id": "foliage",
+      "kind": "image",
+      "box": [
+        1140,
+        0,
+        446,
+        165
+      ],
+      "snap": false,
+      "note": "Folhagem cinza clara no canto superior direito",
+      "grid": "H0:J1"
+    },
+    {
+      "id": "wave",
+      "kind": "plate",
+      "box": [
+        0,
+        400,
+        1050,
+        592
+      ],
+      "snap": false,
+      "note": "Onda verde escura inferior esquerda e curva inferior direita",
+      "grid": "A4:G9"
+    },
+    {
+      "id": "green-shape",
+      "kind": "chrome",
+      "box": [
+        672,
+        447,
+        154,
+        65
+      ],
+      "snap": false,
+      "note": "Pequena forma geométrica verde clara",
+      "grid": "E4:F5"
+    }
+  ]
+}

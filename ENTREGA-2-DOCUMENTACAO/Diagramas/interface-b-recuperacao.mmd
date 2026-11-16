@@ -1,0 +1,9 @@
+flowchart LR
+    L["Entrada 5:2"] -->|Esqueci minha senha| R["Recupere seu acesso 5:92"]
+    R -->|Enviar instruções| C["Confira seu e-mail 5:118"]
+    C -->|Reenviar instruções| C
+    C -->|Abrir link de recuperação| N["Defina uma nova senha 5:143"]
+    N -->|Salvar nova senha| D["Conclusão 5:167"]
+    D --> L
+    R -->|Voltar ao acesso| L
+    C -->|Voltar ao acesso| L

@@ -1,0 +1,10 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"collectionId\":\"VariableCollectionId:317:2\",\"variables\":{\"title\":\"VariableID:317:3\",\"state\":\"VariableID:317:4\",\"stage\":\"VariableID:317:5\",\"actSituation\":\"VariableID:317:6\",\"owner\":\"VariableID:317:7\",\"department\":\"VariableID:317:8\",\"reason\":\"VariableID:317:9\",\"last\":\"VariableID:317:10\",\"action\":\"VariableID:317:11\",\"progress\":\"VariableID:317:12\",\"history\":\"VariableID:317:13\",\"next\":\"VariableID:317:14\",\"progressD\":\"VariableID:317:15\",\"progressM\":\"VariableID:317:16\"}}"
+    }
+  ],
+  "structuredContent": null,
+  "isError": false
+}

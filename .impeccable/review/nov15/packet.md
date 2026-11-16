@@ -1,0 +1,18 @@
+# Revisão independente — 15/11/2026
+Projeto: C:/Users/User/Documents/ChatGPT/Figma portaria
+Artefato: https://www.figma.com/design/yHEP1gOormT6A2nBhLhT3b?node-id=5-2
+Pedido integral: .design/nov15/PEDIDO_IMPLEMENTACAO_VALIDACAO.md
+Contrato de direção: extensão da identidade institucional existente, sem novo mundo visual. Source Sans 3 operacional; Inter/Roboto no acesso; verde #23633B, fundo #F4F6F8, superfícies brancas, menu desktop 232px e cabeçalho 76px; celular 390×844. Preservar imagens e marca atuais.
+Pedido atual substitui 4 logins por entrada única com demonstração opcional de quatro contas. Sem níveis antes do login; níveis existentes após login. Pizza/rosca foram expressamente exigidas pelo usuário em 15/11, sobrepondo restrição histórica do plano de 11/11. Nenhuma nova autorização.
+QUALITY BAR: indicadores com unidade/base/denominador, separação estado/evento/vigência, tabelas equivalentes aos gráficos, próxima ação e responsável explícitos, 4 perfis coerentes, abas persistentes e preservação de revisões 04/05; PDF paginado honesto sem arquivo real.
+Não há novo comp aprovado: extensão local da identidade existente. DESIGN.md descreve sistema incumbente; suas regras históricas conflitantes sobre login/pizza serão atualizadas apenas conforme pedido novo. Arquivos de comp 11/11 são históricos.
+Referência craft floor: C:/Users/User/.codex/plugins/cache/openai-curated-remote/impeccable/4.3.1/skills/impeccable/reference/craft-floor.md
+Não houve detector HTML/CSS: artefato é Figma nativo. Sem navegador disponível para revisão. Nenhuma alteração de tela autorizada ao revisor.
+Evidências: 141 PNGs reais listados em .design/nov15/captures-reviewed.json. Cópias para leitura em .impeccable/review/nov15/<name>.png. contact-01.jpg a contact-12.jpg são índices, todos os PNGs são requeridos para cobertura. Abra todos os índices e imagens em resolução própria quando precisar ler; não julgue texto fino a partir de miniaturas.
+As cópias de revisão compõem transparência sobre branco, sem alterar conteúdo. Painéis conteudo-editor, cartao-demo e acompanhamento-conteudo são conteúdo nativo isolado para inspecionar a parte abaixo da primeira dobra; não comprovam rolagem por cliques.
+Fontes/identidade e fluxos originais inspecionados antes da implementação. Variantes desktop e móvel. R1–R5 anteriores preservados. Cenário ampliado em .design/nov15/data.json (21 projetos; 7 cadastros; 7 tarefas em 6 projetos); .design/nov15/data-checks.json.
+Novos filtros de relatórios: 9 recortes × 3 períodos, mesma seleção persiste em resumo/prévia/paginação e comparação. Captura de exemplo DEPE mensal: 13 projetos em R, 5 criados no período, 0 concluídos no período, 18 eventos. Valores demonstrativos.
+Limite conhecido: automação de cliques não inicia (erro kernel assets/os error 3). Testes de ações/variáveis persistidas são interpretados, não testes por cliques. Não declare execução funcional completa. Figma get_screenshot atingiu cota Education; método nativo node.screenshot permitiu capturar o restante. Não há pendência de PNG por cota.
+Escopo: revisão visual e cobertura do pedido. Não certificar backend, teclado/ARIA, entrada livre, entrega real de PDF ou segurança de autorização.
+Retorne 5 seções: disposition (ship/fix/recapture/rebuild), evidência/cobertura, matriz de requisitos, achados materiais com arquivo de evidência e correção concreta, limites. Se fix, priorize falhas reais de leitura, layout e estados, não preferências que substituam identidade. Grave seu relatório somente em .impeccable/review/nov15/parecer.md e devolva resumo. Não altere outros arquivos nem o Figma.
+

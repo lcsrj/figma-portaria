@@ -1,0 +1,5160 @@
+{
+  "desktop": {
+    "tabs": [
+      [
+        "login",
+        true,
+        [
+          [
+            "Aba / Esqueci minha senha",
+            true,
+            [
+              "recover"
+            ]
+          ],
+          [
+            "Aba / Acesso institucional",
+            true,
+            [
+              "institutional"
+            ]
+          ]
+        ]
+      ],
+      [
+        "loginFilled",
+        true,
+        [
+          [
+            "Aba / Esqueci minha senha",
+            true,
+            [
+              "recover"
+            ]
+          ],
+          [
+            "Aba / Acesso institucional",
+            true,
+            [
+              "institutional"
+            ]
+          ]
+        ]
+      ],
+      [
+        "loginError",
+        true,
+        [
+          [
+            "Aba / Esqueci minha senha",
+            true,
+            [
+              "recover"
+            ]
+          ]
+        ]
+      ],
+      [
+        "portarias",
+        true,
+        [
+          [
+            "Aba / Todas",
+            true,
+            []
+          ],
+          [
+            "Aba / Minhas participações",
+            true,
+            [
+              "operatorParticipations"
+            ]
+          ],
+          [
+            "Aba / Em elaboração",
+            true,
+            [
+              "drafts"
+            ]
+          ]
+        ]
+      ],
+      [
+        "searchResult",
+        true,
+        [
+          [
+            "Aba / Todas",
+            true,
+            []
+          ],
+          [
+            "Aba / Minhas participações",
+            true,
+            [
+              "operatorParticipations"
+            ]
+          ],
+          [
+            "Aba / Em elaboração",
+            true,
+            [
+              "drafts"
+            ]
+          ]
+        ]
+      ],
+      [
+        "statusFilter",
+        true,
+        [
+          [
+            "Aba / Todas",
+            true,
+            []
+          ],
+          [
+            "Aba / Minhas participações",
+            true,
+            [
+              "operatorParticipations"
+            ]
+          ],
+          [
+            "Aba / Em elaboração",
+            true,
+            [
+              "drafts"
+            ]
+          ]
+        ]
+      ],
+      [
+        "drafts",
+        true,
+        [
+          [
+            "Aba / Todas",
+            true,
+            [
+              "portarias"
+            ]
+          ],
+          [
+            "Aba / Minhas participações",
+            true,
+            [
+              "operatorParticipations"
+            ]
+          ],
+          [
+            "Aba / Em elaboração",
+            true,
+            []
+          ]
+        ]
+      ],
+      [
+        "myParticipations",
+        true,
+        [
+          [
+            "Aba / Todas",
+            true,
+            [
+              "portariasDoc"
+            ]
+          ],
+          [
+            "Aba / Minhas participações",
+            true,
+            []
+          ]
+        ]
+      ],
+      [
+        "detail",
+        true,
+        [
+          [
+            "Aba / Resumo",
+            true,
+            []
+          ],
+          [
+            "Aba / Participações",
+            true,
+            [
+              "members"
+            ]
+          ],
+          [
+            "Aba / Documento",
+            true,
+            [
+              "signed"
+            ]
+          ],
+          [
+            "Aba / Tramitação",
+            true,
+            [
+              "history"
+            ]
+          ],
+          [
+            "Aba / Publicação",
+            true,
+            [
+              "publicationDetail"
+            ]
+          ],
+          [
+            "Aba / Comunicação",
+            true,
+            [
+              "communications"
+            ]
+          ]
+        ]
+      ],
+      [
+        "members",
+        true,
+        [
+          [
+            "Aba / Resumo",
+            true,
+            [
+              "detail"
+            ]
+          ],
+          [
+            "Aba / Participações",
+            true,
+            []
+          ],
+          [
+            "Aba / Documento",
+            true,
+            [
+              "signed"
+            ]
+          ],
+          [
+            "Aba / Tramitação",
+            true,
+            [
+              "history"
+            ]
+          ],
+          [
+            "Aba / Publicação",
+            true,
+            [
+              "publicationDetail"
+            ]
+          ],
+          [
+            "Aba / Comunicação",
+            true,
+            [
+              "communications"
+            ]
+          ]
+        ]
+      ],
+      [
+        "document",
+        true,
+        [
+          [
+            "Aba / Resumo",
+            true,
+            [
+              "detail"
+            ]
+          ],
+          [
+            "Aba / Participações",
+            true,
+            [
+              "members"
+            ]
+          ],
+          [
+            "Aba / Documento",
+            true,
+            []
+          ],
+          [
+            "Aba / Tramitação",
+            true,
+            [
+              "history"
+            ]
+          ],
+          [
+            "Aba / Publicação",
+            true,
+            [
+              "publicationDetail"
+            ]
+          ],
+          [
+            "Aba / Comunicação",
+            true,
+            [
+              "communications"
+            ]
+          ]
+        ]
+      ],
+      [
+        "signed",
+        true,
+        [
+          [
+            "Aba / Resumo",
+            true,
+            [
+              "detail"
+            ]
+          ],
+          [
+            "Aba / Participações",
+            true,
+            [
+              "members"
+            ]
+          ],
+          [
+            "Aba / Documento",
+            true,
+            [
+              "document"
+            ]
+          ],
+          [
+            "Aba / Tramitação",
+            true,
+            [
+              "history"
+            ]
+          ],
+          [
+            "Aba / Publicação",
+            true,
+            [
+              "publicationDetail"
+            ]
+          ],
+          [
+            "Aba / Comunicação",
+            true,
+            [
+              "communications"
+            ]
+          ]
+        ]
+      ],
+      [
+        "history",
+        true,
+        [
+          [
+            "Aba / Resumo",
+            true,
+            [
+              "detail"
+            ]
+          ],
+          [
+            "Aba / Participações",
+            true,
+            [
+              "members"
+            ]
+          ],
+          [
+            "Aba / Documento",
+            true,
+            [
+              "signed"
+            ]
+          ],
+          [
+            "Aba / Tramitação",
+            true,
+            []
+          ],
+          [
+            "Aba / Publicação",
+            true,
+            [
+              "publicationDetail"
+            ]
+          ],
+          [
+            "Aba / Comunicação",
+            true,
+            [
+              "communications"
+            ]
+          ]
+        ]
+      ],
+      [
+        "editor",
+        true,
+        [
+          [
+            "Aba / Texto",
+            true,
+            []
+          ],
+          [
+            "Aba / Participações",
+            true,
+            [
+              "editMembers"
+            ]
+          ],
+          [
+            "Aba / Prévia",
+            true,
+            [
+              "document"
+            ]
+          ]
+        ]
+      ],
+      [
+        "publicationDetail",
+        true,
+        [
+          [
+            "Aba / Resumo",
+            true,
+            [
+              "detail"
+            ]
+          ],
+          [
+            "Aba / Participações",
+            true,
+            [
+              "members"
+            ]
+          ],
+          [
+            "Aba / Documento",
+            true,
+            [
+              "signed"
+            ]
+          ],
+          [
+            "Aba / Tramitação",
+            true,
+            [
+              "history"
+            ]
+          ],
+          [
+            "Aba / Publicação",
+            true,
+            []
+          ],
+          [
+            "Aba / Comunicação",
+            true,
+            [
+              "communications"
+            ]
+          ]
+        ]
+      ],
+      [
+        "normative",
+        true,
+        [
+          [
+            "Aba / Documento",
+            true,
+            [
+              "normDocument"
+            ]
+          ],
+          [
+            "Aba / Texto compilado",
+            true,
+            [
+              "compiled"
+            ]
+          ],
+          [
+            "Aba / Publicação",
+            true,
+            [
+              "normPublish"
+            ]
+          ]
+        ]
+      ],
+      [
+        "normEditor",
+        true,
+        [
+          [
+            "Aba / Minuta nova",
+            true,
+            []
+          ],
+          [
+            "Aba / Alterar ato publicado",
+            true,
+            [
+              "amendEditor"
+            ]
+          ]
+        ]
+      ],
+      [
+        "compiled",
+        true,
+        [
+          [
+            "Aba / Redação vigente",
+            true,
+            []
+          ],
+          [
+            "Aba / Redação futura",
+            true,
+            [
+              "compiledFuture"
+            ]
+          ],
+          [
+            "Aba / Documento original",
+            true,
+            [
+              "normDocument"
+            ]
+          ]
+        ]
+      ],
+      [
+        "compiledFuture",
+        true,
+        [
+          [
+            "Aba / Redação vigente",
+            true,
+            [
+              "compiled"
+            ]
+          ],
+          [
+            "Aba / Redação futura",
+            true,
+            []
+          ],
+          [
+            "Aba / Documento original",
+            true,
+            [
+              "normDocument"
+            ]
+          ]
+        ]
+      ],
+      [
+        "amendEditor",
+        true,
+        [
+          [
+            "Aba / Minuta nova",
+            true,
+            [
+              "normEditor"
+            ]
+          ],
+          [
+            "Aba / Alterar ato publicado",
+            true,
+            []
+          ]
+        ]
+      ],
+      [
+        "communications",
+        true,
+        [
+          [
+            "Aba / Resumo",
+            true,
+            [
+              "detail"
+            ]
+          ],
+          [
+            "Aba / Participações",
+            true,
+            [
+              "members"
+            ]
+          ],
+          [
+            "Aba / Documento",
+            true,
+            [
+              "signed"
+            ]
+          ],
+          [
+            "Aba / Tramitação",
+            true,
+            [
+              "history"
+            ]
+          ],
+          [
+            "Aba / Publicação",
+            true,
+            [
+              "publicationDetail"
+            ]
+          ],
+          [
+            "Aba / Comunicação",
+            true,
+            []
+          ]
+        ]
+      ],
+      [
+        "tasks",
+        true,
+        [
+          [
+            "Aba / Da minha unidade",
+            true,
+            []
+          ],
+          [
+            "Aba / Minhas",
+            true,
+            [
+              "tasksMine"
+            ]
+          ],
+          [
+            "Aba / Informações",
+            true,
+            [
+              "tasksInfo"
+            ]
+          ]
+        ]
+      ],
+      [
+        "tasksMine",
+        true,
+        [
+          [
+            "Aba / Da minha unidade",
+            true,
+            [
+              "tasks"
+            ]
+          ],
+          [
+            "Aba / Minhas",
+            true,
+            []
+          ],
+          [
+            "Aba / Informações",
+            true,
+            [
+              "tasksInfo"
+            ]
+          ]
+        ]
+      ],
+      [
+        "expiry",
+        true,
+        [
+          [
+            "Aba / Em breve",
+            true,
+            []
+          ],
+          [
+            "Aba / Vencidas",
+            true,
+            [
+              "expiryExpired"
+            ]
+          ],
+          [
+            "Aba / Sem término",
+            true,
+            [
+              "expiryNoEnd"
+            ]
+          ],
+          [
+            "Aba / Revogação futura",
+            true,
+            [
+              "expiryScheduled"
+            ]
+          ],
+          [
+            "Aba / Em vigor",
+            true,
+            [
+              "expiryCurrent"
+            ]
+          ]
+        ]
+      ],
+      [
+        "admin",
+        true,
+        [
+          [
+            "Aba / Contas",
+            true,
+            []
+          ],
+          [
+            "Aba / Signatários",
+            true,
+            [
+              "signatories"
+            ]
+          ],
+          [
+            "Aba / Configurações",
+            true,
+            [
+              "settings"
+            ]
+          ],
+          [
+            "Aba / Auditoria",
+            true,
+            [
+              "audit"
+            ]
+          ]
+        ]
+      ],
+      [
+        "accountNew",
+        true,
+        [
+          [
+            "Aba / Contas",
+            true,
+            []
+          ],
+          [
+            "Aba / Signatários",
+            true,
+            [
+              "signatories"
+            ]
+          ],
+          [
+            "Aba / Configurações",
+            true,
+            [
+              "settings"
+            ]
+          ],
+          [
+            "Aba / Auditoria",
+            true,
+            [
+              "audit"
+            ]
+          ]
+        ]
+      ],
+      [
+        "accountEdit",
+        true,
+        [
+          [
+            "Aba / Contas",
+            true,
+            []
+          ],
+          [
+            "Aba / Signatários",
+            true,
+            [
+              "signatories"
+            ]
+          ],
+          [
+            "Aba / Configurações",
+            true,
+            [
+              "settings"
+            ]
+          ],
+          [
+            "Aba / Auditoria",
+            true,
+            [
+              "audit"
+            ]
+          ]
+        ]
+      ],
+      [
+        "disableAccount",
+        true,
+        [
+          [
+            "Aba / Contas",
+            true,
+            []
+          ],
+          [
+            "Aba / Signatários",
+            true,
+            [
+              "signatories"
+            ]
+          ],
+          [
+            "Aba / Configurações",
+            true,
+            [
+              "settings"
+            ]
+          ],
+          [
+            "Aba / Auditoria",
+            true,
+            [
+              "audit"
+            ]
+          ]
+        ]
+      ],
+      [
+        "signatories",
+        true,
+        [
+          [
+            "Aba / Contas",
+            true,
+            [
+              "admin"
+            ]
+          ],
+          [
+            "Aba / Signatários",
+            true,
+            []
+          ],
+          [
+            "Aba / Configurações",
+            true,
+            [
+              "settings"
+            ]
+          ],
+          [
+            "Aba / Auditoria",
+            true,
+            [
+              "audit"
+            ]
+          ]
+        ]
+      ],
+      [
+        "substitution",
+        true,
+        [
+          [
+            "Aba / Contas",
+            true,
+            [
+              "admin"
+            ]
+          ],
+          [
+            "Aba / Signatários",
+            true,
+            []
+          ],
+          [
+            "Aba / Configurações",
+            true,
+            [
+              "settings"
+            ]
+          ],
+          [
+            "Aba / Auditoria",
+            true,
+            [
+              "audit"
+            ]
+          ]
+        ]
+      ],
+      [
+        "settings",
+        true,
+        [
+          [
+            "Aba / Contas",
+            true,
+            [
+              "admin"
+            ]
+          ],
+          [
+            "Aba / Signatários",
+            true,
+            [
+              "signatories"
+            ]
+          ],
+          [
+            "Aba / Configurações",
+            true,
+            []
+          ],
+          [
+            "Aba / Auditoria",
+            true,
+            [
+              "audit"
+            ]
+          ]
+        ]
+      ],
+      [
+        "series",
+        true,
+        [
+          [
+            "Aba / Contas",
+            true,
+            [
+              "admin"
+            ]
+          ],
+          [
+            "Aba / Signatários",
+            true,
+            [
+              "signatories"
+            ]
+          ],
+          [
+            "Aba / Configurações",
+            true,
+            []
+          ],
+          [
+            "Aba / Auditoria",
+            true,
+            [
+              "audit"
+            ]
+          ]
+        ]
+      ],
+      [
+        "seriesEdit",
+        true,
+        [
+          [
+            "Aba / Contas",
+            true,
+            [
+              "admin"
+            ]
+          ],
+          [
+            "Aba / Signatários",
+            true,
+            [
+              "signatories"
+            ]
+          ],
+          [
+            "Aba / Configurações",
+            true,
+            []
+          ],
+          [
+            "Aba / Auditoria",
+            true,
+            [
+              "audit"
+            ]
+          ]
+        ]
+      ],
+      [
+        "channels",
+        true,
+        [
+          [
+            "Aba / Contas",
+            true,
+            [
+              "admin"
+            ]
+          ],
+          [
+            "Aba / Signatários",
+            true,
+            [
+              "signatories"
+            ]
+          ],
+          [
+            "Aba / Configurações",
+            true,
+            []
+          ],
+          [
+            "Aba / Auditoria",
+            true,
+            [
+              "audit"
+            ]
+          ]
+        ]
+      ],
+      [
+        "services",
+        true,
+        [
+          [
+            "Aba / Contas",
+            true,
+            [
+              "admin"
+            ]
+          ],
+          [
+            "Aba / Signatários",
+            true,
+            [
+              "signatories"
+            ]
+          ],
+          [
+            "Aba / Configurações",
+            true,
+            []
+          ],
+          [
+            "Aba / Auditoria",
+            true,
+            [
+              "audit"
+            ]
+          ]
+        ]
+      ],
+      [
+        "privacy",
+        true,
+        [
+          [
+            "Aba / Contas",
+            true,
+            [
+              "admin"
+            ]
+          ],
+          [
+            "Aba / Signatários",
+            true,
+            [
+              "signatories"
+            ]
+          ],
+          [
+            "Aba / Configurações",
+            true,
+            []
+          ],
+          [
+            "Aba / Auditoria",
+            true,
+            [
+              "audit"
+            ]
+          ]
+        ]
+      ],
+      [
+        "audit",
+        true,
+        [
+          [
+            "Aba / Contas",
+            true,
+            [
+              "admin"
+            ]
+          ],
+          [
+            "Aba / Signatários",
+            true,
+            [
+              "signatories"
+            ]
+          ],
+          [
+            "Aba / Configurações",
+            true,
+            [
+              "settings"
+            ]
+          ],
+          [
+            "Aba / Auditoria",
+            true,
+            []
+          ]
+        ]
+      ],
+      [
+        "detailDoc",
+        true,
+        [
+          [
+            "Aba / Resumo",
+            true,
+            []
+          ],
+          [
+            "Aba / Participações",
+            true,
+            [
+              "membersDoc"
+            ]
+          ],
+          [
+            "Aba / Documento",
+            true,
+            [
+              "documentDoc"
+            ]
+          ],
+          [
+            "Aba / Tramitação",
+            true,
+            [
+              "historyDoc"
+            ]
+          ],
+          [
+            "Aba / Publicação",
+            true,
+            [
+              "publicationDoc"
+            ]
+          ]
+        ]
+      ],
+      [
+        "membersDoc",
+        true,
+        [
+          [
+            "Aba / Resumo",
+            true,
+            [
+              "detailDoc"
+            ]
+          ],
+          [
+            "Aba / Participações",
+            true,
+            []
+          ],
+          [
+            "Aba / Documento",
+            true,
+            [
+              "documentDoc"
+            ]
+          ],
+          [
+            "Aba / Tramitação",
+            true,
+            [
+              "historyDoc"
+            ]
+          ],
+          [
+            "Aba / Publicação",
+            true,
+            [
+              "publicationDoc"
+            ]
+          ]
+        ]
+      ],
+      [
+        "documentDoc",
+        true,
+        [
+          [
+            "Aba / Resumo",
+            true,
+            [
+              "detailDoc"
+            ]
+          ],
+          [
+            "Aba / Participações",
+            true,
+            [
+              "membersDoc"
+            ]
+          ],
+          [
+            "Aba / Documento",
+            true,
+            []
+          ],
+          [
+            "Aba / Tramitação",
+            true,
+            [
+              "historyDoc"
+            ]
+          ],
+          [
+            "Aba / Publicação",
+            true,
+            [
+              "publicationDoc"
+            ]
+          ]
+        ]
+      ],
+      [
+        "historyDoc",
+        true,
+        [
+          [
+            "Aba / Resumo",
+            true,
+            [
+              "detailDoc"
+            ]
+          ],
+          [
+            "Aba / Participações",
+            true,
+            [
+              "membersDoc"
+            ]
+          ],
+          [
+            "Aba / Documento",
+            true,
+            [
+              "documentDoc"
+            ]
+          ],
+          [
+            "Aba / Tramitação",
+            true,
+            []
+          ],
+          [
+            "Aba / Publicação",
+            true,
+            [
+              "publicationDoc"
+            ]
+          ]
+        ]
+      ],
+      [
+        "publicationDoc",
+        true,
+        [
+          [
+            "Aba / Resumo",
+            true,
+            [
+              "detailDoc"
+            ]
+          ],
+          [
+            "Aba / Participações",
+            true,
+            [
+              "membersDoc"
+            ]
+          ],
+          [
+            "Aba / Documento",
+            true,
+            [
+              "documentDoc"
+            ]
+          ],
+          [
+            "Aba / Tramitação",
+            true,
+            [
+              "historyDoc"
+            ]
+          ],
+          [
+            "Aba / Publicação",
+            true,
+            []
+          ]
+        ]
+      ],
+      [
+        "portariasDoc",
+        true,
+        [
+          [
+            "Aba / Todas",
+            true,
+            []
+          ],
+          [
+            "Aba / Minhas participações",
+            true,
+            [
+              "myParticipations"
+            ]
+          ]
+        ]
+      ],
+      [
+        "adminDisabled",
+        true,
+        [
+          [
+            "Aba / Contas",
+            true,
+            []
+          ],
+          [
+            "Aba / Signatários",
+            true,
+            [
+              "signatories"
+            ]
+          ],
+          [
+            "Aba / Configurações",
+            true,
+            [
+              "settings"
+            ]
+          ],
+          [
+            "Aba / Auditoria",
+            true,
+            [
+              "audit"
+            ]
+          ]
+        ]
+      ],
+      [
+        "communicationsAlternative",
+        true,
+        [
+          [
+            "Aba / Resumo",
+            true,
+            [
+              "detail"
+            ]
+          ],
+          [
+            "Aba / Participações",
+            true,
+            [
+              "members"
+            ]
+          ],
+          [
+            "Aba / Documento",
+            true,
+            [
+              "signed"
+            ]
+          ],
+          [
+            "Aba / Tramitação",
+            true,
+            [
+              "history"
+            ]
+          ],
+          [
+            "Aba / Publicação",
+            true,
+            [
+              "publicationDetail"
+            ]
+          ],
+          [
+            "Aba / Comunicação",
+            true,
+            [
+              "communications"
+            ]
+          ]
+        ]
+      ],
+      [
+        "tasksResolved",
+        true,
+        [
+          [
+            "Aba / Da minha unidade",
+            true,
+            []
+          ],
+          [
+            "Aba / Minhas",
+            true,
+            [
+              "tasksMine"
+            ]
+          ],
+          [
+            "Aba / Informações",
+            true,
+            [
+              "tasksInfo"
+            ]
+          ]
+        ]
+      ],
+      [
+        "closedHistory",
+        true,
+        [
+          [
+            "Aba / Resumo",
+            true,
+            [
+              "detail"
+            ]
+          ],
+          [
+            "Aba / Participações",
+            true,
+            [
+              "members"
+            ]
+          ],
+          [
+            "Aba / Documento",
+            true,
+            [
+              "document"
+            ]
+          ],
+          [
+            "Aba / Tramitação",
+            true,
+            [
+              "history"
+            ]
+          ],
+          [
+            "Aba / Publicação",
+            true,
+            [
+              "publicationDetail"
+            ]
+          ],
+          [
+            "Aba / Comunicação",
+            true,
+            [
+              "communications"
+            ]
+          ]
+        ]
+      ],
+      [
+        "editorNext",
+        true,
+        [
+          [
+            "Aba / Texto",
+            true,
+            []
+          ],
+          [
+            "Aba / Participações",
+            true,
+            [
+              "editMembers"
+            ]
+          ],
+          [
+            "Aba / Prévia",
+            true,
+            [
+              "document"
+            ]
+          ]
+        ]
+      ],
+      [
+        "editorRenew",
+        true,
+        [
+          [
+            "Aba / Texto",
+            true,
+            []
+          ],
+          [
+            "Aba / Participações",
+            true,
+            [
+              "editMembers"
+            ]
+          ],
+          [
+            "Aba / Prévia",
+            true,
+            [
+              "document"
+            ]
+          ]
+        ]
+      ],
+      [
+        "editorReplace",
+        true,
+        [
+          [
+            "Aba / Texto",
+            true,
+            []
+          ],
+          [
+            "Aba / Participações",
+            true,
+            [
+              "editMembers"
+            ]
+          ],
+          [
+            "Aba / Prévia",
+            true,
+            [
+              "document"
+            ]
+          ]
+        ]
+      ],
+      [
+        "models",
+        true,
+        [
+          [
+            "Aba / Contas",
+            true,
+            [
+              "admin"
+            ]
+          ],
+          [
+            "Aba / Signatários",
+            true,
+            [
+              "signatories"
+            ]
+          ],
+          [
+            "Aba / Configurações",
+            true,
+            []
+          ],
+          [
+            "Aba / Auditoria",
+            true,
+            [
+              "audit"
+            ]
+          ]
+        ]
+      ],
+      [
+        "modelEdit",
+        true,
+        [
+          [
+            "Aba / Contas",
+            true,
+            [
+              "admin"
+            ]
+          ],
+          [
+            "Aba / Signatários",
+            true,
+            [
+              "signatories"
+            ]
+          ],
+          [
+            "Aba / Configurações",
+            true,
+            []
+          ],
+          [
+            "Aba / Auditoria",
+            true,
+            [
+              "audit"
+            ]
+          ]
+        ]
+      ],
+      [
+        "editor1280",
+        true,
+        [
+          [
+            "Aba / Texto",
+            true,
+            [
+              "editor"
+            ]
+          ],
+          [
+            "Aba / Participações",
+            true,
+            [
+              "editMembers"
+            ]
+          ],
+          [
+            "Aba / Prévia",
+            true,
+            [
+              "document"
+            ]
+          ]
+        ]
+      ],
+      [
+        "tasksInfo",
+        true,
+        [
+          [
+            "Aba / Da minha unidade",
+            true,
+            [
+              "tasks"
+            ]
+          ],
+          [
+            "Aba / Minhas",
+            true,
+            [
+              "tasksMine"
+            ]
+          ],
+          [
+            "Aba / Informações",
+            true,
+            []
+          ]
+        ]
+      ],
+      [
+        "expiryExpired",
+        true,
+        [
+          [
+            "Aba / Em breve",
+            true,
+            [
+              "expiry"
+            ]
+          ],
+          [
+            "Aba / Vencidas",
+            true,
+            []
+          ],
+          [
+            "Aba / Sem término",
+            true,
+            [
+              "expiryNoEnd"
+            ]
+          ],
+          [
+            "Aba / Revogação futura",
+            true,
+            [
+              "expiryScheduled"
+            ]
+          ],
+          [
+            "Aba / Em vigor",
+            true,
+            [
+              "expiryCurrent"
+            ]
+          ]
+        ]
+      ],
+      [
+        "expiryNoEnd",
+        true,
+        [
+          [
+            "Aba / Em breve",
+            true,
+            [
+              "expiry"
+            ]
+          ],
+          [
+            "Aba / Vencidas",
+            true,
+            [
+              "expiryExpired"
+            ]
+          ],
+          [
+            "Aba / Sem término",
+            true,
+            []
+          ],
+          [
+            "Aba / Revogação futura",
+            true,
+            [
+              "expiryScheduled"
+            ]
+          ],
+          [
+            "Aba / Em vigor",
+            true,
+            [
+              "expiryCurrent"
+            ]
+          ]
+        ]
+      ],
+      [
+        "expiryScheduled",
+        true,
+        [
+          [
+            "Aba / Em breve",
+            true,
+            [
+              "expiry"
+            ]
+          ],
+          [
+            "Aba / Vencidas",
+            true,
+            [
+              "expiryExpired"
+            ]
+          ],
+          [
+            "Aba / Sem término",
+            true,
+            [
+              "expiryNoEnd"
+            ]
+          ],
+          [
+            "Aba / Revogação futura",
+            true,
+            []
+          ],
+          [
+            "Aba / Em vigor",
+            true,
+            [
+              "expiryCurrent"
+            ]
+          ]
+        ]
+      ],
+      [
+        "expiryCurrent",
+        true,
+        [
+          [
+            "Aba / Em breve",
+            true,
+            [
+              "expiry"
+            ]
+          ],
+          [
+            "Aba / Vencidas",
+            true,
+            [
+              "expiryExpired"
+            ]
+          ],
+          [
+            "Aba / Sem término",
+            true,
+            [
+              "expiryNoEnd"
+            ]
+          ],
+          [
+            "Aba / Revogação futura",
+            true,
+            [
+              "expiryScheduled"
+            ]
+          ],
+          [
+            "Aba / Em vigor",
+            true,
+            []
+          ]
+        ]
+      ],
+      [
+        "expiry102",
+        true,
+        [
+          [
+            "Aba / Em breve",
+            true,
+            []
+          ],
+          [
+            "Aba / Vencidas",
+            true,
+            [
+              "expiryExpired"
+            ]
+          ],
+          [
+            "Aba / Sem término",
+            true,
+            [
+              "expiryNoEnd"
+            ]
+          ],
+          [
+            "Aba / Revogação futura",
+            true,
+            [
+              "expiryScheduled"
+            ]
+          ],
+          [
+            "Aba / Em vigor",
+            true,
+            [
+              "expiryCurrent"
+            ]
+          ]
+        ]
+      ],
+      [
+        "expiry102Renew",
+        true,
+        [
+          [
+            "Aba / Em breve",
+            true,
+            []
+          ],
+          [
+            "Aba / Vencidas",
+            true,
+            [
+              "expiryExpired"
+            ]
+          ],
+          [
+            "Aba / Sem término",
+            true,
+            [
+              "expiryNoEnd"
+            ]
+          ],
+          [
+            "Aba / Revogação futura",
+            true,
+            [
+              "expiryScheduled"
+            ]
+          ],
+          [
+            "Aba / Em vigor",
+            true,
+            [
+              "expiryCurrent"
+            ]
+          ]
+        ]
+      ],
+      [
+        "expiry102RenewDone",
+        true,
+        [
+          [
+            "Aba / Em breve",
+            true,
+            []
+          ],
+          [
+            "Aba / Vencidas",
+            true,
+            [
+              "expiryExpired"
+            ]
+          ],
+          [
+            "Aba / Sem término",
+            true,
+            [
+              "expiryNoEnd"
+            ]
+          ],
+          [
+            "Aba / Revogação futura",
+            true,
+            [
+              "expiryScheduled"
+            ]
+          ],
+          [
+            "Aba / Em vigor",
+            true,
+            [
+              "expiryCurrent"
+            ]
+          ]
+        ]
+      ],
+      [
+        "expiry102Close",
+        true,
+        [
+          [
+            "Aba / Em breve",
+            true,
+            []
+          ],
+          [
+            "Aba / Vencidas",
+            true,
+            [
+              "expiryExpired"
+            ]
+          ],
+          [
+            "Aba / Sem término",
+            true,
+            [
+              "expiryNoEnd"
+            ]
+          ],
+          [
+            "Aba / Revogação futura",
+            true,
+            [
+              "expiryScheduled"
+            ]
+          ],
+          [
+            "Aba / Em vigor",
+            true,
+            [
+              "expiryCurrent"
+            ]
+          ]
+        ]
+      ],
+      [
+        "expiry102CloseDone",
+        true,
+        [
+          [
+            "Aba / Em breve",
+            true,
+            []
+          ],
+          [
+            "Aba / Vencidas",
+            true,
+            [
+              "expiryExpired"
+            ]
+          ],
+          [
+            "Aba / Sem término",
+            true,
+            [
+              "expiryNoEnd"
+            ]
+          ],
+          [
+            "Aba / Revogação futura",
+            true,
+            [
+              "expiryScheduled"
+            ]
+          ],
+          [
+            "Aba / Em vigor",
+            true,
+            [
+              "expiryCurrent"
+            ]
+          ]
+        ]
+      ],
+      [
+        "expiry108",
+        true,
+        [
+          [
+            "Aba / Em breve",
+            true,
+            []
+          ],
+          [
+            "Aba / Vencidas",
+            true,
+            [
+              "expiryExpired"
+            ]
+          ],
+          [
+            "Aba / Sem término",
+            true,
+            [
+              "expiryNoEnd"
+            ]
+          ],
+          [
+            "Aba / Revogação futura",
+            true,
+            [
+              "expiryScheduled"
+            ]
+          ],
+          [
+            "Aba / Em vigor",
+            true,
+            [
+              "expiryCurrent"
+            ]
+          ]
+        ]
+      ],
+      [
+        "expiry108Renew",
+        true,
+        [
+          [
+            "Aba / Em breve",
+            true,
+            []
+          ],
+          [
+            "Aba / Vencidas",
+            true,
+            [
+              "expiryExpired"
+            ]
+          ],
+          [
+            "Aba / Sem término",
+            true,
+            [
+              "expiryNoEnd"
+            ]
+          ],
+          [
+            "Aba / Revogação futura",
+            true,
+            [
+              "expiryScheduled"
+            ]
+          ],
+          [
+            "Aba / Em vigor",
+            true,
+            [
+              "expiryCurrent"
+            ]
+          ]
+        ]
+      ],
+      [
+        "expiry108RenewDone",
+        true,
+        [
+          [
+            "Aba / Em breve",
+            true,
+            []
+          ],
+          [
+            "Aba / Vencidas",
+            true,
+            [
+              "expiryExpired"
+            ]
+          ],
+          [
+            "Aba / Sem término",
+            true,
+            [
+              "expiryNoEnd"
+            ]
+          ],
+          [
+            "Aba / Revogação futura",
+            true,
+            [
+              "expiryScheduled"
+            ]
+          ],
+          [
+            "Aba / Em vigor",
+            true,
+            [
+              "expiryCurrent"
+            ]
+          ]
+        ]
+      ],
+      [
+        "expiry108Close",
+        true,
+        [
+          [
+            "Aba / Em breve",
+            true,
+            []
+          ],
+          [
+            "Aba / Vencidas",
+            true,
+            [
+              "expiryExpired"
+            ]
+          ],
+          [
+            "Aba / Sem término",
+            true,
+            [
+              "expiryNoEnd"
+            ]
+          ],
+          [
+            "Aba / Revogação futura",
+            true,
+            [
+              "expiryScheduled"
+            ]
+          ],
+          [
+            "Aba / Em vigor",
+            true,
+            [
+              "expiryCurrent"
+            ]
+          ]
+        ]
+      ],
+      [
+        "expiry108CloseDone",
+        true,
+        [
+          [
+            "Aba / Em breve",
+            true,
+            []
+          ],
+          [
+            "Aba / Vencidas",
+            true,
+            [
+              "expiryExpired"
+            ]
+          ],
+          [
+            "Aba / Sem término",
+            true,
+            [
+              "expiryNoEnd"
+            ]
+          ],
+          [
+            "Aba / Revogação futura",
+            true,
+            [
+              "expiryScheduled"
+            ]
+          ],
+          [
+            "Aba / Em vigor",
+            true,
+            [
+              "expiryCurrent"
+            ]
+          ]
+        ]
+      ],
+      [
+        "expiry091",
+        true,
+        [
+          [
+            "Aba / Em breve",
+            true,
+            [
+              "expiry"
+            ]
+          ],
+          [
+            "Aba / Vencidas",
+            true,
+            []
+          ],
+          [
+            "Aba / Sem término",
+            true,
+            [
+              "expiryNoEnd"
+            ]
+          ],
+          [
+            "Aba / Revogação futura",
+            true,
+            [
+              "expiryScheduled"
+            ]
+          ],
+          [
+            "Aba / Em vigor",
+            true,
+            [
+              "expiryCurrent"
+            ]
+          ]
+        ]
+      ],
+      [
+        "expiry091Renew",
+        true,
+        [
+          [
+            "Aba / Em breve",
+            true,
+            [
+              "expiry"
+            ]
+          ],
+          [
+            "Aba / Vencidas",
+            true,
+            []
+          ],
+          [
+            "Aba / Sem término",
+            true,
+            [
+              "expiryNoEnd"
+            ]
+          ],
+          [
+            "Aba / Revogação futura",
+            true,
+            [
+              "expiryScheduled"
+            ]
+          ],
+          [
+            "Aba / Em vigor",
+            true,
+            [
+              "expiryCurrent"
+            ]
+          ]
+        ]
+      ],
+      [
+        "expiry091RenewDone",
+        true,
+        [
+          [
+            "Aba / Em breve",
+            true,
+            [
+              "expiry"
+            ]
+          ],
+          [
+            "Aba / Vencidas",
+            true,
+            []
+          ],
+          [
+            "Aba / Sem término",
+            true,
+            [
+              "expiryNoEnd"
+            ]
+          ],
+          [
+            "Aba / Revogação futura",
+            true,
+            [
+              "expiryScheduled"
+            ]
+          ],
+          [
+            "Aba / Em vigor",
+            true,
+            [
+              "expiryCurrent"
+            ]
+          ]
+        ]
+      ],
+      [
+        "expiry091Close",
+        true,
+        [
+          [
+            "Aba / Em breve",
+            true,
+            [
+              "expiry"
+            ]
+          ],
+          [
+            "Aba / Vencidas",
+            true,
+            []
+          ],
+          [
+            "Aba / Sem término",
+            true,
+            [
+              "expiryNoEnd"
+            ]
+          ],
+          [
+            "Aba / Revogação futura",
+            true,
+            [
+              "expiryScheduled"
+            ]
+          ],
+          [
+            "Aba / Em vigor",
+            true,
+            [
+              "expiryCurrent"
+            ]
+          ]
+        ]
+      ],
+      [
+        "expiry091CloseDone",
+        true,
+        [
+          [
+            "Aba / Em breve",
+            true,
+            [
+              "expiry"
+            ]
+          ],
+          [
+            "Aba / Vencidas",
+            true,
+            []
+          ],
+          [
+            "Aba / Sem término",
+            true,
+            [
+              "expiryNoEnd"
+            ]
+          ],
+          [
+            "Aba / Revogação futura",
+            true,
+            [
+              "expiryScheduled"
+            ]
+          ],
+          [
+            "Aba / Em vigor",
+            true,
+            [
+              "expiryCurrent"
+            ]
+          ]
+        ]
+      ],
+      [
+        "expiryFutureEvent",
+        true,
+        [
+          [
+            "Aba / Em breve",
+            true,
+            [
+              "expiry"
+            ]
+          ],
+          [
+            "Aba / Vencidas",
+            true,
+            [
+              "expiryExpired"
+            ]
+          ],
+          [
+            "Aba / Sem término",
+            true,
+            [
+              "expiryNoEnd"
+            ]
+          ],
+          [
+            "Aba / Revogação futura",
+            true,
+            []
+          ],
+          [
+            "Aba / Em vigor",
+            true,
+            [
+              "expiryCurrent"
+            ]
+          ]
+        ]
+      ],
+      [
+        "operatorParticipations",
+        true,
+        [
+          [
+            "Aba / Todas",
+            true,
+            [
+              "portarias"
+            ]
+          ],
+          [
+            "Aba / Minhas participações",
+            true,
+            []
+          ],
+          [
+            "Aba / Em elaboração",
+            true,
+            [
+              "drafts"
+            ]
+          ]
+        ]
+      ]
+    ],
+    "missing": [],
+    "overflow": []
+  },
+  "mobile": {
+    "tabs": [
+      [
+        "login",
+        true,
+        [
+          [
+            "Aba / Esqueci minha senha",
+            true,
+            [
+              "recover"
+            ]
+          ],
+          [
+            "Aba / Acesso institucional",
+            true,
+            [
+              "institutional"
+            ]
+          ]
+        ]
+      ],
+      [
+        "loginFilled",
+        true,
+        [
+          [
+            "Aba / Esqueci minha senha",
+            true,
+            [
+              "recover"
+            ]
+          ],
+          [
+            "Aba / Acesso institucional",
+            true,
+            [
+              "institutional"
+            ]
+          ]
+        ]
+      ],
+      [
+        "loginError",
+        true,
+        [
+          [
+            "Aba / Esqueci minha senha",
+            true,
+            [
+              "recover"
+            ]
+          ]
+        ]
+      ],
+      [
+        "portarias",
+        true,
+        [
+          [
+            "Aba / Todas",
+            true,
+            []
+          ],
+          [
+            "Aba / Minhas participações",
+            true,
+            [
+              "operatorParticipations"
+            ]
+          ],
+          [
+            "Aba / Em elaboração",
+            true,
+            [
+              "drafts"
+            ]
+          ]
+        ]
+      ],
+      [
+        "searchResult",
+        true,
+        [
+          [
+            "Aba / Todas",
+            true,
+            []
+          ],
+          [
+            "Aba / Minhas participações",
+            true,
+            [
+              "operatorParticipations"
+            ]
+          ],
+          [
+            "Aba / Em elaboração",
+            true,
+            [
+              "drafts"
+            ]
+          ]
+        ]
+      ],
+      [
+        "statusFilter",
+        true,
+        [
+          [
+            "Aba / Todas",
+            true,
+            []
+          ],
+          [
+            "Aba / Minhas participações",
+            true,
+            [
+              "operatorParticipations"
+            ]
+          ],
+          [
+            "Aba / Em elaboração",
+            true,
+            [
+              "drafts"
+            ]
+          ]
+        ]
+      ],
+      [
+        "drafts",
+        true,
+        [
+          [
+            "Aba / Todas",
+            true,
+            [
+              "portarias"
+            ]
+          ],
+          [
+            "Aba / Minhas participações",
+            true,
+            [
+              "operatorParticipations"
+            ]
+          ],
+          [
+            "Aba / Em elaboração",
+            true,
+            []
+          ]
+        ]
+      ],
+      [
+        "myParticipations",
+        true,
+        [
+          [
+            "Aba / Todas",
+            true,
+            [
+              "portariasDoc"
+            ]
+          ],
+          [
+            "Aba / Minhas participações",
+            true,
+            []
+          ]
+        ]
+      ],
+      [
+        "detail",
+        true,
+        [
+          [
+            "Aba / Resumo",
+            true,
+            []
+          ],
+          [
+            "Aba / Participações",
+            false,
+            [
+              "members"
+            ]
+          ],
+          [
+            "Aba / Documento",
+            false,
+            [
+              "signed"
+            ]
+          ],
+          [
+            "Aba / Tramitação",
+            false,
+            [
+              "history"
+            ]
+          ],
+          [
+            "Aba / Publicação",
+            false,
+            [
+              "publicationDetail"
+            ]
+          ],
+          [
+            "Aba / Comunicação",
+            false,
+            [
+              "communications"
+            ]
+          ],
+          [
+            "Ação / Outras seções",
+            true,
+            [
+              "detailSections"
+            ]
+          ]
+        ]
+      ],
+      [
+        "members",
+        true,
+        [
+          [
+            "Aba / Resumo",
+            false,
+            [
+              "detail"
+            ]
+          ],
+          [
+            "Aba / Participações",
+            true,
+            []
+          ],
+          [
+            "Aba / Documento",
+            false,
+            [
+              "signed"
+            ]
+          ],
+          [
+            "Aba / Tramitação",
+            false,
+            [
+              "history"
+            ]
+          ],
+          [
+            "Aba / Publicação",
+            false,
+            [
+              "publicationDetail"
+            ]
+          ],
+          [
+            "Aba / Comunicação",
+            false,
+            [
+              "communications"
+            ]
+          ],
+          [
+            "Ação / Outras seções",
+            true,
+            [
+              "detailSections"
+            ]
+          ]
+        ]
+      ],
+      [
+        "document",
+        true,
+        [
+          [
+            "Aba / Resumo",
+            false,
+            [
+              "detail"
+            ]
+          ],
+          [
+            "Aba / Participações",
+            false,
+            [
+              "members"
+            ]
+          ],
+          [
+            "Aba / Documento",
+            true,
+            []
+          ],
+          [
+            "Aba / Tramitação",
+            false,
+            [
+              "history"
+            ]
+          ],
+          [
+            "Aba / Publicação",
+            false,
+            [
+              "publicationDetail"
+            ]
+          ],
+          [
+            "Aba / Comunicação",
+            false,
+            [
+              "communications"
+            ]
+          ],
+          [
+            "Ação / Outras seções",
+            true,
+            [
+              "detailSections"
+            ]
+          ]
+        ]
+      ],
+      [
+        "signed",
+        true,
+        [
+          [
+            "Aba / Resumo",
+            false,
+            [
+              "detail"
+            ]
+          ],
+          [
+            "Aba / Participações",
+            false,
+            [
+              "members"
+            ]
+          ],
+          [
+            "Aba / Documento",
+            true,
+            [
+              "document"
+            ]
+          ],
+          [
+            "Aba / Tramitação",
+            false,
+            [
+              "history"
+            ]
+          ],
+          [
+            "Aba / Publicação",
+            false,
+            [
+              "publicationDetail"
+            ]
+          ],
+          [
+            "Aba / Comunicação",
+            false,
+            [
+              "communications"
+            ]
+          ],
+          [
+            "Ação / Outras seções",
+            true,
+            [
+              "detailSections"
+            ]
+          ]
+        ]
+      ],
+      [
+        "history",
+        true,
+        [
+          [
+            "Aba / Resumo",
+            false,
+            [
+              "detail"
+            ]
+          ],
+          [
+            "Aba / Participações",
+            false,
+            [
+              "members"
+            ]
+          ],
+          [
+            "Aba / Documento",
+            false,
+            [
+              "signed"
+            ]
+          ],
+          [
+            "Aba / Tramitação",
+            true,
+            []
+          ],
+          [
+            "Aba / Publicação",
+            false,
+            [
+              "publicationDetail"
+            ]
+          ],
+          [
+            "Aba / Comunicação",
+            false,
+            [
+              "communications"
+            ]
+          ],
+          [
+            "Ação / Outras seções",
+            true,
+            [
+              "detailSections"
+            ]
+          ]
+        ]
+      ],
+      [
+        "editor",
+        true,
+        [
+          [
+            "Aba / Texto",
+            true,
+            []
+          ],
+          [
+            "Aba / Participações",
+            true,
+            [
+              "editMembers"
+            ]
+          ],
+          [
+            "Aba / Prévia",
+            true,
+            [
+              "document"
+            ]
+          ]
+        ]
+      ],
+      [
+        "publicationDetail",
+        true,
+        [
+          [
+            "Aba / Resumo",
+            false,
+            [
+              "detail"
+            ]
+          ],
+          [
+            "Aba / Participações",
+            false,
+            [
+              "members"
+            ]
+          ],
+          [
+            "Aba / Documento",
+            false,
+            [
+              "signed"
+            ]
+          ],
+          [
+            "Aba / Tramitação",
+            false,
+            [
+              "history"
+            ]
+          ],
+          [
+            "Aba / Publicação",
+            true,
+            []
+          ],
+          [
+            "Aba / Comunicação",
+            false,
+            [
+              "communications"
+            ]
+          ],
+          [
+            "Ação / Outras seções",
+            true,
+            [
+              "detailSections"
+            ]
+          ]
+        ]
+      ],
+      [
+        "normative",
+        true,
+        [
+          [
+            "Aba / Documento",
+            true,
+            [
+              "normDocument"
+            ]
+          ],
+          [
+            "Aba / Texto compilado",
+            true,
+            [
+              "compiled"
+            ]
+          ],
+          [
+            "Aba / Publicação",
+            true,
+            [
+              "normPublish"
+            ]
+          ]
+        ]
+      ],
+      [
+        "normEditor",
+        true,
+        [
+          [
+            "Aba / Minuta nova",
+            true,
+            []
+          ],
+          [
+            "Aba / Alterar ato publicado",
+            true,
+            [
+              "amendEditor"
+            ]
+          ]
+        ]
+      ],
+      [
+        "compiled",
+        true,
+        [
+          [
+            "Aba / Redação vigente",
+            true,
+            []
+          ],
+          [
+            "Aba / Redação futura",
+            true,
+            [
+              "compiledFuture"
+            ]
+          ],
+          [
+            "Aba / Documento original",
+            true,
+            [
+              "normDocument"
+            ]
+          ]
+        ]
+      ],
+      [
+        "compiledFuture",
+        true,
+        [
+          [
+            "Aba / Redação vigente",
+            true,
+            [
+              "compiled"
+            ]
+          ],
+          [
+            "Aba / Redação futura",
+            true,
+            []
+          ],
+          [
+            "Aba / Documento original",
+            true,
+            [
+              "normDocument"
+            ]
+          ]
+        ]
+      ],
+      [
+        "amendEditor",
+        true,
+        [
+          [
+            "Aba / Minuta nova",
+            true,
+            [
+              "normEditor"
+            ]
+          ],
+          [
+            "Aba / Alterar ato publicado",
+            true,
+            []
+          ]
+        ]
+      ],
+      [
+        "communications",
+        true,
+        [
+          [
+            "Aba / Resumo",
+            false,
+            [
+              "detail"
+            ]
+          ],
+          [
+            "Aba / Participações",
+            false,
+            [
+              "members"
+            ]
+          ],
+          [
+            "Aba / Documento",
+            false,
+            [
+              "signed"
+            ]
+          ],
+          [
+            "Aba / Tramitação",
+            false,
+            [
+              "history"
+            ]
+          ],
+          [
+            "Aba / Publicação",
+            false,
+            [
+              "publicationDetail"
+            ]
+          ],
+          [
+            "Aba / Comunicação",
+            true,
+            []
+          ],
+          [
+            "Ação / Outras seções",
+            true,
+            [
+              "detailSections"
+            ]
+          ]
+        ]
+      ],
+      [
+        "tasks",
+        true,
+        [
+          [
+            "Aba / Da minha unidade",
+            true,
+            []
+          ],
+          [
+            "Aba / Minhas",
+            true,
+            [
+              "tasksMine"
+            ]
+          ],
+          [
+            "Aba / Informações",
+            true,
+            [
+              "tasksInfo"
+            ]
+          ]
+        ]
+      ],
+      [
+        "tasksMine",
+        true,
+        [
+          [
+            "Aba / Da minha unidade",
+            true,
+            [
+              "tasks"
+            ]
+          ],
+          [
+            "Aba / Minhas",
+            true,
+            []
+          ],
+          [
+            "Aba / Informações",
+            true,
+            [
+              "tasksInfo"
+            ]
+          ]
+        ]
+      ],
+      [
+        "expiry",
+        true,
+        [
+          [
+            "Aba / Em breve",
+            true,
+            []
+          ],
+          [
+            "Aba / Vencidas",
+            true,
+            [
+              "expiryExpired"
+            ]
+          ],
+          [
+            "Aba / Sem término",
+            true,
+            [
+              "expiryNoEnd"
+            ]
+          ],
+          [
+            "Aba / Revogação futura",
+            true,
+            [
+              "expiryScheduled"
+            ]
+          ],
+          [
+            "Aba / Em vigor",
+            true,
+            [
+              "expiryCurrent"
+            ]
+          ]
+        ]
+      ],
+      [
+        "admin",
+        true,
+        [
+          [
+            "Aba / Contas",
+            true,
+            []
+          ],
+          [
+            "Aba / Signatários",
+            true,
+            [
+              "signatories"
+            ]
+          ],
+          [
+            "Aba / Configurações",
+            true,
+            [
+              "settings"
+            ]
+          ],
+          [
+            "Aba / Auditoria",
+            true,
+            [
+              "audit"
+            ]
+          ]
+        ]
+      ],
+      [
+        "accountNew",
+        true,
+        [
+          [
+            "Aba / Contas",
+            true,
+            []
+          ],
+          [
+            "Aba / Signatários",
+            true,
+            [
+              "signatories"
+            ]
+          ],
+          [
+            "Aba / Configurações",
+            true,
+            [
+              "settings"
+            ]
+          ],
+          [
+            "Aba / Auditoria",
+            true,
+            [
+              "audit"
+            ]
+          ]
+        ]
+      ],
+      [
+        "accountEdit",
+        true,
+        [
+          [
+            "Aba / Contas",
+            true,
+            []
+          ],
+          [
+            "Aba / Signatários",
+            true,
+            [
+              "signatories"
+            ]
+          ],
+          [
+            "Aba / Configurações",
+            true,
+            [
+              "settings"
+            ]
+          ],
+          [
+            "Aba / Auditoria",
+            true,
+            [
+              "audit"
+            ]
+          ]
+        ]
+      ],
+      [
+        "disableAccount",
+        true,
+        [
+          [
+            "Aba / Contas",
+            true,
+            []
+          ],
+          [
+            "Aba / Signatários",
+            true,
+            [
+              "signatories"
+            ]
+          ],
+          [
+            "Aba / Configurações",
+            true,
+            [
+              "settings"
+            ]
+          ],
+          [
+            "Aba / Auditoria",
+            true,
+            [
+              "audit"
+            ]
+          ]
+        ]
+      ],
+      [
+        "signatories",
+        true,
+        [
+          [
+            "Aba / Contas",
+            true,
+            [
+              "admin"
+            ]
+          ],
+          [
+            "Aba / Signatários",
+            true,
+            []
+          ],
+          [
+            "Aba / Configurações",
+            true,
+            [
+              "settings"
+            ]
+          ],
+          [
+            "Aba / Auditoria",
+            true,
+            [
+              "audit"
+            ]
+          ]
+        ]
+      ],
+      [
+        "substitution",
+        true,
+        [
+          [
+            "Aba / Contas",
+            true,
+            [
+              "admin"
+            ]
+          ],
+          [
+            "Aba / Signatários",
+            true,
+            []
+          ],
+          [
+            "Aba / Configurações",
+            true,
+            [
+              "settings"
+            ]
+          ],
+          [
+            "Aba / Auditoria",
+            true,
+            [
+              "audit"
+            ]
+          ]
+        ]
+      ],
+      [
+        "settings",
+        true,
+        [
+          [
+            "Aba / Contas",
+            true,
+            [
+              "admin"
+            ]
+          ],
+          [
+            "Aba / Signatários",
+            true,
+            [
+              "signatories"
+            ]
+          ],
+          [
+            "Aba / Configurações",
+            true,
+            []
+          ],
+          [
+            "Aba / Auditoria",
+            true,
+            [
+              "audit"
+            ]
+          ]
+        ]
+      ],
+      [
+        "series",
+        true,
+        [
+          [
+            "Aba / Contas",
+            true,
+            [
+              "admin"
+            ]
+          ],
+          [
+            "Aba / Signatários",
+            true,
+            [
+              "signatories"
+            ]
+          ],
+          [
+            "Aba / Configurações",
+            true,
+            []
+          ],
+          [
+            "Aba / Auditoria",
+            true,
+            [
+              "audit"
+            ]
+          ]
+        ]
+      ],
+      [
+        "seriesEdit",
+        true,
+        [
+          [
+            "Aba / Contas",
+            true,
+            [
+              "admin"
+            ]
+          ],
+          [
+            "Aba / Signatários",
+            true,
+            [
+              "signatories"
+            ]
+          ],
+          [
+            "Aba / Configurações",
+            true,
+            []
+          ],
+          [
+            "Aba / Auditoria",
+            true,
+            [
+              "audit"
+            ]
+          ]
+        ]
+      ],
+      [
+        "channels",
+        true,
+        [
+          [
+            "Aba / Contas",
+            true,
+            [
+              "admin"
+            ]
+          ],
+          [
+            "Aba / Signatários",
+            true,
+            [
+              "signatories"
+            ]
+          ],
+          [
+            "Aba / Configurações",
+            true,
+            []
+          ],
+          [
+            "Aba / Auditoria",
+            true,
+            [
+              "audit"
+            ]
+          ]
+        ]
+      ],
+      [
+        "services",
+        true,
+        [
+          [
+            "Aba / Contas",
+            true,
+            [
+              "admin"
+            ]
+          ],
+          [
+            "Aba / Signatários",
+            true,
+            [
+              "signatories"
+            ]
+          ],
+          [
+            "Aba / Configurações",
+            true,
+            []
+          ],
+          [
+            "Aba / Auditoria",
+            true,
+            [
+              "audit"
+            ]
+          ]
+        ]
+      ],
+      [
+        "privacy",
+        true,
+        [
+          [
+            "Aba / Contas",
+            true,
+            [
+              "admin"
+            ]
+          ],
+          [
+            "Aba / Signatários",
+            true,
+            [
+              "signatories"
+            ]
+          ],
+          [
+            "Aba / Configurações",
+            true,
+            []
+          ],
+          [
+            "Aba / Auditoria",
+            true,
+            [
+              "audit"
+            ]
+          ]
+        ]
+      ],
+      [
+        "audit",
+        true,
+        [
+          [
+            "Aba / Contas",
+            true,
+            [
+              "admin"
+            ]
+          ],
+          [
+            "Aba / Signatários",
+            true,
+            [
+              "signatories"
+            ]
+          ],
+          [
+            "Aba / Configurações",
+            true,
+            [
+              "settings"
+            ]
+          ],
+          [
+            "Aba / Auditoria",
+            true,
+            []
+          ]
+        ]
+      ],
+      [
+        "detailDoc",
+        true,
+        [
+          [
+            "Aba / Resumo",
+            true,
+            []
+          ],
+          [
+            "Aba / Participações",
+            false,
+            [
+              "membersDoc"
+            ]
+          ],
+          [
+            "Aba / Documento",
+            false,
+            [
+              "documentDoc"
+            ]
+          ],
+          [
+            "Aba / Tramitação",
+            false,
+            [
+              "historyDoc"
+            ]
+          ],
+          [
+            "Aba / Publicação",
+            false,
+            [
+              "publicationDoc"
+            ]
+          ],
+          [
+            "Ação / Outras seções",
+            true,
+            [
+              "detailSectionsDoc"
+            ]
+          ]
+        ]
+      ],
+      [
+        "membersDoc",
+        true,
+        [
+          [
+            "Aba / Resumo",
+            false,
+            [
+              "detailDoc"
+            ]
+          ],
+          [
+            "Aba / Participações",
+            true,
+            []
+          ],
+          [
+            "Aba / Documento",
+            false,
+            [
+              "documentDoc"
+            ]
+          ],
+          [
+            "Aba / Tramitação",
+            false,
+            [
+              "historyDoc"
+            ]
+          ],
+          [
+            "Aba / Publicação",
+            false,
+            [
+              "publicationDoc"
+            ]
+          ],
+          [
+            "Ação / Outras seções",
+            true,
+            [
+              "detailSectionsDoc"
+            ]
+          ]
+        ]
+      ],
+      [
+        "documentDoc",
+        true,
+        [
+          [
+            "Aba / Resumo",
+            false,
+            [
+              "detailDoc"
+            ]
+          ],
+          [
+            "Aba / Participações",
+            false,
+            [
+              "membersDoc"
+            ]
+          ],
+          [
+            "Aba / Documento",
+            true,
+            []
+          ],
+          [
+            "Aba / Tramitação",
+            false,
+            [
+              "historyDoc"
+            ]
+          ],
+          [
+            "Aba / Publicação",
+            false,
+            [
+              "publicationDoc"
+            ]
+          ],
+          [
+            "Ação / Outras seções",
+            true,
+            [
+              "detailSectionsDoc"
+            ]
+          ]
+        ]
+      ],
+      [
+        "historyDoc",
+        true,
+        [
+          [
+            "Aba / Resumo",
+            false,
+            [
+              "detailDoc"
+            ]
+          ],
+          [
+            "Aba / Participações",
+            false,
+            [
+              "membersDoc"
+            ]
+          ],
+          [
+            "Aba / Documento",
+            false,
+            [
+              "documentDoc"
+            ]
+          ],
+          [
+            "Aba / Tramitação",
+            true,
+            []
+          ],
+          [
+            "Aba / Publicação",
+            false,
+            [
+              "publicationDoc"
+            ]
+          ],
+          [
+            "Ação / Outras seções",
+            true,
+            [
+              "detailSectionsDoc"
+            ]
+          ]
+        ]
+      ],
+      [
+        "publicationDoc",
+        true,
+        [
+          [
+            "Aba / Resumo",
+            false,
+            [
+              "detailDoc"
+            ]
+          ],
+          [
+            "Aba / Participações",
+            false,
+            [
+              "membersDoc"
+            ]
+          ],
+          [
+            "Aba / Documento",
+            false,
+            [
+              "documentDoc"
+            ]
+          ],
+          [
+            "Aba / Tramitação",
+            false,
+            [
+              "historyDoc"
+            ]
+          ],
+          [
+            "Aba / Publicação",
+            true,
+            []
+          ],
+          [
+            "Ação / Outras seções",
+            true,
+            [
+              "detailSectionsDoc"
+            ]
+          ]
+        ]
+      ],
+      [
+        "portariasDoc",
+        true,
+        [
+          [
+            "Aba / Todas",
+            true,
+            []
+          ],
+          [
+            "Aba / Minhas participações",
+            true,
+            [
+              "myParticipations"
+            ]
+          ]
+        ]
+      ],
+      [
+        "adminDisabled",
+        true,
+        [
+          [
+            "Aba / Contas",
+            true,
+            []
+          ],
+          [
+            "Aba / Signatários",
+            true,
+            [
+              "signatories"
+            ]
+          ],
+          [
+            "Aba / Configurações",
+            true,
+            [
+              "settings"
+            ]
+          ],
+          [
+            "Aba / Auditoria",
+            true,
+            [
+              "audit"
+            ]
+          ]
+        ]
+      ],
+      [
+        "communicationsAlternative",
+        true,
+        [
+          [
+            "Aba / Resumo",
+            false,
+            [
+              "detail"
+            ]
+          ],
+          [
+            "Aba / Participações",
+            false,
+            [
+              "members"
+            ]
+          ],
+          [
+            "Aba / Documento",
+            false,
+            [
+              "signed"
+            ]
+          ],
+          [
+            "Aba / Tramitação",
+            false,
+            [
+              "history"
+            ]
+          ],
+          [
+            "Aba / Publicação",
+            false,
+            [
+              "publicationDetail"
+            ]
+          ],
+          [
+            "Aba / Comunicação",
+            true,
+            [
+              "communications"
+            ]
+          ],
+          [
+            "Ação / Outras seções",
+            true,
+            [
+              "detailSections"
+            ]
+          ]
+        ]
+      ],
+      [
+        "tasksResolved",
+        true,
+        [
+          [
+            "Aba / Da minha unidade",
+            true,
+            []
+          ],
+          [
+            "Aba / Minhas",
+            true,
+            [
+              "tasksMine"
+            ]
+          ],
+          [
+            "Aba / Informações",
+            true,
+            [
+              "tasksInfo"
+            ]
+          ]
+        ]
+      ],
+      [
+        "closedHistory",
+        true,
+        [
+          [
+            "Aba / Resumo",
+            false,
+            [
+              "detail"
+            ]
+          ],
+          [
+            "Aba / Participações",
+            false,
+            [
+              "members"
+            ]
+          ],
+          [
+            "Aba / Documento",
+            false,
+            [
+              "document"
+            ]
+          ],
+          [
+            "Aba / Tramitação",
+            true,
+            [
+              "history"
+            ]
+          ],
+          [
+            "Aba / Publicação",
+            false,
+            [
+              "publicationDetail"
+            ]
+          ],
+          [
+            "Aba / Comunicação",
+            false,
+            [
+              "communications"
+            ]
+          ],
+          [
+            "Ação / Outras seções",
+            true,
+            [
+              "detailSections"
+            ]
+          ]
+        ]
+      ],
+      [
+        "editorNext",
+        true,
+        [
+          [
+            "Aba / Texto",
+            true,
+            []
+          ],
+          [
+            "Aba / Participações",
+            true,
+            [
+              "editMembers"
+            ]
+          ],
+          [
+            "Aba / Prévia",
+            true,
+            [
+              "document"
+            ]
+          ]
+        ]
+      ],
+      [
+        "editorRenew",
+        true,
+        [
+          [
+            "Aba / Texto",
+            true,
+            []
+          ],
+          [
+            "Aba / Participações",
+            true,
+            [
+              "editMembers"
+            ]
+          ],
+          [
+            "Aba / Prévia",
+            true,
+            [
+              "document"
+            ]
+          ]
+        ]
+      ],
+      [
+        "editorReplace",
+        true,
+        [
+          [
+            "Aba / Texto",
+            true,
+            []
+          ],
+          [
+            "Aba / Participações",
+            true,
+            [
+              "editMembers"
+            ]
+          ],
+          [
+            "Aba / Prévia",
+            true,
+            [
+              "document"
+            ]
+          ]
+        ]
+      ],
+      [
+        "models",
+        true,
+        [
+          [
+            "Aba / Contas",
+            true,
+            [
+              "admin"
+            ]
+          ],
+          [
+            "Aba / Signatários",
+            true,
+            [
+              "signatories"
+            ]
+          ],
+          [
+            "Aba / Configurações",
+            true,
+            []
+          ],
+          [
+            "Aba / Auditoria",
+            true,
+            [
+              "audit"
+            ]
+          ]
+        ]
+      ],
+      [
+        "modelEdit",
+        true,
+        [
+          [
+            "Aba / Contas",
+            true,
+            [
+              "admin"
+            ]
+          ],
+          [
+            "Aba / Signatários",
+            true,
+            [
+              "signatories"
+            ]
+          ],
+          [
+            "Aba / Configurações",
+            true,
+            []
+          ],
+          [
+            "Aba / Auditoria",
+            true,
+            [
+              "audit"
+            ]
+          ]
+        ]
+      ],
+      [
+        "login360",
+        true,
+        [
+          [
+            "Aba / Esqueci minha senha",
+            true,
+            [
+              "recover"
+            ]
+          ],
+          [
+            "Aba / Acesso institucional",
+            true,
+            [
+              "institutional"
+            ]
+          ]
+        ]
+      ],
+      [
+        "detail768",
+        true,
+        [
+          [
+            "Aba / Resumo",
+            true,
+            [
+              "detail"
+            ]
+          ],
+          [
+            "Aba / Participações",
+            false,
+            [
+              "members"
+            ]
+          ],
+          [
+            "Aba / Documento",
+            false,
+            [
+              "document"
+            ]
+          ],
+          [
+            "Aba / Tramitação",
+            false,
+            [
+              "history"
+            ]
+          ],
+          [
+            "Aba / Publicação",
+            false,
+            [
+              "publicationDetail"
+            ]
+          ],
+          [
+            "Aba / Comunicação",
+            false,
+            [
+              "communications"
+            ]
+          ],
+          [
+            "Ação / Outras seções",
+            true,
+            [
+              "detailSections"
+            ]
+          ]
+        ]
+      ],
+      [
+        "tasksInfo",
+        true,
+        [
+          [
+            "Aba / Da minha unidade",
+            true,
+            [
+              "tasks"
+            ]
+          ],
+          [
+            "Aba / Minhas",
+            true,
+            [
+              "tasksMine"
+            ]
+          ],
+          [
+            "Aba / Informações",
+            true,
+            []
+          ]
+        ]
+      ],
+      [
+        "expiryExpired",
+        true,
+        [
+          [
+            "Aba / Em breve",
+            true,
+            [
+              "expiry"
+            ]
+          ],
+          [
+            "Aba / Vencidas",
+            true,
+            []
+          ],
+          [
+            "Aba / Sem término",
+            true,
+            [
+              "expiryNoEnd"
+            ]
+          ],
+          [
+            "Aba / Revogação futura",
+            true,
+            [
+              "expiryScheduled"
+            ]
+          ],
+          [
+            "Aba / Em vigor",
+            true,
+            [
+              "expiryCurrent"
+            ]
+          ]
+        ]
+      ],
+      [
+        "expiryNoEnd",
+        true,
+        [
+          [
+            "Aba / Em breve",
+            true,
+            [
+              "expiry"
+            ]
+          ],
+          [
+            "Aba / Vencidas",
+            true,
+            [
+              "expiryExpired"
+            ]
+          ],
+          [
+            "Aba / Sem término",
+            true,
+            []
+          ],
+          [
+            "Aba / Revogação futura",
+            true,
+            [
+              "expiryScheduled"
+            ]
+          ],
+          [
+            "Aba / Em vigor",
+            true,
+            [
+              "expiryCurrent"
+            ]
+          ]
+        ]
+      ],
+      [
+        "expiryScheduled",
+        true,
+        [
+          [
+            "Aba / Em breve",
+            true,
+            [
+              "expiry"
+            ]
+          ],
+          [
+            "Aba / Vencidas",
+            true,
+            [
+              "expiryExpired"
+            ]
+          ],
+          [
+            "Aba / Sem término",
+            true,
+            [
+              "expiryNoEnd"
+            ]
+          ],
+          [
+            "Aba / Revogação futura",
+            true,
+            []
+          ],
+          [
+            "Aba / Em vigor",
+            true,
+            [
+              "expiryCurrent"
+            ]
+          ]
+        ]
+      ],
+      [
+        "expiryCurrent",
+        true,
+        [
+          [
+            "Aba / Em breve",
+            true,
+            [
+              "expiry"
+            ]
+          ],
+          [
+            "Aba / Vencidas",
+            true,
+            [
+              "expiryExpired"
+            ]
+          ],
+          [
+            "Aba / Sem término",
+            true,
+            [
+              "expiryNoEnd"
+            ]
+          ],
+          [
+            "Aba / Revogação futura",
+            true,
+            [
+              "expiryScheduled"
+            ]
+          ],
+          [
+            "Aba / Em vigor",
+            true,
+            []
+          ]
+        ]
+      ],
+      [
+        "expiry102",
+        true,
+        [
+          [
+            "Aba / Em breve",
+            true,
+            []
+          ],
+          [
+            "Aba / Vencidas",
+            true,
+            [
+              "expiryExpired"
+            ]
+          ],
+          [
+            "Aba / Sem término",
+            true,
+            [
+              "expiryNoEnd"
+            ]
+          ],
+          [
+            "Aba / Revogação futura",
+            true,
+            [
+              "expiryScheduled"
+            ]
+          ],
+          [
+            "Aba / Em vigor",
+            true,
+            [
+              "expiryCurrent"
+            ]
+          ]
+        ]
+      ],
+      [
+        "expiry102Renew",
+        true,
+        [
+          [
+            "Aba / Em breve",
+            true,
+            []
+          ],
+          [
+            "Aba / Vencidas",
+            true,
+            [
+              "expiryExpired"
+            ]
+          ],
+          [
+            "Aba / Sem término",
+            true,
+            [
+              "expiryNoEnd"
+            ]
+          ],
+          [
+            "Aba / Revogação futura",
+            true,
+            [
+              "expiryScheduled"
+            ]
+          ],
+          [
+            "Aba / Em vigor",
+            true,
+            [
+              "expiryCurrent"
+            ]
+          ]
+        ]
+      ],
+      [
+        "expiry102RenewDone",
+        true,
+        [
+          [
+            "Aba / Em breve",
+            true,
+            []
+          ],
+          [
+            "Aba / Vencidas",
+            true,
+            [
+              "expiryExpired"
+            ]
+          ],
+          [
+            "Aba / Sem término",
+            true,
+            [
+              "expiryNoEnd"
+            ]
+          ],
+          [
+            "Aba / Revogação futura",
+            true,
+            [
+              "expiryScheduled"
+            ]
+          ],
+          [
+            "Aba / Em vigor",
+            true,
+            [
+              "expiryCurrent"
+            ]
+          ]
+        ]
+      ],
+      [
+        "expiry102Close",
+        true,
+        [
+          [
+            "Aba / Em breve",
+            true,
+            []
+          ],
+          [
+            "Aba / Vencidas",
+            true,
+            [
+              "expiryExpired"
+            ]
+          ],
+          [
+            "Aba / Sem término",
+            true,
+            [
+              "expiryNoEnd"
+            ]
+          ],
+          [
+            "Aba / Revogação futura",
+            true,
+            [
+              "expiryScheduled"
+            ]
+          ],
+          [
+            "Aba / Em vigor",
+            true,
+            [
+              "expiryCurrent"
+            ]
+          ]
+        ]
+      ],
+      [
+        "expiry102CloseDone",
+        true,
+        [
+          [
+            "Aba / Em breve",
+            true,
+            []
+          ],
+          [
+            "Aba / Vencidas",
+            true,
+            [
+              "expiryExpired"
+            ]
+          ],
+          [
+            "Aba / Sem término",
+            true,
+            [
+              "expiryNoEnd"
+            ]
+          ],
+          [
+            "Aba / Revogação futura",
+            true,
+            [
+              "expiryScheduled"
+            ]
+          ],
+          [
+            "Aba / Em vigor",
+            true,
+            [
+              "expiryCurrent"
+            ]
+          ]
+        ]
+      ],
+      [
+        "expiry108",
+        true,
+        [
+          [
+            "Aba / Em breve",
+            true,
+            []
+          ],
+          [
+            "Aba / Vencidas",
+            true,
+            [
+              "expiryExpired"
+            ]
+          ],
+          [
+            "Aba / Sem término",
+            true,
+            [
+              "expiryNoEnd"
+            ]
+          ],
+          [
+            "Aba / Revogação futura",
+            true,
+            [
+              "expiryScheduled"
+            ]
+          ],
+          [
+            "Aba / Em vigor",
+            true,
+            [
+              "expiryCurrent"
+            ]
+          ]
+        ]
+      ],
+      [
+        "expiry108Renew",
+        true,
+        [
+          [
+            "Aba / Em breve",
+            true,
+            []
+          ],
+          [
+            "Aba / Vencidas",
+            true,
+            [
+              "expiryExpired"
+            ]
+          ],
+          [
+            "Aba / Sem término",
+            true,
+            [
+              "expiryNoEnd"
+            ]
+          ],
+          [
+            "Aba / Revogação futura",
+            true,
+            [
+              "expiryScheduled"
+            ]
+          ],
+          [
+            "Aba / Em vigor",
+            true,
+            [
+              "expiryCurrent"
+            ]
+          ]
+        ]
+      ],
+      [
+        "expiry108RenewDone",
+        true,
+        [
+          [
+            "Aba / Em breve",
+            true,
+            []
+          ],
+          [
+            "Aba / Vencidas",
+            true,
+            [
+              "expiryExpired"
+            ]
+          ],
+          [
+            "Aba / Sem término",
+            true,
+            [
+              "expiryNoEnd"
+            ]
+          ],
+          [
+            "Aba / Revogação futura",
+            true,
+            [
+              "expiryScheduled"
+            ]
+          ],
+          [
+            "Aba / Em vigor",
+            true,
+            [
+              "expiryCurrent"
+            ]
+          ]
+        ]
+      ],
+      [
+        "expiry108Close",
+        true,
+        [
+          [
+            "Aba / Em breve",
+            true,
+            []
+          ],
+          [
+            "Aba / Vencidas",
+            true,
+            [
+              "expiryExpired"
+            ]
+          ],
+          [
+            "Aba / Sem término",
+            true,
+            [
+              "expiryNoEnd"
+            ]
+          ],
+          [
+            "Aba / Revogação futura",
+            true,
+            [
+              "expiryScheduled"
+            ]
+          ],
+          [
+            "Aba / Em vigor",
+            true,
+            [
+              "expiryCurrent"
+            ]
+          ]
+        ]
+      ],
+      [
+        "expiry108CloseDone",
+        true,
+        [
+          [
+            "Aba / Em breve",
+            true,
+            []
+          ],
+          [
+            "Aba / Vencidas",
+            true,
+            [
+              "expiryExpired"
+            ]
+          ],
+          [
+            "Aba / Sem término",
+            true,
+            [
+              "expiryNoEnd"
+            ]
+          ],
+          [
+            "Aba / Revogação futura",
+            true,
+            [
+              "expiryScheduled"
+            ]
+          ],
+          [
+            "Aba / Em vigor",
+            true,
+            [
+              "expiryCurrent"
+            ]
+          ]
+        ]
+      ],
+      [
+        "expiry091",
+        true,
+        [
+          [
+            "Aba / Em breve",
+            true,
+            [
+              "expiry"
+            ]
+          ],
+          [
+            "Aba / Vencidas",
+            true,
+            []
+          ],
+          [
+            "Aba / Sem término",
+            true,
+            [
+              "expiryNoEnd"
+            ]
+          ],
+          [
+            "Aba / Revogação futura",
+            true,
+            [
+              "expiryScheduled"
+            ]
+          ],
+          [
+            "Aba / Em vigor",
+            true,
+            [
+              "expiryCurrent"
+            ]
+          ]
+        ]
+      ],
+      [
+        "expiry091Renew",
+        true,
+        [
+          [
+            "Aba / Em breve",
+            true,
+            [
+              "expiry"
+            ]
+          ],
+          [
+            "Aba / Vencidas",
+            true,
+            []
+          ],
+          [
+            "Aba / Sem término",
+            true,
+            [
+              "expiryNoEnd"
+            ]
+          ],
+          [
+            "Aba / Revogação futura",
+            true,
+            [
+              "expiryScheduled"
+            ]
+          ],
+          [
+            "Aba / Em vigor",
+            true,
+            [
+              "expiryCurrent"
+            ]
+          ]
+        ]
+      ],
+      [
+        "expiry091RenewDone",
+        true,
+        [
+          [
+            "Aba / Em breve",
+            true,
+            [
+              "expiry"
+            ]
+          ],
+          [
+            "Aba / Vencidas",
+            true,
+            []
+          ],
+          [
+            "Aba / Sem término",
+            true,
+            [
+              "expiryNoEnd"
+            ]
+          ],
+          [
+            "Aba / Revogação futura",
+            true,
+            [
+              "expiryScheduled"
+            ]
+          ],
+          [
+            "Aba / Em vigor",
+            true,
+            [
+              "expiryCurrent"
+            ]
+          ]
+        ]
+      ],
+      [
+        "expiry091Close",
+        true,
+        [
+          [
+            "Aba / Em breve",
+            true,
+            [
+              "expiry"
+            ]
+          ],
+          [
+            "Aba / Vencidas",
+            true,
+            []
+          ],
+          [
+            "Aba / Sem término",
+            true,
+            [
+              "expiryNoEnd"
+            ]
+          ],
+          [
+            "Aba / Revogação futura",
+            true,
+            [
+              "expiryScheduled"
+            ]
+          ],
+          [
+            "Aba / Em vigor",
+            true,
+            [
+              "expiryCurrent"
+            ]
+          ]
+        ]
+      ],
+      [
+        "expiry091CloseDone",
+        true,
+        [
+          [
+            "Aba / Em breve",
+            true,
+            [
+              "expiry"
+            ]
+          ],
+          [
+            "Aba / Vencidas",
+            true,
+            []
+          ],
+          [
+            "Aba / Sem término",
+            true,
+            [
+              "expiryNoEnd"
+            ]
+          ],
+          [
+            "Aba / Revogação futura",
+            true,
+            [
+              "expiryScheduled"
+            ]
+          ],
+          [
+            "Aba / Em vigor",
+            true,
+            [
+              "expiryCurrent"
+            ]
+          ]
+        ]
+      ],
+      [
+        "expiryFutureEvent",
+        true,
+        [
+          [
+            "Aba / Em breve",
+            true,
+            [
+              "expiry"
+            ]
+          ],
+          [
+            "Aba / Vencidas",
+            true,
+            [
+              "expiryExpired"
+            ]
+          ],
+          [
+            "Aba / Sem término",
+            true,
+            [
+              "expiryNoEnd"
+            ]
+          ],
+          [
+            "Aba / Revogação futura",
+            true,
+            []
+          ],
+          [
+            "Aba / Em vigor",
+            true,
+            [
+              "expiryCurrent"
+            ]
+          ]
+        ]
+      ],
+      [
+        "operatorParticipations",
+        true,
+        [
+          [
+            "Aba / Todas",
+            true,
+            [
+              "portarias"
+            ]
+          ],
+          [
+            "Aba / Minhas participações",
+            true,
+            []
+          ],
+          [
+            "Aba / Em elaboração",
+            true,
+            [
+              "drafts"
+            ]
+          ]
+        ]
+      ]
+    ],
+    "missing": [],
+    "overflow": []
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"createdNodeIds\":[\"197:2\",\"197:3\",\"197:4\",\"197:5\",\"197:6\",\"197:7\",\"197:8\",\"197:9\",\"197:10\",\"197:11\",\"197:12\",\"197:13\",\"197:14\",\"197:15\",\"197:16\",\"197:17\",\"197:18\",\"197:19\",\"S:7a2be5b1065d799e432f50b876f74fcf6a040b6d,\",\"S:588c2855c70604af1d8d805ed3a146d3b563fc1d,\"],\"mutatedNodeIds\":[\"197:3\",\"197:4\",\"197:5\",\"197:6\",\"197:7\",\"197:8\",\"197:9\",\"197:10\",\"197:11\",\"197:12\",\"197:13\",\"197:14\",\"197:15\",\"197:16\",\"197:17\",\"197:18\",\"197:19\",\"197:2\"],\"setId\":\"197:2\",\"labelStyle\":\"S:7a2be5b1065d799e432f50b876f74fcf6a040b6d,\",\"controlStyle\":\"S:588c2855c70604af1d8d805ed3a146d3b563fc1d,\",\"components\":[{\"id\":\"197:3\",\"state\":\"Estado=Padrão\",\"w\":440,\"h\":78,\"input\":48},{\"id\":\"197:7\",\"state\":\"Estado=Foco\",\"w\":440,\"h\":78,\"input\":48},{\"id\":\"197:11\",\"state\":\"Estado=Erro\",\"w\":440,\"h\":106,\"input\":48},{\"id\":\"197:16\",\"state\":\"Estado=Desabilitado\",\"w\":440,\"h\":78,\"input\":48}],\"properties\":{\"Rótulo#4:25\":{\"type\":\"TEXT\",\"defaultValue\":\"Nome do campo\"},\"Valor#4:26\":{\"type\":\"TEXT\",\"defaultValue\":\"Informe o valor\"},\"Estado\":{\"type\":\"VARIANT\",\"defaultValue\":\"Padrão\",\"variantOptions\":[\"Padrão\",\"Foco\",\"Erro\",\"Desabilitado\"]}}}"
+    }
+  ],
+  "structuredContent": null,
+  "isError": false
+}

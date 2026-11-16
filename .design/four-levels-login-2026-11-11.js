@@ -1,0 +1,52 @@
+await figma.setCurrentPageAsync(await figma.getNodeByIdAsync(PAGE));
+await Promise.all([['Source Sans 3','Regular'],['Source Sans 3','SemiBold'],['Source Sans 3','Bold'],['Roboto','Regular'],['Roboto','Bold'],['Roboto','Medium'],['Inter','Bold'],['Inter','Extra Bold']].map(([family,style])=>figma.loadFontAsync({family,style})));
+const page=figma.currentPage,created=[],changed=new Set(),removed=[],routes={};
+const portalId=MOBILE?'8:1663':'5:2',source={empty:MOBILE?'8:1843':'5:182',filled:MOBILE?'229:4653':'229:4047',error:MOBILE?'229:4727':'229:4126'},old={filled:MOBILE?'8:1691':'5:30',error:MOBILE?'8:1719':'5:58'};
+const active=await figma.variables.getVariableByIdAsync('VariableID:228:3'),staff=await figma.variables.getVariableByIdAsync('VariableID:228:4');
+const set=(id,value,type)=>({type:'SET_VARIABLE',variableId:id,variableValue:{type,resolvedType:type,value}});
+const reset=[set(active.id,false,'BOOLEAN'),set(staff.id,true,'BOOLEAN')];
+const nav=id=>({type:'NODE',navigation:'NAVIGATE',destinationId:id,transition:{type:'DISSOLVE',easing:{type:'EASE_OUT'},duration:.22}});
+function place(f){f.x=Math.max(...page.children.filter(n=>n.id!==f.id).map(n=>n.x+n.width))+160;f.y=120;}
+async function copy(srcId,targetId=null){const src=await figma.getNodeByIdAsync(srcId);let f;if(targetId){f=await figma.getNodeByIdAsync(targetId);for(const c of [...f.children]){removed.push(c.id);c.remove();}for(const c of src.children){const n=c.clone();f.appendChild(n);created.push(n.id,...n.findAll(()=>true).map(n=>n.id));}f.resize(src.width,src.height);f.fills=src.fills;f.clipsContent=src.clipsContent;changed.add(f.id);}else{f=src.clone();page.appendChild(f);created.push(f.id,...f.findAll(()=>true).map(n=>n.id));place(f);}return f;}
+async function click(n,to,actions=[]){let root=n;while(root.parent&&root.parent.type!=='PAGE')root=root.parent;await n.setReactionsAsync(root.id===to?[]:[{trigger:{type:'ON_CLICK'},actions:[...actions,nav(to)]}]);changed.add(n.id);}
+function props(n,values){const p={};for(const [k,v]of Object.entries(n.componentProperties))if(v.type==='TEXT'&&values[k.split('#')[0]]!==undefined)p[k]=values[k.split('#')[0]];n.setProperties(p);changed.add(n.id);}
+routes[1]={...source};
+for(const level of [2,3,4]){routes[level]={};for(const state of ['empty','filled','error']){const f=await copy(source[state],level===3&&state!=='empty'?old[state]:null);f.name=(MOBILE?'Celular':'Computador')+' · Login nível '+level+' · '+({2:'Servidores',3:'Gabinete e Gestão de Pessoas',4:'Direção'}[level])+' · '+({empty:'Vazio',filled:'Preenchido',error:'Erro'}[state]);routes[level][state]=f.id;}}
+const vice=await copy(routes[4].filled);vice.name=(MOBILE?'Celular':'Computador')+' · Login nível 4 · Vice-Diretor autorizado · Preenchido';routes[4].vice=vice.id;
+const configurations={
+ 1:{title:'Acesso externo',sub:'Consulte portarias e documentos publicados.',user:'usuario.externo',home:MOBILE?'229:4803':'229:4207'},
+ 2:{title:'Acesso de servidores',sub:'Consulta, solicitações e validação conforme seu perfil.',user:'helena.martins',home:MOBILE?'8:1932':'6:178'},
+ 3:{title:'Acesso de operadores',sub:'Gabinete e Gestão de Pessoas · elaboração e tramitação.',user:'marina.costa',home:MOBILE?'8:1874':'6:49'},
+ 4:{title:'Acesso da Direção',sub:'Direção-Geral e Vice-Diretor autorizado.',user:'eduardo.almeida',home:MOBILE?'8:2014':'6:390'}
+};
+for(const level of [1,2,3,4])for(const [state,id]of Object.entries(routes[level])){
+ const f=await figma.getNodeByIdAsync(id),c=f.findOne(n=>n.name==='Acesso ao Gestor de Portarias'),heading=c.findOne(n=>n.name==='Título e orientação de acesso'),ts=heading.children.filter(n=>n.type==='TEXT'),cfg=configurations[level];
+ ts[0].characters=cfg.title;ts[0].fontSize=MOBILE?28:32;ts[0].lineHeight={unit:'PIXELS',value:MOBILE?34:40};ts[0].name='Título do login';ts[1].characters=cfg.sub;ts[1].name='Orientação do nível';changed.add(ts[0].id);changed.add(ts[1].id);
+ const badge=c.findOne(n=>n.type==='INSTANCE'&&n.mainComponent?.parent?.id==='228:19');badge.swapComponent(await figma.getNodeByIdAsync(BADGES[level].full));badge.name='Nível do login / '+level;changed.add(badge.id);for(const n of badge.findAll(()=>true))changed.add(n.id);
+ const filled=state==='filled'||state==='vice';for(const n of c.findAllWithCriteria({types:['INSTANCE']}).filter(n=>n.mainComponent?.parent?.id==='208:128')){const pass=n.componentProperties.Tipo.value==='Senha',username=state==='vice'?'sofia.ribeiro':cfg.user;props(n,{'Rótulo':pass?'Senha':'Usuário','Valor':filled?(pass?'••••••••':username):(pass?'Digite sua senha':level===1?'usuario.externo':'nome.sobrenome'),'Texto visível':filled?(pass?'SenhaDeExemplo2026':username):(pass?'Digite sua senha':'nome.sobrenome')});await click(n,state==='vice'?id:routes[level].filled);}
+ const error=c.findOne(n=>n.name==='Erro de acesso externo');if(error){error.name='Erro de acesso · nível '+level;const t=error.findOne(n=>n.type==='TEXT');t.characters='Confira as credenciais e a autorização da conta para o nível '+level+'.';changed.add(t.id);changed.add(error.id);}
+ const enter=c.findAllWithCriteria({types:['INSTANCE']}).find(n=>n.mainComponent?.parent?.id==='208:201'&&n.componentProperties.Função.value==='Entrar');let actions=[...reset],home=cfg.home;
+ if(level===4){const isVice=state==='vice';actions=[set(active.id,true,'BOOLEAN'),set(staff.id,false,'BOOLEAN'),set('VariableID:228:5',isVice?'Sofia Ribeiro':'Eduardo Almeida','STRING'),set('VariableID:228:6',isVice?'Vice-Diretora autorizada':'Direção-Geral','STRING')];if(isVice)home=MOBILE?'229:4987':'229:4439';}
+ await click(enter,filled?home:routes[level].error,filled?actions:reset);
+ const back=c.findOne(n=>n.name==='Voltar ao acesso de servidores'||n.name==='Escolher outro acesso');if(back){back.name='Escolher outro acesso';const t=back.findOne(n=>n.type==='TEXT');t.characters='Escolher outro acesso';t.name=t.characters;await click(back,portalId,reset);changed.add(t.id);}
+ const forgot=c.findOne(n=>n.name==='Ação / Esqueci minha senha');if(level>1&&forgot)await click(forgot,MOBILE?'8:1753':'5:92',reset);
+ changed.add(f.id);
+}
+// Four distinct entry points share the same visual system, while each has its own form and destination.
+const portal=await figma.getNodeByIdAsync(portalId),card=portal.findOne(n=>n.name==='Acesso ao Gestor de Portarias'),heading=card.findOne(n=>n.name==='Título e orientação de acesso'),texts=heading.children.filter(n=>n.type==='TEXT');
+texts[0].characters='Escolha seu acesso';texts[0].fontSize=MOBILE?28:32;texts[0].lineHeight={unit:'PIXELS',value:MOBILE?34:40};texts[1].characters='Entre com a conta autorizada para seu perfil.';texts[1].fontSize=MOBILE?16:18;texts[1].lineHeight={unit:'PIXELS',value:24};changed.add(texts[0].id);changed.add(texts[1].id);
+for(const n of [...card.children])if(!['Marca institucional no cartão','Título e orientação de acesso'].includes(n.name)){removed.push(n.id);n.remove();}
+const w=card.width-card.paddingLeft-card.paddingRight,choices=figma.createAutoLayout('VERTICAL');card.appendChild(choices);created.push(choices.id);choices.name='Quatro entradas de acesso';choices.resize(w,1);choices.layoutSizingVertical='HUG';choices.itemSpacing=12;choices.fills=[];
+const baseButton=await figma.getNodeByIdAsync('208:177');
+for(const [level,label]of [[1,'Nível 1 · Acesso externo'],[2,'Nível 2 · Servidores'],[3,'Nível 3 · Gabinete e CGP'],[4,'Nível 4 · Direção']]){const n=baseButton.createInstance();choices.appendChild(n);created.push(n.id,...n.findAll(()=>true).map(n=>n.id));n.name='Entrada / Nível '+level;n.rescale(48/n.height);n.resize(w,48);n.layoutSizingHorizontal='FIXED';n.layoutSizingVertical='FIXED';const t=n.findOne(n=>n.type==='TEXT');t.characters=label;t.fontSize=16;t.lineHeight={unit:'PIXELS',value:20};await click(n,routes[level].empty,reset);}
+const foot=figma.createText();card.appendChild(foot);created.push(foot.id);foot.name='Orientação de autorização';foot.fontName={family:'Roboto',style:'Regular'};foot.fontSize=14;foot.lineHeight={unit:'PIXELS',value:20};foot.characters='Escolher uma entrada não altera as permissões da conta.';foot.fills=texts[1].fills;foot.textAutoResize='HEIGHT';foot.resize(w,foot.height);card.itemSpacing=20;card.paddingTop=card.paddingBottom=24;card.layoutSizingVertical='HUG';portal.name=(MOBILE?'Celular':'Computador')+' · Escolha de acesso · Quatro níveis';changed.add(card.id);changed.add(portal.id);
+// The earlier width samples now open the access chooser rather than the former generic login.
+for(const f of page.children.filter(n=>n.type==='FRAME')){
+ if(f.id===portalId||Object.values(routes).some(r=>Object.values(r).includes(f.id)))continue;
+ if(f.name.includes('Acesso conforme referência')||(!MOBILE&&['211:1345','211:1491','211:1637'].includes(f.id))||(MOBILE&&['211:3173','211:3308','23:1085'].includes(f.id))){
+  for(const n of f.findAll(n=>'reactions'in n&&n.reactions.length)){let edit=false;const rr=n.reactions.map(r=>({trigger:r.trigger,actions:(r.actions||[]).map(a=>{if(a.type==='NODE'&&a.navigation==='NAVIGATE'&&[old.filled,old.error,source.empty].includes(a.destinationId)){edit=true;return nav(portalId);}return a;})}));if(edit){await n.setReactionsAsync(rr);changed.add(n.id);}}
+ }
+ const level=LEVELMAP[f.id];if(level)for(const n of f.findAll(n=>'reactions'in n&&n.reactions.length&&/Sair/i.test(n.name))){const hasClick=n.reactions.some(r=>r.trigger?.type==='ON_CLICK');if(!hasClick)continue;const rr=n.reactions.map(r=>r.trigger?.type!=='ON_CLICK'?{trigger:r.trigger,actions:r.actions}:{trigger:r.trigger,actions:[{type:'CONDITIONAL',conditionalBlocks:[{condition:{type:'EXPRESSION',resolvedType:'BOOLEAN',value:{expressionFunction:'EQUALS',expressionArguments:[{type:'VARIABLE_ALIAS',resolvedType:'BOOLEAN',value:{type:'VARIABLE_ALIAS',id:active.id}},{type:'BOOLEAN',resolvedType:'BOOLEAN',value:true}]}},actions:[...reset,nav(routes[4].empty)]},{actions:[...reset,nav(routes[level].empty)]}]}]});await n.setReactionsAsync(rr);changed.add(n.id);}
+}
+const resetSuccess=await figma.getNodeByIdAsync(MOBILE?'8:1828':'5:167');for(const n of resetSuccess.findAll(n=>'reactions'in n&&n.reactions.length)){const rr=n.reactions.map(r=>({trigger:r.trigger,actions:(r.actions||[]).map(a=>a.type==='NODE'&&a.navigation==='NAVIGATE'&&a.destinationId===old.filled?nav(portalId):a)}));await n.setReactionsAsync(rr);changed.add(n.id);}
+return {createdNodeIds:created,mutatedNodeIds:[...changed],removedNodeIds:removed,portal:portalId,routes};

@@ -1,0 +1,44 @@
+// Extensão da biblioteca local. Helpers seguem createComponentWithVariants.js.
+await figma.setCurrentPageAsync(await figma.getNodeByIdAsync('4:2'));
+const page=figma.currentPage;
+if(page.children.some(n=>n.name==='Estatísticas / Contêiner de visualização'))throw new Error('Fundação já existe; reler ledger antes de reconstruir.');
+await Promise.all(['Regular','SemiBold','Bold'].map(style=>figma.loadFontAsync({family:'Source Sans 3',style})));
+const created=[],vars={},components={},styles={};
+const rgb=h=>({r:parseInt(h.slice(1,3),16)/255,g:parseInt(h.slice(3,5),16)/255,b:parseInt(h.slice(5,7),16)/255});
+const source={bg:'VariableID:4:9',surface:'VariableID:4:11',ink:'VariableID:4:13',muted:'VariableID:4:15',primary:'VariableID:4:17',border:'VariableID:4:23',warn:'VariableID:4:25',warnBg:'VariableID:4:27',error:'VariableID:4:29',errorBg:'VariableID:4:31',blue:'VariableID:4:33',space8:'VariableID:4:37',space12:'VariableID:4:38',space16:'VariableID:4:39',space24:'VariableID:4:40',radius8:'VariableID:4:45',radius12:'VariableID:4:46'};
+await Promise.all(Object.entries(source).map(async([k,id])=>vars[k]=await figma.variables.getVariableByIdAsync(id)));
+const coll=figma.variables.createVariableCollection('Estatísticas · gráficos');
+const colors={categoria1:'#23633B',categoria2:'#245B83',categoria3:'#75519A',categoria4:'#805800',categoria5:'#52616D',sequencial1:'#617D6C',sequencial2:'#4C6D59',sequencial3:'#385C47',sequencial4:'#23633B',sequencial5:'#194E2D',alerta:'#805800',critico:'#B3261E'};
+const varIds={};
+for(const[k,h]of Object.entries(colors)){const raw=figma.variables.createVariable('primitiva/'+k,coll,'COLOR');raw.scopes=[];raw.setValueForMode(coll.defaultModeId,rgb(h));raw.setVariableCodeSyntax('WEB','var(--grafico-'+k+'-base)');const v=figma.variables.createVariable('gráfico/'+k,coll,'COLOR');v.scopes=['FRAME_FILL','SHAPE_FILL','STROKE_COLOR','TEXT_FILL'];v.setValueForMode(coll.defaultModeId,{type:'VARIABLE_ALIAS',id:raw.id});v.setVariableCodeSyntax('WEB','var(--grafico-'+k+')');vars[k]=v;varIds[k]=v.id;}
+const paint=k=>figma.variables.setBoundVariableForPaint({type:'SOLID',color:{r:0,g:0,b:0}},'color',vars[k]);
+const remember=n=>(created.push(n.id),n);
+const styleDefs=[['Seção',20,'SemiBold',29],['Corpo',16,'Regular',23],['Legenda',13,'Regular',19],['Valor',30,'SemiBold',40]];
+for(const[k,size,weight,line]of styleDefs){const s=figma.createTextStyle();s.name='Estatísticas/'+k;s.fontName={family:'Source Sans 3',style:weight};s.fontSize=size;s.lineHeight={unit:'PIXELS',value:line};styles[k]=s.id;}
+function text(parent,label,role='Corpo',color='ink',width=400){const t=remember(figma.createText());parent.appendChild(t);t.fontName={family:'Source Sans 3',style:role==='Seção'||role==='Valor'?'SemiBold':'Regular'};t.textStyleId=styles[role];t.characters=label;t.name=label;t.fills=[paint(color)];t.textAutoResize='HEIGHT';t.resize(width,t.height);return t;}
+function frame(parent,name,width,dir='VERTICAL',pad=0){const f=remember(figma.createAutoLayout(dir));f.name=name;parent.appendChild(f);f.fills=[];f.resize(width,1);f.layoutSizingVertical='HUG';f.setBoundVariable('itemSpacing',vars.space12);if(pad)for(const p of ['paddingTop','paddingBottom','paddingLeft','paddingRight'])f.setBoundVariable(p,vars['space'+pad]);return f;}
+function comp(name,width){const c=remember(figma.createComponent());c.name=name;c.layoutMode='VERTICAL';c.resize(width,1);c.primaryAxisSizingMode='AUTO';c.counterAxisSizingMode='FIXED';c.fills=[];return c;}
+const maxX=Math.max(...page.children.map(n=>n.x+n.width),0)+160;
+const plot=comp('Estatísticas / Área de dados',1080);plot.x=maxX;plot.y=1100;
+text(plot,'Conteúdo vinculado à visualização', 'Legenda','muted',1080);
+components.plot=plot.id;
+const states=['Com dados','Sem registros','Carregando','Erro','Acesso restrito','Dados desatualizados'];
+const stateNodes=[];const stateMap={};
+for(const state of states){const c=comp('Estado='+state,1128);c.description='Contêiner único: título, pergunta, unidade, legenda, dados e atualização. Não ampliar o escopo de acesso.';c.fills=[paint('surface')];c.strokes=[paint('border')];c.setBoundVariable('cornerRadius',vars.radius12);c.setBoundVariable('itemSpacing',vars.space12);for(const p of ['paddingTop','paddingBottom','paddingLeft','paddingRight'])c.setBoundVariable(p,vars.space24);
+ const title=text(c,'Atos por situação em R','Seção','ink',1080);title.layoutSizingHorizontal='FILL';const tk=c.addComponentProperty('Título','TEXT',title.characters);title.componentPropertyReferences={characters:tk};
+ const q=text(c,'Quantos atos há em cada situação?','Corpo','muted',1080);q.layoutSizingHorizontal='FILL';const qk=c.addComponentProperty('Pergunta','TEXT',q.characters);q.componentPropertyReferences={characters:qk};
+ const unit=text(c,'Unidade: atos · legenda por rótulo direto','Legenda','muted',1080);unit.layoutSizingHorizontal='FILL';const uk=c.addComponentProperty('Unidade e legenda','TEXT',unit.characters);unit.componentPropertyReferences={characters:uk};
+ if(state==='Com dados'){const i=remember(plot.createInstance());c.appendChild(i);i.name='Dados da visualização';i.layoutSizingHorizontal='FILL';const pk=c.addComponentProperty('Dados','INSTANCE_SWAP',plot.id);i.componentPropertyReferences={mainComponent:pk};}
+ else{const messages={'Sem registros':'Sem registros no período selecionado. Ajuste os filtros.','Carregando':'Carregando indicadores… Aguarde a consulta.','Erro':'Não foi possível carregar os indicadores. Tente novamente.','Acesso restrito':'Seu perfil não autoriza esta consulta. Consulte apenas os dados do seu escopo.','Dados desatualizados':'Dados desatualizados. Última atualização válida: 11/11/2026 às 16:00. Atualize antes de usar estes números.'};text(c,messages[state],'Corpo',state==='Erro'?'error':state==='Dados desatualizados'?'warn':'muted',1080).layoutSizingHorizontal='FILL';
+ if(['Erro','Dados desatualizados'].includes(state)){const btn=remember((await figma.getNodeByIdAsync('4:94')).createInstance());c.appendChild(btn);btn.setProperties({'Rótulo#4:16':state==='Erro'?'Tentar novamente':'Atualizar dados'});}}
+ const stamp=text(c,state==='Dados desatualizados'?'Calculado com os registros existentes em 11/11/2026 às 16:00':'Calculado com os registros existentes em 11/11/2026 às 17:00','Legenda','muted',1080);stamp.layoutSizingHorizontal='FILL';stateNodes.push(c);stateMap[state]=c.id;
+}
+const set=remember(figma.combineAsVariants(stateNodes,page));set.name='Estatísticas / Contêiner de visualização';set.description='Seis estados obrigatórios. Dados por troca de instância. Atualização sempre explícita; dados indisponíveis nunca viram zero.';set.x=maxX;set.y=0;set.children.forEach((n,i)=>{n.x=(i%2)*1200;n.y=Math.floor(i/2)*380});set.resize(2352,1120);components.container=set.id;components.states=stateMap;
+const metric=comp('Estatísticas / Indicador',260);metric.x=maxX;metric.y=1300;metric.fills=[paint('surface')];metric.strokes=[paint('border')];metric.setBoundVariable('cornerRadius',vars.radius12);metric.setBoundVariable('itemSpacing',vars.space8);for(const p of ['paddingTop','paddingBottom','paddingLeft','paddingRight'])metric.setBoundVariable(p,vars.space16);
+for(const[label,role,value]of [['Nome','Corpo','Participações vigentes'],['Valor','Valor','10'],['Unidade','Legenda','participações · R 11/11/2026'],['Método','Legenda','Conta vínculos ativos com ato vigente.']]){const t=text(metric,value,role,label==='Método'?'muted':'ink',228);t.layoutSizingHorizontal='FILL';const key=metric.addComponentProperty(label,'TEXT',value);t.componentPropertyReferences={characters:key};}components.metric=metric.id;
+metric.description='Valor, unidade, referência e fórmula. A soma de horas é informativa; não possui teto de 10 horas.';
+const row=comp('Estatísticas / Linha de dados',1080);row.x=maxX+400;row.y=1300;row.layoutMode='HORIZONTAL';row.setBoundVariable('itemSpacing',vars.space16);row.paddingTop=row.paddingBottom=8;
+for(const[label,value]of [['Rótulo','Categoria'],['Valor','0']]){const t=text(row,value,'Corpo','ink',label==='Rótulo'?850:190);if(label==='Rótulo')t.layoutSizingHorizontal='FILL';const key=row.addComponentProperty(label,'TEXT',value);t.componentPropertyReferences={characters:key};}components.row=row.id;
+const proof=frame(page,'Estatísticas · estados e componentes',1128);proof.x=maxX+2500;proof.y=0;for(const state of states){const i=remember((await figma.getNodeByIdAsync(stateMap[state])).createInstance());proof.appendChild(i);i.name=state;}
+const allIds=new Set(created);for(const id of [...created]){const n=await figma.getNodeByIdAsync(id);if(n&&'findAll' in n)for(const x of n.findAll(()=>true))allIds.add(x.id);}
+return {createdNodeIds:[...allIds],collectionId:coll.id,variables:varIds,styles,components,showcase:proof.id,counts:{states:6,colorVariables:24,components:10},bounds:{width:proof.width,height:proof.height}};

@@ -1,0 +1,10 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"page\":\"288:2\",\"name\":\"06 · Estatísticas — cenário e metodologia\",\"flows\":[],\"roots\":[{\"id\":\"288:3\",\"name\":\"Cenário analítico único · dados demonstrativos\",\"type\":\"FRAME\",\"nodes\":5,\"types\":{\"FRAME\":1,\"TEXT\":4},\"reactions\":0,\"destinations\":[]},{\"id\":\"288:8\",\"name\":\"Atos, publicação e vigência\",\"type\":\"FRAME\",\"nodes\":80,\"types\":{\"FRAME\":14,\"TEXT\":66},\"reactions\":0,\"destinations\":[]},{\"id\":\"288:88\",\"name\":\"Pessoas e participações\",\"type\":\"FRAME\",\"nodes\":122,\"types\":{\"FRAME\":23,\"TEXT\":99},\"reactions\":0,\"destinations\":[]},{\"id\":\"288:210\",\"name\":\"Eventos · data de registro e data de efeito\",\"type\":\"FRAME\",\"nodes\":45,\"types\":{\"FRAME\":8,\"TEXT\":37},\"reactions\":0,\"destinations\":[]},{\"id\":\"288:255\",\"name\":\"Produção, solicitações e comunicações\",\"type\":\"FRAME\",\"nodes\":118,\"types\":{\"FRAME\":30,\"TEXT\":88},\"reactions\":0,\"destinations\":[]},{\"id\":\"288:373\",\"name\":\"Dicionário único de métricas · I01–I24\",\"type\":\"FRAME\",\"nodes\":127,\"types\":{\"FRAME\":26,\"TEXT\":101},\"reactions\":0,\"destinations\":[]},{\"id\":\"288:500\",\"name\":\"Acesso, estados e limites da demonstração\",\"type\":\"FRAME\",\"nodes\":26,\"types\":{\"FRAME\":8,\"TEXT\":18},\"reactions\":0,\"destinations\":[]}]}"
+    }
+  ],
+  "structuredContent": null,
+  "isError": false
+}

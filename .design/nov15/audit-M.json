@@ -1,0 +1,10 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"screens\":109,\"nodes\":8714,\"types\":{\"FRAME\":2717,\"VECTOR\":279,\"TEXT\":4580,\"INSTANCE\":889,\"ELLIPSE\":36,\"RECTANGLE\":213},\"missing\":[],\"selfNavigation\":[],\"overflow\":[],\"buttonClipping\":[],\"privateImages\":[],\"unboundProject\":[],\"publicLevels\":[]}"
+    }
+  ],
+  "structuredContent": null,
+  "isError": false
+}

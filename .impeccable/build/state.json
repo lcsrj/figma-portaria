@@ -1,0 +1,106 @@
+{
+  "tool": "build-phase",
+  "version": 2,
+  "startedAt": "2026-11-11T11:35:04.497Z",
+  "comp": "C:\\Users\\User\\Downloads\\Gestor de Portarias — Campus Videira.png",
+  "direction": null,
+  "breakpoint": "1586x992",
+  "artifact": null,
+  "phase": "spec",
+  "phases": {
+    "comps": {
+      "status": "skipped",
+      "openedAt": null,
+      "closedAt": null,
+      "attempts": 0,
+      "notes": [
+        {
+          "at": "2026-11-11T11:35:04.497Z",
+          "text": "started with an approved comp; the comp round happened before this state (surface round or manual)"
+        }
+      ],
+      "gate": null,
+      "forced": null
+    },
+    "spec": {
+      "status": "open",
+      "openedAt": "2026-11-11T11:35:04.497Z",
+      "closedAt": null,
+      "attempts": 7,
+      "notes": [
+        {
+          "at": "2026-11-11T12:13:46.711Z",
+          "text": "Entrega confirmada exclusivamente no Figma. Capturas nativas nas seis dimensões, auditorias estruturais dos 12 quadros, teste de alternância de senha e revisão independente concluídos; achado de legenda resolvido. O estado de build HTML não representa a entrega nativa. Evidências em .impeccable/review/referencia-2026-11-11.md e .design/reference-final-audit-*-2026-11-11.json."
+        }
+      ],
+      "gate": {
+        "ok": false,
+        "reasons": [
+          "region library: the comp's artwork runs off its box on the bottom; widen the region's span so the box holds the whole shape with a margin (or set \"bleed\": true if the page really crops it there), then re-run comp-spec.mjs --regions",
+          "region refectory: the comp's artwork runs off its box on the bottom; widen the region's span so the box holds the whole shape with a margin (or set \"bleed\": true if the page really crops it there), then re-run comp-spec.mjs --regions"
+        ],
+        "at": "2026-11-11T12:15:28.867Z"
+      },
+      "forced": null
+    },
+    "plates": {
+      "status": "pending",
+      "openedAt": null,
+      "closedAt": null,
+      "attempts": 0,
+      "notes": [],
+      "gate": null,
+      "forced": null
+    },
+    "hero": {
+      "status": "pending",
+      "openedAt": null,
+      "closedAt": null,
+      "attempts": 0,
+      "notes": [],
+      "gate": null,
+      "forced": null
+    },
+    "sections": {
+      "status": "pending",
+      "openedAt": null,
+      "closedAt": null,
+      "attempts": 0,
+      "notes": [],
+      "gate": null,
+      "forced": null
+    },
+    "motion": {
+      "status": "pending",
+      "openedAt": null,
+      "closedAt": null,
+      "attempts": 0,
+      "notes": [],
+      "gate": null,
+      "forced": null
+    },
+    "responsive": {
+      "status": "pending",
+      "openedAt": null,
+      "closedAt": null,
+      "attempts": 0,
+      "notes": [],
+      "gate": null,
+      "forced": null
+    },
+    "review": {
+      "status": "pending",
+      "openedAt": null,
+      "closedAt": null,
+      "attempts": 0,
+      "notes": [],
+      "gate": null,
+      "forced": null
+    }
+  },
+  "finish": {
+    "disposition": "fix",
+    "at": "2026-11-11T12:17:54.107Z",
+    "phaseAtFinish": "spec"
+  }
+}

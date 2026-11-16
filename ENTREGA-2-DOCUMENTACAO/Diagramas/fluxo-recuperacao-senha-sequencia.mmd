@@ -1,0 +1,15 @@
+sequenceDiagram
+    actor S as Usuário
+    participant T as Telas do protótipo
+    participant API as Servidor da aplicação (futuro)
+    participant M as E-mail (futuro)
+    S->>T: Esqueci minha senha
+    T-->>S: Recupere seu acesso (5:92)
+    S->>T: Informa e-mail · Enviar instruções
+    T->>API: pedido de recuperação (implementação)
+    API-->>M: link com prazo e uso único, se a conta existir
+    T-->>S: Confira seu e-mail (5:118) · mesma mensagem em qualquer caso
+    S->>T: Abrir link de recuperação
+    T-->>S: Defina uma nova senha (5:143)
+    S->>T: Salvar nova senha
+    T-->>S: Conclusão (5:167) · voltar ao acesso

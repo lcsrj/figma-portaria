@@ -1,0 +1,1107 @@
+[
+  {
+    "name": "login-D",
+    "id": "5:2",
+    "maxDimension": 1440,
+    "width": 1440,
+    "height": 900,
+    "format": "png",
+    "original_width": 1440,
+    "original_height": 900,
+    "path": "C:/Users/User/Documents/ChatGPT/Figma portaria/.design/nov15-previews/login-D.png"
+  },
+  {
+    "name": "demo-externo-D",
+    "id": "313:6950",
+    "maxDimension": 1440,
+    "width": 1440,
+    "height": 900,
+    "format": "png",
+    "original_width": 1440,
+    "original_height": 900,
+    "path": "C:/Users/User/Documents/ChatGPT/Figma portaria/.design/nov15-previews/demo-externo-D.png"
+  },
+  {
+    "name": "demo-servidor-D",
+    "id": "313:7005",
+    "maxDimension": 1440,
+    "width": 1440,
+    "height": 900,
+    "format": "png",
+    "original_width": 1440,
+    "original_height": 900,
+    "path": "C:/Users/User/Documents/ChatGPT/Figma portaria/.design/nov15-previews/demo-servidor-D.png"
+  },
+  {
+    "name": "demo-operador-D",
+    "id": "313:7060",
+    "maxDimension": 1440,
+    "width": 1440,
+    "height": 900,
+    "format": "png",
+    "original_width": 1440,
+    "original_height": 900,
+    "path": "C:/Users/User/Documents/ChatGPT/Figma portaria/.design/nov15-previews/demo-operador-D.png"
+  },
+  {
+    "name": "demo-direcao-D",
+    "id": "313:7115",
+    "maxDimension": 1440,
+    "width": 1440,
+    "height": 900,
+    "format": "png",
+    "original_width": 1440,
+    "original_height": 900,
+    "path": "C:/Users/User/Documents/ChatGPT/Figma portaria/.design/nov15-previews/demo-direcao-D.png"
+  },
+  {
+    "name": "filled-externo-D",
+    "id": "229:4047",
+    "maxDimension": 1440,
+    "width": 1440,
+    "height": 900,
+    "format": "png",
+    "original_width": 1440,
+    "original_height": 900,
+    "path": "C:/Users/User/Documents/ChatGPT/Figma portaria/.design/nov15-previews/filled-externo-D.png"
+  },
+  {
+    "name": "filled-servidor-D",
+    "id": "260:1790",
+    "maxDimension": 1440,
+    "width": 1440,
+    "height": 900,
+    "format": "png",
+    "original_width": 1440,
+    "original_height": 900,
+    "path": "C:/Users/User/Documents/ChatGPT/Figma portaria/.design/nov15-previews/filled-servidor-D.png"
+  },
+  {
+    "name": "filled-operador-D",
+    "id": "5:30",
+    "maxDimension": 1440,
+    "width": 1440,
+    "height": 900,
+    "format": "png",
+    "original_width": 1440,
+    "original_height": 900,
+    "path": "C:/Users/User/Documents/ChatGPT/Figma portaria/.design/nov15-previews/filled-operador-D.png"
+  },
+  {
+    "name": "filled-direcao-D",
+    "id": "260:2260",
+    "maxDimension": 1440,
+    "width": 1440,
+    "height": 900,
+    "format": "png",
+    "original_width": 1440,
+    "original_height": 900,
+    "path": "C:/Users/User/Documents/ChatGPT/Figma portaria/.design/nov15-previews/filled-direcao-D.png"
+  },
+  {
+    "name": "home-D",
+    "id": "6:49",
+    "maxDimension": 1440,
+    "width": 1440,
+    "height": 1000,
+    "format": "png",
+    "original_width": 1440,
+    "original_height": 1000,
+    "path": "C:/Users/User/Documents/ChatGPT/Figma portaria/.design/nov15-previews/home-D.png"
+  },
+  {
+    "name": "stats-D",
+    "id": "282:1848",
+    "maxDimension": 1440,
+    "width": 1440,
+    "height": 1000,
+    "format": "png",
+    "original_width": 1440,
+    "original_height": 1000,
+    "path": "C:/Users/User/Documents/ChatGPT/Figma portaria/.design/nov15-previews/stats-D.png"
+  },
+  {
+    "name": "flow-D",
+    "id": "318:5744",
+    "maxDimension": 1440,
+    "width": 1440,
+    "height": 1000,
+    "format": "png",
+    "original_width": 1440,
+    "original_height": 1000,
+    "path": "C:/Users/User/Documents/ChatGPT/Figma portaria/.design/nov15-previews/flow-D.png"
+  },
+  {
+    "name": "people-D",
+    "id": "318:5826",
+    "maxDimension": 1440,
+    "width": 1440,
+    "height": 1000,
+    "format": "png",
+    "original_width": 1440,
+    "original_height": 1000,
+    "path": "C:/Users/User/Documents/ChatGPT/Figma portaria/.design/nov15-previews/people-D.png"
+  },
+  {
+    "name": "quality-D",
+    "id": "318:5908",
+    "maxDimension": 1440,
+    "width": 1440,
+    "height": 1000,
+    "format": "png",
+    "original_width": 1440,
+    "original_height": 1000,
+    "path": "C:/Users/User/Documents/ChatGPT/Figma portaria/.design/nov15-previews/quality-D.png"
+  },
+  {
+    "name": "filters-D",
+    "id": "318:6072",
+    "maxDimension": 1440,
+    "width": 1440,
+    "height": 1000,
+    "format": "png",
+    "original_width": 1440,
+    "original_height": 1000,
+    "path": "C:/Users/User/Documents/ChatGPT/Figma portaria/.design/nov15-previews/filters-D.png"
+  },
+  {
+    "name": "filtered-week-D",
+    "id": "318:6974",
+    "maxDimension": 1440,
+    "width": 1440,
+    "height": 1000,
+    "format": "png",
+    "original_width": 1440,
+    "original_height": 1000,
+    "path": "C:/Users/User/Documents/ChatGPT/Figma portaria/.design/nov15-previews/filtered-week-D.png"
+  },
+  {
+    "name": "filtered-depe-D",
+    "id": "318:7056",
+    "maxDimension": 1440,
+    "width": 1440,
+    "height": 1000,
+    "format": "png",
+    "original_width": 1440,
+    "original_height": 1000,
+    "path": "C:/Users/User/Documents/ChatGPT/Figma portaria/.design/nov15-previews/filtered-depe-D.png"
+  },
+  {
+    "name": "filtered-server-D",
+    "id": "318:7220",
+    "maxDimension": 1440,
+    "width": 1440,
+    "height": 1000,
+    "format": "png",
+    "original_width": 1440,
+    "original_height": 1000,
+    "path": "C:/Users/User/Documents/ChatGPT/Figma portaria/.design/nov15-previews/filtered-server-D.png"
+  },
+  {
+    "name": "filtered-type-D",
+    "id": "318:7302",
+    "maxDimension": 1440,
+    "width": 1440,
+    "height": 1000,
+    "format": "png",
+    "original_width": 1440,
+    "original_height": 1000,
+    "path": "C:/Users/User/Documents/ChatGPT/Figma portaria/.design/nov15-previews/filtered-type-D.png"
+  },
+  {
+    "name": "filtered-state-D",
+    "id": "318:7384",
+    "maxDimension": 1440,
+    "width": 1440,
+    "height": 1000,
+    "format": "png",
+    "original_width": 1440,
+    "original_height": 1000,
+    "path": "C:/Users/User/Documents/ChatGPT/Figma portaria/.design/nov15-previews/filtered-state-D.png"
+  },
+  {
+    "name": "filtered-combined-D",
+    "id": "318:7466",
+    "maxDimension": 1440,
+    "width": 1440,
+    "height": 1000,
+    "format": "png",
+    "original_width": 1440,
+    "original_height": 1000,
+    "path": "C:/Users/User/Documents/ChatGPT/Figma portaria/.design/nov15-previews/filtered-combined-D.png"
+  },
+  {
+    "name": "filtered-empty-D",
+    "id": "318:7548",
+    "maxDimension": 1440,
+    "width": 1440,
+    "height": 1000,
+    "format": "png",
+    "original_width": 1440,
+    "original_height": 1000,
+    "path": "C:/Users/User/Documents/ChatGPT/Figma portaria/.design/nov15-previews/filtered-empty-D.png"
+  },
+  {
+    "name": "notifications-D",
+    "id": "7:10597",
+    "maxDimension": 1440,
+    "width": 1440,
+    "height": 1000,
+    "format": "png",
+    "original_width": 1440,
+    "original_height": 1000,
+    "path": "C:/Users/User/Documents/ChatGPT/Figma portaria/.design/nov15-previews/notifications-D.png"
+  },
+  {
+    "name": "all-notifications-D",
+    "id": "318:6564",
+    "maxDimension": 1440,
+    "width": 1440,
+    "height": 1000,
+    "format": "png",
+    "original_width": 1440,
+    "original_height": 1000,
+    "path": "C:/Users/User/Documents/ChatGPT/Figma portaria/.design/nov15-previews/all-notifications-D.png"
+  },
+  {
+    "name": "read-D",
+    "id": "318:6482",
+    "maxDimension": 1440,
+    "width": 1440,
+    "height": 1000,
+    "format": "png",
+    "original_width": 1440,
+    "original_height": 1000,
+    "path": "C:/Users/User/Documents/ChatGPT/Figma portaria/.design/nov15-previews/read-D.png"
+  },
+  {
+    "name": "detail-D",
+    "id": "318:6646",
+    "maxDimension": 1440,
+    "width": 1440,
+    "height": 1000,
+    "format": "png",
+    "original_width": 1440,
+    "original_height": 1000,
+    "path": "C:/Users/User/Documents/ChatGPT/Figma portaria/.design/nov15-previews/detail-D.png"
+  },
+  {
+    "name": "reports-W-D",
+    "id": "7:6744",
+    "maxDimension": 1440,
+    "width": 1440,
+    "height": 1000,
+    "format": "png",
+    "original_width": 1440,
+    "original_height": 1000,
+    "path": "C:/Users/User/Documents/ChatGPT/Figma portaria/.design/nov15-previews/reports-W-D.png"
+  },
+  {
+    "name": "reports-M-D",
+    "id": "318:6728",
+    "maxDimension": 1440,
+    "width": 1440,
+    "height": 1000,
+    "format": "png",
+    "original_width": 1440,
+    "original_height": 1000,
+    "path": "C:/Users/User/Documents/ChatGPT/Figma portaria/.design/nov15-previews/reports-M-D.png"
+  },
+  {
+    "name": "reports-C-D",
+    "id": "318:6810",
+    "maxDimension": 1440,
+    "width": 1440,
+    "height": 1000,
+    "format": "png",
+    "original_width": 1440,
+    "original_height": 1000,
+    "path": "C:/Users/User/Documents/ChatGPT/Figma portaria/.design/nov15-previews/reports-C-D.png"
+  },
+  {
+    "name": "pdf-W-1-D",
+    "id": "318:7712",
+    "maxDimension": 1440,
+    "width": 1440,
+    "height": 1000,
+    "format": "png",
+    "original_width": 1440,
+    "original_height": 1000,
+    "path": "C:/Users/User/Documents/ChatGPT/Figma portaria/.design/nov15-previews/pdf-W-1-D.png"
+  },
+  {
+    "name": "pdf-info-D",
+    "id": "318:6892",
+    "maxDimension": 1440,
+    "width": 1440,
+    "height": 1000,
+    "format": "png",
+    "original_width": 1440,
+    "original_height": 1000,
+    "path": "C:/Users/User/Documents/ChatGPT/Figma portaria/.design/nov15-previews/pdf-info-D.png"
+  },
+  {
+    "name": "home-direcao-D",
+    "id": "6:390",
+    "maxDimension": 1440,
+    "width": 1440,
+    "height": 1000,
+    "format": "png",
+    "original_width": 1440,
+    "original_height": 1000,
+    "path": "C:/Users/User/Documents/ChatGPT/Figma portaria/.design/nov15-previews/home-direcao-D.png"
+  },
+  {
+    "name": "stats-direcao-D",
+    "id": "320:7142",
+    "maxDimension": 1440,
+    "width": 1440,
+    "height": 1000,
+    "format": "png",
+    "original_width": 1440,
+    "original_height": 1000,
+    "path": "C:/Users/User/Documents/ChatGPT/Figma portaria/.design/nov15-previews/stats-direcao-D.png"
+  },
+  {
+    "name": "home-servidor-D",
+    "id": "6:178",
+    "maxDimension": 1440,
+    "width": 1440,
+    "height": 1000,
+    "format": "png",
+    "original_width": 1440,
+    "original_height": 1000,
+    "path": "C:/Users/User/Documents/ChatGPT/Figma portaria/.design/nov15-previews/home-servidor-D.png"
+  },
+  {
+    "name": "notificacoes-servidor-D",
+    "id": "320:16992",
+    "maxDimension": 1440,
+    "width": 1440,
+    "height": 1000,
+    "format": "png",
+    "original_width": 1440,
+    "original_height": 1000,
+    "path": "C:/Users/User/Documents/ChatGPT/Figma portaria/.design/nov15-previews/notificacoes-servidor-D.png"
+  },
+  {
+    "name": "acompanhamento-servidor-D",
+    "id": "320:17210",
+    "maxDimension": 1440,
+    "width": 1440,
+    "height": 1000,
+    "format": "png",
+    "original_width": 1440,
+    "original_height": 1000,
+    "path": "C:/Users/User/Documents/ChatGPT/Figma portaria/.design/nov15-previews/acompanhamento-servidor-D.png"
+  },
+  {
+    "name": "notificacoes-externo-D",
+    "id": "320:17790",
+    "maxDimension": 1440,
+    "width": 1440,
+    "height": 1000,
+    "format": "png",
+    "original_width": 1440,
+    "original_height": 1000,
+    "path": "C:/Users/User/Documents/ChatGPT/Figma portaria/.design/nov15-previews/notificacoes-externo-D.png"
+  },
+  {
+    "name": "home-externo-D",
+    "id": "229:4207",
+    "maxDimension": 1440,
+    "width": 1440,
+    "height": 1000,
+    "format": "png",
+    "original_width": 1440,
+    "original_height": 1000,
+    "path": "C:/Users/User/Documents/ChatGPT/Figma portaria/.design/nov15-previews/home-externo-D.png"
+  },
+  {
+    "name": "editor-04-text-D",
+    "id": "7:466",
+    "maxDimension": 1440,
+    "width": 1440,
+    "height": 1000,
+    "format": "png",
+    "original_width": 1440,
+    "original_height": 1000,
+    "path": "C:/Users/User/Documents/ChatGPT/Figma portaria/.design/nov15-previews/editor-04-text-D.png"
+  },
+  {
+    "name": "editor-04-parts-D",
+    "id": "7:738",
+    "maxDimension": 1440,
+    "width": 1440,
+    "height": 1000,
+    "format": "png",
+    "original_width": 1440,
+    "original_height": 1000,
+    "path": "C:/Users/User/Documents/ChatGPT/Figma portaria/.design/nov15-previews/editor-04-parts-D.png"
+  },
+  {
+    "name": "editor-04-preview-D",
+    "id": "314:10817",
+    "maxDimension": 1440,
+    "width": 1440,
+    "height": 1000,
+    "format": "png",
+    "original_width": 1440,
+    "original_height": 1000,
+    "path": "C:/Users/User/Documents/ChatGPT/Figma portaria/.design/nov15-previews/editor-04-preview-D.png"
+  },
+  {
+    "name": "editor-05-text-D",
+    "id": "314:10663",
+    "maxDimension": 1440,
+    "width": 1440,
+    "height": 1000,
+    "format": "png",
+    "original_width": 1440,
+    "original_height": 1000,
+    "path": "C:/Users/User/Documents/ChatGPT/Figma portaria/.design/nov15-previews/editor-05-text-D.png"
+  },
+  {
+    "name": "editor-05-parts-D",
+    "id": "12:1089",
+    "maxDimension": 1440,
+    "width": 1440,
+    "height": 1000,
+    "format": "png",
+    "original_width": 1440,
+    "original_height": 1000,
+    "path": "C:/Users/User/Documents/ChatGPT/Figma portaria/.design/nov15-previews/editor-05-parts-D.png"
+  },
+  {
+    "name": "editor-05-preview-D",
+    "id": "314:10971",
+    "maxDimension": 1440,
+    "width": 1440,
+    "height": 1000,
+    "format": "png",
+    "original_width": 1440,
+    "original_height": 1000,
+    "path": "C:/Users/User/Documents/ChatGPT/Figma portaria/.design/nov15-previews/editor-05-preview-D.png"
+  },
+  {
+    "name": "login-M",
+    "id": "8:1663",
+    "maxDimension": 1200,
+    "width": 390,
+    "height": 844,
+    "format": "png",
+    "original_width": 390,
+    "original_height": 844,
+    "path": "C:/Users/User/Documents/ChatGPT/Figma portaria/.design/nov15-previews/login-M.png"
+  },
+  {
+    "name": "demo-externo-M",
+    "id": "313:12662",
+    "maxDimension": 1200,
+    "width": 390,
+    "height": 844,
+    "format": "png",
+    "original_width": 390,
+    "original_height": 844,
+    "path": "C:/Users/User/Documents/ChatGPT/Figma portaria/.design/nov15-previews/demo-externo-M.png"
+  },
+  {
+    "name": "demo-servidor-M",
+    "id": "313:12712",
+    "maxDimension": 1200,
+    "width": 390,
+    "height": 844,
+    "format": "png",
+    "original_width": 390,
+    "original_height": 844,
+    "path": "C:/Users/User/Documents/ChatGPT/Figma portaria/.design/nov15-previews/demo-servidor-M.png"
+  },
+  {
+    "name": "demo-operador-M",
+    "id": "313:12762",
+    "maxDimension": 1200,
+    "width": 390,
+    "height": 844,
+    "format": "png",
+    "original_width": 390,
+    "original_height": 844,
+    "path": "C:/Users/User/Documents/ChatGPT/Figma portaria/.design/nov15-previews/demo-operador-M.png"
+  },
+  {
+    "name": "demo-direcao-M",
+    "id": "313:12812",
+    "maxDimension": 1200,
+    "width": 390,
+    "height": 844,
+    "format": "png",
+    "original_width": 390,
+    "original_height": 844,
+    "path": "C:/Users/User/Documents/ChatGPT/Figma portaria/.design/nov15-previews/demo-direcao-M.png"
+  },
+  {
+    "name": "filled-externo-M",
+    "id": "229:4653",
+    "maxDimension": 1200,
+    "width": 390,
+    "height": 844,
+    "format": "png",
+    "original_width": 390,
+    "original_height": 844,
+    "path": "C:/Users/User/Documents/ChatGPT/Figma portaria/.design/nov15-previews/filled-externo-M.png"
+  },
+  {
+    "name": "filled-servidor-M",
+    "id": "260:4628",
+    "maxDimension": 1200,
+    "width": 390,
+    "height": 844,
+    "format": "png",
+    "original_width": 390,
+    "original_height": 844,
+    "path": "C:/Users/User/Documents/ChatGPT/Figma portaria/.design/nov15-previews/filled-servidor-M.png"
+  },
+  {
+    "name": "filled-operador-M",
+    "id": "8:1691",
+    "maxDimension": 1200,
+    "width": 390,
+    "height": 844,
+    "format": "png",
+    "original_width": 390,
+    "original_height": 844,
+    "path": "C:/Users/User/Documents/ChatGPT/Figma portaria/.design/nov15-previews/filled-operador-M.png"
+  },
+  {
+    "name": "filled-direcao-M",
+    "id": "260:5068",
+    "maxDimension": 1200,
+    "width": 390,
+    "height": 844,
+    "format": "png",
+    "original_width": 390,
+    "original_height": 844,
+    "path": "C:/Users/User/Documents/ChatGPT/Figma portaria/.design/nov15-previews/filled-direcao-M.png"
+  },
+  {
+    "name": "home-M",
+    "id": "8:1874",
+    "maxDimension": 1200,
+    "width": 390,
+    "height": 844,
+    "format": "png",
+    "original_width": 390,
+    "original_height": 844,
+    "path": "C:/Users/User/Documents/ChatGPT/Figma portaria/.design/nov15-previews/home-M.png"
+  },
+  {
+    "name": "stats-M",
+    "id": "282:10481",
+    "maxDimension": 1200,
+    "width": 390,
+    "height": 844,
+    "format": "png",
+    "original_width": 390,
+    "original_height": 844,
+    "path": "C:/Users/User/Documents/ChatGPT/Figma portaria/.design/nov15-previews/stats-M.png"
+  },
+  {
+    "name": "flow-M",
+    "id": "319:4985",
+    "maxDimension": 1200,
+    "width": 390,
+    "height": 844,
+    "format": "png",
+    "original_width": 390,
+    "original_height": 844,
+    "path": "C:/Users/User/Documents/ChatGPT/Figma portaria/.design/nov15-previews/flow-M.png"
+  },
+  {
+    "name": "people-M",
+    "id": "319:5002",
+    "maxDimension": 1200,
+    "width": 390,
+    "height": 844,
+    "format": "png",
+    "original_width": 390,
+    "original_height": 844,
+    "path": "C:/Users/User/Documents/ChatGPT/Figma portaria/.design/nov15-previews/people-M.png"
+  },
+  {
+    "name": "quality-M",
+    "id": "319:5019",
+    "maxDimension": 1200,
+    "width": 390,
+    "height": 844,
+    "format": "png",
+    "original_width": 390,
+    "original_height": 844,
+    "path": "C:/Users/User/Documents/ChatGPT/Figma portaria/.design/nov15-previews/quality-M.png"
+  },
+  {
+    "name": "filters-M",
+    "id": "319:5053",
+    "maxDimension": 1200,
+    "width": 390,
+    "height": 844,
+    "format": "png",
+    "original_width": 390,
+    "original_height": 844,
+    "path": "C:/Users/User/Documents/ChatGPT/Figma portaria/.design/nov15-previews/filters-M.png"
+  },
+  {
+    "name": "filtered-week-M",
+    "id": "319:5240",
+    "maxDimension": 1200,
+    "width": 390,
+    "height": 844,
+    "format": "png",
+    "original_width": 390,
+    "original_height": 844,
+    "path": "C:/Users/User/Documents/ChatGPT/Figma portaria/.design/nov15-previews/filtered-week-M.png"
+  },
+  {
+    "name": "filtered-depe-M",
+    "id": "319:5257",
+    "maxDimension": 1200,
+    "width": 390,
+    "height": 844,
+    "format": "png",
+    "original_width": 390,
+    "original_height": 844,
+    "path": "C:/Users/User/Documents/ChatGPT/Figma portaria/.design/nov15-previews/filtered-depe-M.png"
+  },
+  {
+    "name": "filtered-server-M",
+    "id": "319:5291",
+    "maxDimension": 1200,
+    "width": 390,
+    "height": 844,
+    "format": "png",
+    "original_width": 390,
+    "original_height": 844,
+    "path": "C:/Users/User/Documents/ChatGPT/Figma portaria/.design/nov15-previews/filtered-server-M.png"
+  },
+  {
+    "name": "filtered-type-M",
+    "id": "319:5308",
+    "maxDimension": 1200,
+    "width": 390,
+    "height": 844,
+    "format": "png",
+    "original_width": 390,
+    "original_height": 844,
+    "path": "C:/Users/User/Documents/ChatGPT/Figma portaria/.design/nov15-previews/filtered-type-M.png"
+  },
+  {
+    "name": "filtered-state-M",
+    "id": "319:5325",
+    "maxDimension": 1200,
+    "width": 390,
+    "height": 844,
+    "format": "png",
+    "original_width": 390,
+    "original_height": 844,
+    "path": "C:/Users/User/Documents/ChatGPT/Figma portaria/.design/nov15-previews/filtered-state-M.png"
+  },
+  {
+    "name": "filtered-combined-M",
+    "id": "319:5342",
+    "maxDimension": 1200,
+    "width": 390,
+    "height": 844,
+    "format": "png",
+    "original_width": 390,
+    "original_height": 844,
+    "path": "C:/Users/User/Documents/ChatGPT/Figma portaria/.design/nov15-previews/filtered-combined-M.png"
+  },
+  {
+    "name": "filtered-empty-M",
+    "id": "319:5359",
+    "maxDimension": 1200,
+    "width": 390,
+    "height": 844,
+    "format": "png",
+    "original_width": 390,
+    "original_height": 844,
+    "path": "C:/Users/User/Documents/ChatGPT/Figma portaria/.design/nov15-previews/filtered-empty-M.png"
+  },
+  {
+    "name": "notifications-M",
+    "id": "11:2443",
+    "maxDimension": 1200,
+    "width": 390,
+    "height": 844,
+    "format": "png",
+    "original_width": 390,
+    "original_height": 844,
+    "path": "C:/Users/User/Documents/ChatGPT/Figma portaria/.design/nov15-previews/notifications-M.png"
+  },
+  {
+    "name": "all-notifications-M",
+    "id": "319:5155",
+    "maxDimension": 1200,
+    "width": 390,
+    "height": 844,
+    "format": "png",
+    "original_width": 390,
+    "original_height": 844,
+    "path": "C:/Users/User/Documents/ChatGPT/Figma portaria/.design/nov15-previews/all-notifications-M.png"
+  },
+  {
+    "name": "read-M",
+    "id": "319:5138",
+    "maxDimension": 1200,
+    "width": 390,
+    "height": 844,
+    "format": "png",
+    "original_width": 390,
+    "original_height": 844,
+    "path": "C:/Users/User/Documents/ChatGPT/Figma portaria/.design/nov15-previews/read-M.png"
+  },
+  {
+    "name": "detail-M",
+    "id": "319:5172",
+    "maxDimension": 1200,
+    "width": 390,
+    "height": 844,
+    "format": "png",
+    "original_width": 390,
+    "original_height": 844,
+    "path": "C:/Users/User/Documents/ChatGPT/Figma portaria/.design/nov15-previews/detail-M.png"
+  },
+  {
+    "name": "reports-W-M",
+    "id": "10:2795",
+    "maxDimension": 1200,
+    "width": 390,
+    "height": 844,
+    "format": "png",
+    "original_width": 390,
+    "original_height": 844,
+    "path": "C:/Users/User/Documents/ChatGPT/Figma portaria/.design/nov15-previews/reports-W-M.png"
+  },
+  {
+    "name": "reports-M-M",
+    "id": "319:5189",
+    "maxDimension": 1200,
+    "error": "Error: {\"content\":[{\"type\":\"text\",\"text\":\"You've reached the Figma MCP tool call limit on the Education plan. Upgrade your plan for more tool calls: https://www.figma.com/files/team/1638203143196042985/all-projects?upgrade=mcp_rate_limit_paywall Use the whoami tool for more plan details. Learn more: https://developers.figma.com/docs/figma-mcp-server/rate-limits-access/\"}],\"structuredContent\":{\"error_code\":\"INVALID_ARGUMENT\"},\"isError\":true}"
+  },
+  {
+    "name": "reports-C-M",
+    "id": "319:5206",
+    "maxDimension": 1200,
+    "width": 390,
+    "height": 844,
+    "format": "png",
+    "original_width": 390,
+    "original_height": 844,
+    "path": "C:/Users/User/Documents/ChatGPT/Figma portaria/.design/nov15-previews/reports-C-M.png"
+  },
+  {
+    "name": "pdf-W-1-M",
+    "id": "319:5393",
+    "maxDimension": 1200,
+    "error": "Error: {\"content\":[{\"type\":\"text\",\"text\":\"You've reached the Figma MCP tool call limit on the Education plan. Upgrade your plan for more tool calls: https://www.figma.com/files/team/1638203143196042985/all-projects?upgrade=mcp_rate_limit_paywall Use the whoami tool for more plan details. Learn more: https://developers.figma.com/docs/figma-mcp-server/rate-limits-access/\"}],\"structuredContent\":{\"error_code\":\"INVALID_ARGUMENT\"},\"isError\":true}"
+  },
+  {
+    "name": "pdf-info-M",
+    "id": "319:5223",
+    "maxDimension": 1200,
+    "width": 390,
+    "height": 844,
+    "format": "png",
+    "original_width": 390,
+    "original_height": 844,
+    "path": "C:/Users/User/Documents/ChatGPT/Figma portaria/.design/nov15-previews/pdf-info-M.png"
+  },
+  {
+    "name": "home-direcao-M",
+    "id": "8:2014",
+    "maxDimension": 1200,
+    "width": 390,
+    "height": 844,
+    "format": "png",
+    "original_width": 390,
+    "original_height": 844,
+    "path": "C:/Users/User/Documents/ChatGPT/Figma portaria/.design/nov15-previews/home-direcao-M.png"
+  },
+  {
+    "name": "stats-direcao-M",
+    "id": "320:24064",
+    "maxDimension": 1200,
+    "error": "Error: {\"content\":[{\"type\":\"text\",\"text\":\"You've reached the Figma MCP tool call limit on the Education plan. Upgrade your plan for more tool calls: https://www.figma.com/files/team/1638203143196042985/all-projects?upgrade=mcp_rate_limit_paywall Use the whoami tool for more plan details. Learn more: https://developers.figma.com/docs/figma-mcp-server/rate-limits-access/\"}],\"structuredContent\":{\"error_code\":\"INVALID_ARGUMENT\"},\"isError\":true}"
+  },
+  {
+    "name": "home-servidor-M",
+    "id": "8:1932",
+    "maxDimension": 1200,
+    "error": "Error: {\"content\":[{\"type\":\"text\",\"text\":\"You've reached the Figma MCP tool call limit on the Education plan. Upgrade your plan for more tool calls: https://www.figma.com/files/team/1638203143196042985/all-projects?upgrade=mcp_rate_limit_paywall Use the whoami tool for more plan details. Learn more: https://developers.figma.com/docs/figma-mcp-server/rate-limits-access/\"}],\"structuredContent\":{\"error_code\":\"INVALID_ARGUMENT\"},\"isError\":true}"
+  },
+  {
+    "name": "notificacoes-servidor-M",
+    "id": "320:28722",
+    "maxDimension": 1200,
+    "error": "Error: {\"content\":[{\"type\":\"text\",\"text\":\"You've reached the Figma MCP tool call limit on the Education plan. Upgrade your plan for more tool calls: https://www.figma.com/files/team/1638203143196042985/all-projects?upgrade=mcp_rate_limit_paywall Use the whoami tool for more plan details. Learn more: https://developers.figma.com/docs/figma-mcp-server/rate-limits-access/\"}],\"structuredContent\":{\"error_code\":\"INVALID_ARGUMENT\"},\"isError\":true}"
+  },
+  {
+    "name": "acompanhamento-servidor-M",
+    "id": "320:28834",
+    "maxDimension": 1200,
+    "error": "Error: {\"content\":[{\"type\":\"text\",\"text\":\"You've reached the Figma MCP tool call limit on the Education plan. Upgrade your plan for more tool calls: https://www.figma.com/files/team/1638203143196042985/all-projects?upgrade=mcp_rate_limit_paywall Use the whoami tool for more plan details. Learn more: https://developers.figma.com/docs/figma-mcp-server/rate-limits-access/\"}],\"structuredContent\":{\"error_code\":\"INVALID_ARGUMENT\"},\"isError\":true}"
+  },
+  {
+    "name": "notificacoes-externo-M",
+    "id": "320:29123",
+    "maxDimension": 1200,
+    "error": "Error: {\"content\":[{\"type\":\"text\",\"text\":\"You've reached the Figma MCP tool call limit on the Education plan. Upgrade your plan for more tool calls: https://www.figma.com/files/team/1638203143196042985/all-projects?upgrade=mcp_rate_limit_paywall Use the whoami tool for more plan details. Learn more: https://developers.figma.com/docs/figma-mcp-server/rate-limits-access/\"}],\"structuredContent\":{\"error_code\":\"INVALID_ARGUMENT\"},\"isError\":true}"
+  },
+  {
+    "name": "home-externo-M",
+    "id": "229:4803",
+    "maxDimension": 1200,
+    "width": 390,
+    "height": 844,
+    "format": "png",
+    "original_width": 390,
+    "original_height": 844,
+    "path": "C:/Users/User/Documents/ChatGPT/Figma portaria/.design/nov15-previews/home-externo-M.png"
+  },
+  {
+    "name": "editor-04-text-M",
+    "id": "9:2141",
+    "maxDimension": 1200,
+    "error": "Error: {\"content\":[{\"type\":\"text\",\"text\":\"You've reached the Figma MCP tool call limit on the Education plan. Upgrade your plan for more tool calls: https://www.figma.com/files/team/1638203143196042985/all-projects?upgrade=mcp_rate_limit_paywall Use the whoami tool for more plan details. Learn more: https://developers.figma.com/docs/figma-mcp-server/rate-limits-access/\"}],\"structuredContent\":{\"error_code\":\"INVALID_ARGUMENT\"},\"isError\":true}"
+  },
+  {
+    "name": "editor-04-parts-M",
+    "id": "9:2289",
+    "maxDimension": 1200,
+    "error": "Error: {\"content\":[{\"type\":\"text\",\"text\":\"You've reached the Figma MCP tool call limit on the Education plan. Upgrade your plan for more tool calls: https://www.figma.com/files/team/1638203143196042985/all-projects?upgrade=mcp_rate_limit_paywall Use the whoami tool for more plan details. Learn more: https://developers.figma.com/docs/figma-mcp-server/rate-limits-access/\"}],\"structuredContent\":{\"error_code\":\"INVALID_ARGUMENT\"},\"isError\":true}"
+  },
+  {
+    "name": "editor-04-preview-M",
+    "id": "314:11512",
+    "maxDimension": 1200,
+    "error": "Error: {\"content\":[{\"type\":\"text\",\"text\":\"You've reached the Figma MCP tool call limit on the Education plan. Upgrade your plan for more tool calls: https://www.figma.com/files/team/1638203143196042985/all-projects?upgrade=mcp_rate_limit_paywall Use the whoami tool for more plan details. Learn more: https://developers.figma.com/docs/figma-mcp-server/rate-limits-access/\"}],\"structuredContent\":{\"error_code\":\"INVALID_ARGUMENT\"},\"isError\":true}"
+  },
+  {
+    "name": "editor-05-text-M",
+    "id": "314:11435",
+    "maxDimension": 1200,
+    "width": 390,
+    "height": 844,
+    "format": "png",
+    "original_width": 390,
+    "original_height": 844,
+    "path": "C:/Users/User/Documents/ChatGPT/Figma portaria/.design/nov15-previews/editor-05-text-M.png"
+  },
+  {
+    "name": "editor-05-parts-M",
+    "id": "11:3361",
+    "maxDimension": 1200,
+    "error": "Error: {\"content\":[{\"type\":\"text\",\"text\":\"You've reached the Figma MCP tool call limit on the Education plan. Upgrade your plan for more tool calls: https://www.figma.com/files/team/1638203143196042985/all-projects?upgrade=mcp_rate_limit_paywall Use the whoami tool for more plan details. Learn more: https://developers.figma.com/docs/figma-mcp-server/rate-limits-access/\"}],\"structuredContent\":{\"error_code\":\"INVALID_ARGUMENT\"},\"isError\":true}"
+  },
+  {
+    "name": "editor-05-preview-M",
+    "id": "314:11589",
+    "maxDimension": 1200,
+    "error": "Error: {\"content\":[{\"type\":\"text\",\"text\":\"You've reached the Figma MCP tool call limit on the Education plan. Upgrade your plan for more tool calls: https://www.figma.com/files/team/1638203143196042985/all-projects?upgrade=mcp_rate_limit_paywall Use the whoami tool for more plan details. Learn more: https://developers.figma.com/docs/figma-mcp-server/rate-limits-access/\"}],\"structuredContent\":{\"error_code\":\"INVALID_ARGUMENT\"},\"isError\":true}"
+  },
+  {
+    "name": "pdf-W-1",
+    "id": "316:2",
+    "maxDimension": 1500,
+    "error": "Error: {\"content\":[{\"type\":\"text\",\"text\":\"You've reached the Figma MCP tool call limit on the Education plan. Upgrade your plan for more tool calls: https://www.figma.com/files/team/1638203143196042985/all-projects?upgrade=mcp_rate_limit_paywall Use the whoami tool for more plan details. Learn more: https://developers.figma.com/docs/figma-mcp-server/rate-limits-access/\"}],\"structuredContent\":{\"error_code\":\"INVALID_ARGUMENT\"},\"isError\":true}"
+  },
+  {
+    "name": "pdf-W-2",
+    "id": "316:41",
+    "maxDimension": 1500,
+    "error": "Error: {\"content\":[{\"type\":\"text\",\"text\":\"You've reached the Figma MCP tool call limit on the Education plan. Upgrade your plan for more tool calls: https://www.figma.com/files/team/1638203143196042985/all-projects?upgrade=mcp_rate_limit_paywall Use the whoami tool for more plan details. Learn more: https://developers.figma.com/docs/figma-mcp-server/rate-limits-access/\"}],\"structuredContent\":{\"error_code\":\"INVALID_ARGUMENT\"},\"isError\":true}"
+  },
+  {
+    "name": "pdf-W-3",
+    "id": "316:100",
+    "maxDimension": 1500,
+    "width": 794,
+    "height": 1123,
+    "format": "png",
+    "original_width": 794,
+    "original_height": 1123,
+    "path": "C:/Users/User/Documents/ChatGPT/Figma portaria/.design/nov15-previews/pdf-W-3.png"
+  },
+  {
+    "name": "pdf-W-4",
+    "id": "316:160",
+    "maxDimension": 1500,
+    "error": "Error: {\"content\":[{\"type\":\"text\",\"text\":\"You've reached the Figma MCP tool call limit on the Education plan. Upgrade your plan for more tool calls: https://www.figma.com/files/team/1638203143196042985/all-projects?upgrade=mcp_rate_limit_paywall Use the whoami tool for more plan details. Learn more: https://developers.figma.com/docs/figma-mcp-server/rate-limits-access/\"}],\"structuredContent\":{\"error_code\":\"INVALID_ARGUMENT\"},\"isError\":true}"
+  },
+  {
+    "name": "pdf-W-5",
+    "id": "316:217",
+    "maxDimension": 1500,
+    "width": 794,
+    "height": 1123,
+    "format": "png",
+    "original_width": 794,
+    "original_height": 1123,
+    "path": "C:/Users/User/Documents/ChatGPT/Figma portaria/.design/nov15-previews/pdf-W-5.png"
+  },
+  {
+    "name": "pdf-M-1",
+    "id": "316:282",
+    "maxDimension": 1500,
+    "error": "Error: {\"content\":[{\"type\":\"text\",\"text\":\"You've reached the Figma MCP tool call limit on the Education plan. Upgrade your plan for more tool calls: https://www.figma.com/files/team/1638203143196042985/all-projects?upgrade=mcp_rate_limit_paywall Use the whoami tool for more plan details. Learn more: https://developers.figma.com/docs/figma-mcp-server/rate-limits-access/\"}],\"structuredContent\":{\"error_code\":\"INVALID_ARGUMENT\"},\"isError\":true}"
+  },
+  {
+    "name": "pdf-M-2",
+    "id": "316:321",
+    "maxDimension": 1500,
+    "error": "Error: {\"content\":[{\"type\":\"text\",\"text\":\"You've reached the Figma MCP tool call limit on the Education plan. Upgrade your plan for more tool calls: https://www.figma.com/files/team/1638203143196042985/all-projects?upgrade=mcp_rate_limit_paywall Use the whoami tool for more plan details. Learn more: https://developers.figma.com/docs/figma-mcp-server/rate-limits-access/\"}],\"structuredContent\":{\"error_code\":\"INVALID_ARGUMENT\"},\"isError\":true}"
+  },
+  {
+    "name": "pdf-M-3",
+    "id": "316:378",
+    "maxDimension": 1500,
+    "error": "Error: {\"content\":[{\"type\":\"text\",\"text\":\"You've reached the Figma MCP tool call limit on the Education plan. Upgrade your plan for more tool calls: https://www.figma.com/files/team/1638203143196042985/all-projects?upgrade=mcp_rate_limit_paywall Use the whoami tool for more plan details. Learn more: https://developers.figma.com/docs/figma-mcp-server/rate-limits-access/\"}],\"structuredContent\":{\"error_code\":\"INVALID_ARGUMENT\"},\"isError\":true}"
+  },
+  {
+    "name": "pdf-M-4",
+    "id": "316:439",
+    "maxDimension": 1500,
+    "error": "Error: {\"content\":[{\"type\":\"text\",\"text\":\"You've reached the Figma MCP tool call limit on the Education plan. Upgrade your plan for more tool calls: https://www.figma.com/files/team/1638203143196042985/all-projects?upgrade=mcp_rate_limit_paywall Use the whoami tool for more plan details. Learn more: https://developers.figma.com/docs/figma-mcp-server/rate-limits-access/\"}],\"structuredContent\":{\"error_code\":\"INVALID_ARGUMENT\"},\"isError\":true}"
+  },
+  {
+    "name": "pdf-M-5",
+    "id": "316:496",
+    "maxDimension": 1500,
+    "width": 794,
+    "height": 1123,
+    "format": "png",
+    "original_width": 794,
+    "original_height": 1123,
+    "path": "C:/Users/User/Documents/ChatGPT/Figma portaria/.design/nov15-previews/pdf-M-5.png"
+  },
+  {
+    "name": "pdf-C-1",
+    "id": "316:561",
+    "maxDimension": 1500,
+    "error": "Error: {\"content\":[{\"type\":\"text\",\"text\":\"You've reached the Figma MCP tool call limit on the Education plan. Upgrade your plan for more tool calls: https://www.figma.com/files/team/1638203143196042985/all-projects?upgrade=mcp_rate_limit_paywall Use the whoami tool for more plan details. Learn more: https://developers.figma.com/docs/figma-mcp-server/rate-limits-access/\"}],\"structuredContent\":{\"error_code\":\"INVALID_ARGUMENT\"},\"isError\":true}"
+  },
+  {
+    "name": "pdf-C-2",
+    "id": "316:600",
+    "maxDimension": 1500,
+    "error": "Error: {\"content\":[{\"type\":\"text\",\"text\":\"You've reached the Figma MCP tool call limit on the Education plan. Upgrade your plan for more tool calls: https://www.figma.com/files/team/1638203143196042985/all-projects?upgrade=mcp_rate_limit_paywall Use the whoami tool for more plan details. Learn more: https://developers.figma.com/docs/figma-mcp-server/rate-limits-access/\"}],\"structuredContent\":{\"error_code\":\"INVALID_ARGUMENT\"},\"isError\":true}"
+  },
+  {
+    "name": "pdf-C-3",
+    "id": "316:657",
+    "maxDimension": 1500,
+    "error": "Error: {\"content\":[{\"type\":\"text\",\"text\":\"You've reached the Figma MCP tool call limit on the Education plan. Upgrade your plan for more tool calls: https://www.figma.com/files/team/1638203143196042985/all-projects?upgrade=mcp_rate_limit_paywall Use the whoami tool for more plan details. Learn more: https://developers.figma.com/docs/figma-mcp-server/rate-limits-access/\"}],\"structuredContent\":{\"error_code\":\"INVALID_ARGUMENT\"},\"isError\":true}"
+  },
+  {
+    "name": "pdf-C-4",
+    "id": "316:718",
+    "maxDimension": 1500,
+    "error": "Error: {\"content\":[{\"type\":\"text\",\"text\":\"You've reached the Figma MCP tool call limit on the Education plan. Upgrade your plan for more tool calls: https://www.figma.com/files/team/1638203143196042985/all-projects?upgrade=mcp_rate_limit_paywall Use the whoami tool for more plan details. Learn more: https://developers.figma.com/docs/figma-mcp-server/rate-limits-access/\"}],\"structuredContent\":{\"error_code\":\"INVALID_ARGUMENT\"},\"isError\":true}"
+  },
+  {
+    "name": "pdf-C-5",
+    "id": "316:775",
+    "maxDimension": 1500,
+    "error": "Error: {\"content\":[{\"type\":\"text\",\"text\":\"You've reached the Figma MCP tool call limit on the Education plan. Upgrade your plan for more tool calls: https://www.figma.com/files/team/1638203143196042985/all-projects?upgrade=mcp_rate_limit_paywall Use the whoami tool for more plan details. Learn more: https://developers.figma.com/docs/figma-mcp-server/rate-limits-access/\"}],\"structuredContent\":{\"error_code\":\"INVALID_ARGUMENT\"},\"isError\":true}"
+  },
+  {
+    "name": "grafico-C01",
+    "id": "315:584",
+    "maxDimension": 1000,
+    "width": 552,
+    "height": 570,
+    "format": "png",
+    "original_width": 552,
+    "original_height": 570,
+    "path": "C:/Users/User/Documents/ChatGPT/Figma portaria/.design/nov15-previews/grafico-C01.png"
+  },
+  {
+    "name": "grafico-C02",
+    "id": "315:644",
+    "maxDimension": 1000,
+    "error": "Error: {\"content\":[{\"type\":\"text\",\"text\":\"You've reached the Figma MCP tool call limit on the Education plan. Upgrade your plan for more tool calls: https://www.figma.com/files/team/1638203143196042985/all-projects?upgrade=mcp_rate_limit_paywall Use the whoami tool for more plan details. Learn more: https://developers.figma.com/docs/figma-mcp-server/rate-limits-access/\"}],\"structuredContent\":{\"error_code\":\"INVALID_ARGUMENT\"},\"isError\":true}"
+  },
+  {
+    "name": "grafico-C03",
+    "id": "315:689",
+    "maxDimension": 1000,
+    "error": "Error: {\"content\":[{\"type\":\"text\",\"text\":\"You've reached the Figma MCP tool call limit on the Education plan. Upgrade your plan for more tool calls: https://www.figma.com/files/team/1638203143196042985/all-projects?upgrade=mcp_rate_limit_paywall Use the whoami tool for more plan details. Learn more: https://developers.figma.com/docs/figma-mcp-server/rate-limits-access/\"}],\"structuredContent\":{\"error_code\":\"INVALID_ARGUMENT\"},\"isError\":true}"
+  },
+  {
+    "name": "grafico-C04",
+    "id": "315:772",
+    "maxDimension": 1000,
+    "width": 552,
+    "height": 462,
+    "format": "png",
+    "original_width": 552,
+    "original_height": 462,
+    "path": "C:/Users/User/Documents/ChatGPT/Figma portaria/.design/nov15-previews/grafico-C04.png"
+  },
+  {
+    "name": "grafico-C05",
+    "id": "315:864",
+    "maxDimension": 1000,
+    "error": "Error: {\"content\":[{\"type\":\"text\",\"text\":\"You've reached the Figma MCP tool call limit on the Education plan. Upgrade your plan for more tool calls: https://www.figma.com/files/team/1638203143196042985/all-projects?upgrade=mcp_rate_limit_paywall Use the whoami tool for more plan details. Learn more: https://developers.figma.com/docs/figma-mcp-server/rate-limits-access/\"}],\"structuredContent\":{\"error_code\":\"INVALID_ARGUMENT\"},\"isError\":true}"
+  },
+  {
+    "name": "grafico-C06",
+    "id": "315:934",
+    "maxDimension": 1000,
+    "width": 552,
+    "height": 505,
+    "format": "png",
+    "original_width": 552,
+    "original_height": 505,
+    "path": "C:/Users/User/Documents/ChatGPT/Figma portaria/.design/nov15-previews/grafico-C06.png"
+  },
+  {
+    "name": "grafico-C07",
+    "id": "315:988",
+    "maxDimension": 1000,
+    "error": "Error: {\"content\":[{\"type\":\"text\",\"text\":\"You've reached the Figma MCP tool call limit on the Education plan. Upgrade your plan for more tool calls: https://www.figma.com/files/team/1638203143196042985/all-projects?upgrade=mcp_rate_limit_paywall Use the whoami tool for more plan details. Learn more: https://developers.figma.com/docs/figma-mcp-server/rate-limits-access/\"}],\"structuredContent\":{\"error_code\":\"INVALID_ARGUMENT\"},\"isError\":true}"
+  },
+  {
+    "name": "grafico-C08",
+    "id": "315:1038",
+    "maxDimension": 1000,
+    "error": "Error: {\"content\":[{\"type\":\"text\",\"text\":\"You've reached the Figma MCP tool call limit on the Education plan. Upgrade your plan for more tool calls: https://www.figma.com/files/team/1638203143196042985/all-projects?upgrade=mcp_rate_limit_paywall Use the whoami tool for more plan details. Learn more: https://developers.figma.com/docs/figma-mcp-server/rate-limits-access/\"}],\"structuredContent\":{\"error_code\":\"INVALID_ARGUMENT\"},\"isError\":true}"
+  },
+  {
+    "name": "grafico-C09",
+    "id": "315:1077",
+    "maxDimension": 1000,
+    "error": "Error: {\"content\":[{\"type\":\"text\",\"text\":\"You've reached the Figma MCP tool call limit on the Education plan. Upgrade your plan for more tool calls: https://www.figma.com/files/team/1638203143196042985/all-projects?upgrade=mcp_rate_limit_paywall Use the whoami tool for more plan details. Learn more: https://developers.figma.com/docs/figma-mcp-server/rate-limits-access/\"}],\"structuredContent\":{\"error_code\":\"INVALID_ARGUMENT\"},\"isError\":true}"
+  },
+  {
+    "name": "grafico-C10",
+    "id": "315:1112",
+    "maxDimension": 1000,
+    "width": 552,
+    "height": 553,
+    "format": "png",
+    "original_width": 552,
+    "original_height": 553,
+    "path": "C:/Users/User/Documents/ChatGPT/Figma portaria/.design/nov15-previews/grafico-C10.png"
+  },
+  {
+    "name": "grafico-C11",
+    "id": "315:1187",
+    "maxDimension": 1000,
+    "error": "Error: {\"content\":[{\"type\":\"text\",\"text\":\"You've reached the Figma MCP tool call limit on the Education plan. Upgrade your plan for more tool calls: https://www.figma.com/files/team/1638203143196042985/all-projects?upgrade=mcp_rate_limit_paywall Use the whoami tool for more plan details. Learn more: https://developers.figma.com/docs/figma-mcp-server/rate-limits-access/\"}],\"structuredContent\":{\"error_code\":\"INVALID_ARGUMENT\"},\"isError\":true}"
+  },
+  {
+    "name": "grafico-C12",
+    "id": "315:1230",
+    "maxDimension": 1000,
+    "error": "Error: {\"content\":[{\"type\":\"text\",\"text\":\"You've reached the Figma MCP tool call limit on the Education plan. Upgrade your plan for more tool calls: https://www.figma.com/files/team/1638203143196042985/all-projects?upgrade=mcp_rate_limit_paywall Use the whoami tool for more plan details. Learn more: https://developers.figma.com/docs/figma-mcp-server/rate-limits-access/\"}],\"structuredContent\":{\"error_code\":\"INVALID_ARGUMENT\"},\"isError\":true}"
+  }
+]

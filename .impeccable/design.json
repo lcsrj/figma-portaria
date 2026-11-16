@@ -1,0 +1,1689 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-15T00:00:00-03:00",
+  "title": "Design System: Gestor de Portarias — IFC Campus Videira",
+  "extensions": {
+    "colorMeta": {
+      "bg": {
+        "role": "neutral",
+        "displayName": "Plano de trabalho",
+        "tonalRamp": [
+          "oklch(15.0% 0.0034 247.9)",
+          "oklch(26.4% 0.0034 247.9)",
+          "oklch(37.9% 0.0034 247.9)",
+          "oklch(49.3% 0.0034 247.9)",
+          "oklch(60.7% 0.0034 247.9)",
+          "oklch(72.1% 0.0034 247.9)",
+          "oklch(83.6% 0.0034 247.9)",
+          "oklch(95.0% 0.0034 247.9)"
+        ]
+      },
+      "surface": {
+        "role": "neutral",
+        "displayName": "Papel",
+        "tonalRamp": [
+          "oklch(15.0% 0.0000 0.0)",
+          "oklch(26.4% 0.0000 0.0)",
+          "oklch(37.9% 0.0000 0.0)",
+          "oklch(49.3% 0.0000 0.0)",
+          "oklch(60.7% 0.0000 0.0)",
+          "oklch(72.1% 0.0000 0.0)",
+          "oklch(83.6% 0.0000 0.0)",
+          "oklch(95.0% 0.0000 0.0)"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Tinta",
+        "tonalRamp": [
+          "oklch(15.0% 0.0279 248.9)",
+          "oklch(26.4% 0.0279 248.9)",
+          "oklch(37.9% 0.0279 248.9)",
+          "oklch(49.3% 0.0279 248.9)",
+          "oklch(60.7% 0.0279 248.9)",
+          "oklch(72.1% 0.0279 248.9)",
+          "oklch(83.6% 0.0279 248.9)",
+          "oklch(95.0% 0.0279 248.9)"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Texto de apoio",
+        "tonalRamp": [
+          "oklch(15.0% 0.0267 242.3)",
+          "oklch(26.4% 0.0267 242.3)",
+          "oklch(37.9% 0.0267 242.3)",
+          "oklch(49.3% 0.0267 242.3)",
+          "oklch(60.7% 0.0267 242.3)",
+          "oklch(72.1% 0.0267 242.3)",
+          "oklch(83.6% 0.0267 242.3)",
+          "oklch(95.0% 0.0267 242.3)"
+        ]
+      },
+      "primary": {
+        "role": "primary",
+        "displayName": "Verde institucional",
+        "tonalRamp": [
+          "oklch(15.0% 0.0926 153.0)",
+          "oklch(26.4% 0.0926 153.0)",
+          "oklch(37.9% 0.0926 153.0)",
+          "oklch(49.3% 0.0926 153.0)",
+          "oklch(60.7% 0.0926 153.0)",
+          "oklch(72.1% 0.0926 153.0)",
+          "oklch(83.6% 0.0926 153.0)",
+          "oklch(95.0% 0.0926 153.0)"
+        ]
+      },
+      "hover": {
+        "role": "primary",
+        "displayName": "Verde de interação",
+        "tonalRamp": [
+          "oklch(15.0% 0.0795 152.9)",
+          "oklch(26.4% 0.0795 152.9)",
+          "oklch(37.9% 0.0795 152.9)",
+          "oklch(49.3% 0.0795 152.9)",
+          "oklch(60.7% 0.0795 152.9)",
+          "oklch(72.1% 0.0795 152.9)",
+          "oklch(83.6% 0.0795 152.9)",
+          "oklch(95.0% 0.0795 152.9)"
+        ]
+      },
+      "tint": {
+        "role": "primary",
+        "displayName": "Verde de seleção",
+        "tonalRamp": [
+          "oklch(15.0% 0.0133 152.6)",
+          "oklch(26.4% 0.0133 152.6)",
+          "oklch(37.9% 0.0133 152.6)",
+          "oklch(49.3% 0.0133 152.6)",
+          "oklch(60.7% 0.0133 152.6)",
+          "oklch(72.1% 0.0133 152.6)",
+          "oklch(83.6% 0.0133 152.6)",
+          "oklch(95.0% 0.0133 152.6)"
+        ]
+      },
+      "border": {
+        "role": "neutral",
+        "displayName": "Divisória",
+        "tonalRamp": [
+          "oklch(15.0% 0.0103 228.9)",
+          "oklch(26.4% 0.0103 228.9)",
+          "oklch(37.9% 0.0103 228.9)",
+          "oklch(49.3% 0.0103 228.9)",
+          "oklch(60.7% 0.0103 228.9)",
+          "oklch(72.1% 0.0103 228.9)",
+          "oklch(83.6% 0.0103 228.9)",
+          "oklch(95.0% 0.0103 228.9)"
+        ]
+      },
+      "fieldBorder": {
+        "role": "neutral",
+        "displayName": "Contorno de campo",
+        "tonalRamp": [
+          "oklch(15.0% 0.0238 235.2)",
+          "oklch(26.4% 0.0238 235.2)",
+          "oklch(37.9% 0.0238 235.2)",
+          "oklch(49.3% 0.0238 235.2)",
+          "oklch(60.7% 0.0238 235.2)",
+          "oklch(72.1% 0.0238 235.2)",
+          "oklch(83.6% 0.0238 235.2)",
+          "oklch(95.0% 0.0238 235.2)"
+        ]
+      },
+      "warn": {
+        "role": "tertiary",
+        "displayName": "Âmbar de atenção",
+        "tonalRamp": [
+          "oklch(15.0% 0.1023 78.1)",
+          "oklch(26.4% 0.1023 78.1)",
+          "oklch(37.9% 0.1023 78.1)",
+          "oklch(49.3% 0.1023 78.1)",
+          "oklch(60.7% 0.1023 78.1)",
+          "oklch(72.1% 0.1023 78.1)",
+          "oklch(83.6% 0.1023 78.1)",
+          "oklch(95.0% 0.1023 78.1)"
+        ]
+      },
+      "warnBg": {
+        "role": "tertiary",
+        "displayName": "Fundo de atenção",
+        "tonalRamp": [
+          "oklch(15.0% 0.0400 88.2)",
+          "oklch(26.4% 0.0400 88.2)",
+          "oklch(37.9% 0.0400 88.2)",
+          "oklch(49.3% 0.0400 88.2)",
+          "oklch(60.7% 0.0400 88.2)",
+          "oklch(72.1% 0.0400 88.2)",
+          "oklch(83.6% 0.0400 88.2)",
+          "oklch(95.0% 0.0400 88.2)"
+        ]
+      },
+      "error": {
+        "role": "tertiary",
+        "displayName": "Vermelho de erro",
+        "tonalRamp": [
+          "oklch(15.0% 0.1783 28.7)",
+          "oklch(26.4% 0.1783 28.7)",
+          "oklch(37.9% 0.1783 28.7)",
+          "oklch(49.3% 0.1783 28.7)",
+          "oklch(60.7% 0.1783 28.7)",
+          "oklch(72.1% 0.1783 28.7)",
+          "oklch(83.6% 0.1783 28.7)",
+          "oklch(95.0% 0.1783 28.7)"
+        ]
+      },
+      "errorBg": {
+        "role": "tertiary",
+        "displayName": "Fundo de erro",
+        "tonalRamp": [
+          "oklch(15.0% 0.0175 21.8)",
+          "oklch(26.4% 0.0175 21.8)",
+          "oklch(37.9% 0.0175 21.8)",
+          "oklch(49.3% 0.0175 21.8)",
+          "oklch(60.7% 0.0175 21.8)",
+          "oklch(72.1% 0.0175 21.8)",
+          "oklch(83.6% 0.0175 21.8)",
+          "oklch(95.0% 0.0175 21.8)"
+        ]
+      },
+      "blue": {
+        "role": "secondary",
+        "displayName": "Azul de informação",
+        "tonalRamp": [
+          "oklch(15.0% 0.0871 243.6)",
+          "oklch(26.4% 0.0871 243.6)",
+          "oklch(37.9% 0.0871 243.6)",
+          "oklch(49.3% 0.0871 243.6)",
+          "oklch(60.7% 0.0871 243.6)",
+          "oklch(72.1% 0.0871 243.6)",
+          "oklch(83.6% 0.0871 243.6)",
+          "oklch(95.0% 0.0871 243.6)"
+        ]
+      },
+      "blueBg": {
+        "role": "secondary",
+        "displayName": "Fundo de informação",
+        "tonalRamp": [
+          "oklch(15.0% 0.0110 243.7)",
+          "oklch(26.4% 0.0110 243.7)",
+          "oklch(37.9% 0.0110 243.7)",
+          "oklch(49.3% 0.0110 243.7)",
+          "oklch(60.7% 0.0110 243.7)",
+          "oklch(72.1% 0.0110 243.7)",
+          "oklch(83.6% 0.0110 243.7)",
+          "oklch(95.0% 0.0110 243.7)"
+        ]
+      },
+      "auth-verde-escuro": {
+        "role": "primary",
+        "displayName": "Verde escuro do acesso"
+      },
+      "auth-verde": {
+        "role": "primary",
+        "displayName": "Verde do acesso"
+      },
+      "auth-verde-hover": {
+        "role": "primary",
+        "displayName": "Interação do acesso"
+      },
+      "auth-verde-claro": {
+        "role": "primary",
+        "displayName": "Detalhe claro do acesso"
+      },
+      "auth-texto": {
+        "role": "neutral",
+        "displayName": "Texto do acesso"
+      },
+      "auth-borda": {
+        "role": "neutral",
+        "displayName": "Contorno do acesso"
+      },
+      "auth-papel": {
+        "role": "neutral",
+        "displayName": "Papel do acesso"
+      },
+      "auth-erro": {
+        "role": "tertiary",
+        "displayName": "Erro do acesso"
+      },
+      "auth-foco": {
+        "role": "secondary",
+        "displayName": "Foco do acesso"
+      },
+      "auth-divisoria": {
+        "role": "neutral",
+        "displayName": "Divisória do acesso"
+      },
+      "grafico-categoria1": {
+        "role": "secondary",
+        "displayName": "Verde de categoria",
+        "tonalRamp": [
+          "oklch(15.0% 0.0926 153.0)",
+          "oklch(26.4% 0.0926 153.0)",
+          "oklch(37.9% 0.0926 153.0)",
+          "oklch(49.3% 0.0926 153.0)",
+          "oklch(60.7% 0.0926 153.0)",
+          "oklch(72.1% 0.0926 153.0)",
+          "oklch(83.6% 0.0926 153.0)",
+          "oklch(95.0% 0.0926 153.0)"
+        ]
+      },
+      "grafico-categoria2": {
+        "role": "secondary",
+        "displayName": "Azul de categoria",
+        "tonalRamp": [
+          "oklch(15.0% 0.0871 243.6)",
+          "oklch(26.4% 0.0871 243.6)",
+          "oklch(37.9% 0.0871 243.6)",
+          "oklch(49.3% 0.0871 243.6)",
+          "oklch(60.7% 0.0871 243.6)",
+          "oklch(72.1% 0.0871 243.6)",
+          "oklch(83.6% 0.0871 243.6)",
+          "oklch(95.0% 0.0871 243.6)"
+        ]
+      },
+      "grafico-categoria3": {
+        "role": "secondary",
+        "displayName": "Violeta de categoria",
+        "tonalRamp": [
+          "oklch(15.0% 0.1178 305.3)",
+          "oklch(26.4% 0.1178 305.3)",
+          "oklch(37.9% 0.1178 305.3)",
+          "oklch(49.3% 0.1178 305.3)",
+          "oklch(60.7% 0.1178 305.3)",
+          "oklch(72.1% 0.1178 305.3)",
+          "oklch(83.6% 0.1178 305.3)",
+          "oklch(95.0% 0.1178 305.3)"
+        ]
+      },
+      "grafico-categoria4": {
+        "role": "secondary",
+        "displayName": "Âmbar de categoria",
+        "tonalRamp": [
+          "oklch(15.0% 0.1023 78.1)",
+          "oklch(26.4% 0.1023 78.1)",
+          "oklch(37.9% 0.1023 78.1)",
+          "oklch(49.3% 0.1023 78.1)",
+          "oklch(60.7% 0.1023 78.1)",
+          "oklch(72.1% 0.1023 78.1)",
+          "oklch(83.6% 0.1023 78.1)",
+          "oklch(95.0% 0.1023 78.1)"
+        ]
+      },
+      "grafico-categoria5": {
+        "role": "neutral",
+        "displayName": "Neutro de categoria",
+        "tonalRamp": [
+          "oklch(15.0% 0.0267 242.3)",
+          "oklch(26.4% 0.0267 242.3)",
+          "oklch(37.9% 0.0267 242.3)",
+          "oklch(49.3% 0.0267 242.3)",
+          "oklch(60.7% 0.0267 242.3)",
+          "oklch(72.1% 0.0267 242.3)",
+          "oklch(83.6% 0.0267 242.3)",
+          "oklch(95.0% 0.0267 242.3)"
+        ]
+      },
+      "grafico-sequencial1": {
+        "role": "secondary",
+        "displayName": "Verde sequencial 1",
+        "tonalRamp": [
+          "oklch(15.0% 0.0416 158.1)",
+          "oklch(26.4% 0.0416 158.1)",
+          "oklch(37.9% 0.0416 158.1)",
+          "oklch(49.3% 0.0416 158.1)",
+          "oklch(60.7% 0.0416 158.1)",
+          "oklch(72.1% 0.0416 158.1)",
+          "oklch(83.6% 0.0416 158.1)",
+          "oklch(95.0% 0.0416 158.1)"
+        ]
+      },
+      "grafico-sequencial2": {
+        "role": "secondary",
+        "displayName": "Verde sequencial 2",
+        "tonalRamp": [
+          "oklch(15.0% 0.0498 157.5)",
+          "oklch(26.4% 0.0498 157.5)",
+          "oklch(37.9% 0.0498 157.5)",
+          "oklch(49.3% 0.0498 157.5)",
+          "oklch(60.7% 0.0498 157.5)",
+          "oklch(72.1% 0.0498 157.5)",
+          "oklch(83.6% 0.0498 157.5)",
+          "oklch(95.0% 0.0498 157.5)"
+        ]
+      },
+      "grafico-sequencial3": {
+        "role": "secondary",
+        "displayName": "Verde sequencial 3",
+        "tonalRamp": [
+          "oklch(15.0% 0.0544 157.6)",
+          "oklch(26.4% 0.0544 157.6)",
+          "oklch(37.9% 0.0544 157.6)",
+          "oklch(49.3% 0.0544 157.6)",
+          "oklch(60.7% 0.0544 157.6)",
+          "oklch(72.1% 0.0544 157.6)",
+          "oklch(83.6% 0.0544 157.6)",
+          "oklch(95.0% 0.0544 157.6)"
+        ]
+      },
+      "grafico-sequencial4": {
+        "role": "secondary",
+        "displayName": "Verde sequencial 4",
+        "tonalRamp": [
+          "oklch(15.0% 0.0926 153.0)",
+          "oklch(26.4% 0.0926 153.0)",
+          "oklch(37.9% 0.0926 153.0)",
+          "oklch(49.3% 0.0926 153.0)",
+          "oklch(60.7% 0.0926 153.0)",
+          "oklch(72.1% 0.0926 153.0)",
+          "oklch(83.6% 0.0926 153.0)",
+          "oklch(95.0% 0.0926 153.0)"
+        ]
+      },
+      "grafico-sequencial5": {
+        "role": "secondary",
+        "displayName": "Verde sequencial 5",
+        "tonalRamp": [
+          "oklch(15.0% 0.0795 152.9)",
+          "oklch(26.4% 0.0795 152.9)",
+          "oklch(37.9% 0.0795 152.9)",
+          "oklch(49.3% 0.0795 152.9)",
+          "oklch(60.7% 0.0795 152.9)",
+          "oklch(72.1% 0.0795 152.9)",
+          "oklch(83.6% 0.0795 152.9)",
+          "oklch(95.0% 0.0795 152.9)"
+        ]
+      },
+      "grafico-alerta": {
+        "role": "secondary",
+        "displayName": "Alerta analítico",
+        "tonalRamp": [
+          "oklch(15.0% 0.1023 78.1)",
+          "oklch(26.4% 0.1023 78.1)",
+          "oklch(37.9% 0.1023 78.1)",
+          "oklch(49.3% 0.1023 78.1)",
+          "oklch(60.7% 0.1023 78.1)",
+          "oklch(72.1% 0.1023 78.1)",
+          "oklch(83.6% 0.1023 78.1)",
+          "oklch(95.0% 0.1023 78.1)"
+        ]
+      },
+      "grafico-critico": {
+        "role": "secondary",
+        "displayName": "Crítico analítico",
+        "tonalRamp": [
+          "oklch(15.0% 0.1783 28.7)",
+          "oklch(26.4% 0.1783 28.7)",
+          "oklch(37.9% 0.1783 28.7)",
+          "oklch(49.3% 0.1783 28.7)",
+          "oklch(60.7% 0.1783 28.7)",
+          "oklch(72.1% 0.1783 28.7)",
+          "oklch(83.6% 0.1783 28.7)",
+          "oklch(95.0% 0.1783 28.7)"
+        ]
+      }
+    },
+    "tonalRampPolicy": "Rampas sintetizadas em OKLCH para inspeção no painel. Não são tokens implementados nem ampliam a paleta normativa do frontmatter.",
+    "typographyMeta": {
+      "title-desktop": {
+        "displayName": "Título desktop",
+        "purpose": "Nome da tarefa em 1440 px e amostras desktop."
+      },
+      "title-mobile": {
+        "displayName": "Título móvel",
+        "purpose": "Nome da tarefa em composição compacta."
+      },
+      "body": {
+        "displayName": "Corpo",
+        "purpose": "Instruções e valores da interface."
+      },
+      "control": {
+        "displayName": "Controle",
+        "purpose": "Ações verbais e específicas."
+      },
+      "document-normative": {
+        "displayName": "Documento normativo",
+        "purpose": "Carlito como substituição métrica disponível de Calibri; homologar modelo e família."
+      },
+      "document-personal": {
+        "displayName": "Documento pessoal",
+        "purpose": "Source Serif 4 em prévias pessoais."
+      },
+      "auth-display-base": {
+        "displayName": "Título do sistema no acesso",
+        "purpose": "Autenticação conforme referência fornecida; base de 1586 × 992 px. Não altera tipografia operacional."
+      },
+      "auth-title-base": {
+        "displayName": "Título do cartão de acesso",
+        "purpose": "Autenticação conforme referência fornecida; base de 1586 × 992 px. Não altera tipografia operacional."
+      },
+      "auth-body-base": {
+        "displayName": "Corpo do acesso",
+        "purpose": "Autenticação conforme referência fornecida; base de 1586 × 992 px. Não altera tipografia operacional."
+      },
+      "auth-label-base": {
+        "displayName": "Rótulo do acesso",
+        "purpose": "Autenticação conforme referência fornecida; base de 1586 × 992 px. Não altera tipografia operacional."
+      },
+      "auth-action-base": {
+        "displayName": "Ação do acesso",
+        "purpose": "Autenticação conforme referência fornecida; base de 1586 × 992 px. Não altera tipografia operacional."
+      },
+      "estatisticas-secao": {
+        "displayName": "Estatísticas · Seção",
+        "purpose": "Estilo local Estatísticas/Seção; preserva Source Sans 3 e a hierarquia operacional."
+      },
+      "estatisticas-corpo": {
+        "displayName": "Estatísticas · Corpo",
+        "purpose": "Estilo local Estatísticas/Corpo; preserva Source Sans 3 e a hierarquia operacional."
+      },
+      "estatisticas-legenda": {
+        "displayName": "Estatísticas · Legenda",
+        "purpose": "Estilo local Estatísticas/Legenda; preserva Source Sans 3 e a hierarquia operacional."
+      },
+      "estatisticas-valor": {
+        "displayName": "Estatísticas · Valor",
+        "purpose": "Estilo local Estatísticas/Valor; preserva Source Sans 3 e a hierarquia operacional."
+      }
+    },
+    "shadows": [
+      {
+        "name": "auth-card-base",
+        "value": "0 8px 24px rgba(33.15, 51, 43.35, 0.20)",
+        "purpose": "Exclusiva do cartão de autenticação conforme referência, escalada com a composição. Os módulos operacionais permanecem planos."
+      }
+    ],
+    "elevationPolicy": "Sistema plano. Profundidade por superfície, contorno e seleção tonal.",
+    "motion": [
+      {
+        "name": "prototype-navigation",
+        "value": "180ms",
+        "purpose": "Transições existentes de 180 ms preservadas; novas rotas de correção usam prototype-routing-hotfix."
+      },
+      {
+        "name": "library-hover",
+        "value": "150ms ease-out",
+        "purpose": "Definição ON_HOVER da biblioteca; não prova execução em todas as instâncias da aplicação."
+      },
+      {
+        "name": "prototype-routing-hotfix",
+        "value": "150ms ease-out",
+        "purpose": "Dissolução nas rotas introduzidas por hotfix-routing.js e hotfix-continuity.js para preservar a continuidade do shell."
+      }
+    ],
+    "breakpoints": [],
+    "viewportSamples": [
+      {
+        "name": "desktop-reference",
+        "width": 1440
+      },
+      {
+        "name": "mobile-reference",
+        "width": 390
+      },
+      {
+        "name": "small-mobile-sample",
+        "width": 360
+      },
+      {
+        "name": "intermediate-sample",
+        "width": 768
+      },
+      {
+        "name": "desktop-sample",
+        "width": 1280
+      }
+    ],
+    "responsivePolicy": "Larguras de amostras Figma; não tratá-las como breakpoints CSS implementados.",
+    "nativeLayout": {
+      "sidebarWidth": 232,
+      "headerDesktopHeight": 76,
+      "headerMobileHeight": 72,
+      "actionHeight": 44,
+      "centralRegion": "rolável",
+      "flowActions": "rodapé fixo fora da região rolável, com reserva de espaço",
+      "multiline": {
+        "labelWidth": "FILL",
+        "valueWidth": "FILL",
+        "textHeight": "automática",
+        "innerBoxHeight": "HUG",
+        "prohibition": "Não redimensionar caixa interna para altura FIXED."
+      },
+      "authentication": {
+        "actions": "Empilhadas dentro do cartão em todas as entradas de autenticação.",
+        "actionHeight": 44,
+        "desktopFormWidth": 480,
+        "desktopInstitutionalColumnWidth": 500,
+        "mobilePhotoPosition": "Depois do formulário."
+      }
+    },
+    "componentStates": {
+      "buttonFocus": {
+        "stroke": "3px",
+        "color": "{colors.blue}"
+      },
+      "fieldDefault": {
+        "stroke": "1px",
+        "color": "{colors.fieldBorder}"
+      },
+      "fieldFocus": {
+        "stroke": "2px",
+        "color": "{colors.blue}"
+      },
+      "buttonDisabledOpacity": 0.42,
+      "fieldDisabledOpacity": 0.5,
+      "statusMapping": {
+        "Em vigor": [
+          "{colors.primary}",
+          "{colors.tint}"
+        ],
+        "Em validação": [
+          "{colors.blue}",
+          "{colors.blueBg}"
+        ],
+        "Vigência futura": [
+          "{colors.warn}",
+          "{colors.warnBg}"
+        ],
+        "Devolvida": [
+          "{colors.error}",
+          "{colors.errorBg}"
+        ],
+        "Revogada": [
+          "{colors.muted}",
+          "{colors.bg}"
+        ],
+        "Rascunho": [
+          "{colors.muted}",
+          "{colors.bg}"
+        ],
+        "Publicação parcial": [
+          "{colors.warn}",
+          "{colors.warnBg}"
+        ],
+        "Assinatura em verificação": [
+          "{colors.blue}",
+          "{colors.blueBg}"
+        ]
+      }
+    },
+    "figma": {
+      "fileUrl": "https://www.figma.com/design/yHEP1gOormT6A2nBhLhT3b",
+      "delivery": "Figma Design nativo com camadas editáveis",
+      "families": "T01–T20",
+      "journeys": "J01–J12",
+      "pages": {
+        "foundations": "4:2",
+        "desktop": "4:3",
+        "mobile": "4:4",
+        "journeys": "4:5",
+        "documents": "22:2186"
+      },
+      "components": {
+        "button": "4:118",
+        "fieldDefault": "4:123",
+        "statusCurrent": "4:141"
+      }
+    },
+    "evidence": {
+      "sources": [
+        ".design/final-state.json",
+        ".design/structural-check.json",
+        ".design/feedback-check.json",
+        ".impeccable/review/parecer.md",
+        ".design/routing-hotfix-state.json",
+        ".design/hotfix-routing.js",
+        ".design/hotfix-images.js",
+        ".design/hotfix-continuity.js",
+        "assets/institucional/FONTES.md",
+        ".impeccable/review/routing-fix/parecer.md",
+        ".impeccable/review/routing-fix/tab-audit.json",
+        ".impeccable/review/routing-fix/reviewer-fix.json",
+        ".impeccable/review/routing-fix/documentDoc-final.png"
+      ],
+      "visualReview": {
+        "disposition": "ship limitado ao escopo revisado",
+        "date": "2026-10-23",
+        "source": ".impeccable/review/routing-fix/parecer.md",
+        "scope": "Onze capturas iniciais e confirmação documentDoc-final.png, destinos auditados e correção do achado P2.",
+        "resolved": 1,
+        "partial": 0,
+        "unresolved": 0,
+        "resolvedFinding": "Aba atual do documento assinado regressava para minuta; reactions=[] confirmado em desktop e móvel.",
+        "visualSamples": [
+          "email.png",
+          "mobileEmail.png",
+          "login.png",
+          "pendencias.png",
+          "expiry.png",
+          "mobileExpiry.png",
+          "admin.png",
+          "mobileAdmin.png",
+          "versions.png",
+          "documentDoc.png",
+          "renewForm.png"
+        ],
+        "finalSample": "documentDoc-final.png",
+        "clickAttribution": "Cliques reais executados pelo agente principal; revisor independente inspecionou capturas e destinos."
+      },
+      "structural": {
+        "desktopFrames": 210,
+        "mobileFrames": 214,
+        "mapSource": ".design/routing-hotfix-state.json",
+        "auditedDesktopTabGroups": 75,
+        "auditedMobileTabGroups": 76,
+        "missingNavigationDestinationsInAuditedGroups": 0,
+        "overflowInAuditedGroups": 0,
+        "auditSource": ".impeccable/review/routing-fix/tab-audit.json",
+        "auditSupplement": ".impeccable/review/routing-fix/reviewer-fix.json",
+        "limitation": "Contagens e ausência de problemas nos grupos auditados não comprovam todas as interações ou larguras."
+      },
+      "feedback": [
+        "Reenviar instruções atualiza confirmação via SET_VARIABLE STRING.",
+        "Aplicar data atualiza o título do recorte histórico via SET_VARIABLE STRING.",
+        "Documento atual é indicador sem ação.",
+        "Normativa passa pela classificação antes da publicação."
+      ],
+      "scannerApplicability": "Scanner HTML/CSS não aplicável a camadas nativas Figma.",
+      "previousVisualReview": {
+        "disposition": "ship",
+        "scope": "Oito capturas e quatro achados revisados",
+        "resolved": 4,
+        "partial": 0,
+        "unresolved": 0,
+        "limitation": "A aprovação anterior de oito capturas não comprova as correções posteriores."
+      },
+      "previousStructural": {
+        "desktopFrames": 182,
+        "mobileFrames": 186,
+        "flowStartingPointsPerPage": 19,
+        "missingNavigationDestinations": 0,
+        "applicationPageHoverTriggers": 0
+      },
+      "desktopClickChecks": [
+        "Pendências: Minhas → Informações → Da minha unidade, com contexto e seleção preservados.",
+        "Vencimentos: cinco abas percorridas, com contexto e seleção preservados.",
+        "Recuperar 5:92 → Confira seu e-mail 5:118.",
+        "Reenviar instruções permanece em 5:118 e mostra Instruções reenviadas.",
+        "Abrir link de recuperação leva à redefinição 5:143."
+      ],
+      "nov15": {
+        "initialCaptures": 141,
+        "finalRecaptures": 53,
+        "totalCaptures": 217,
+        "reviewSource": ".impeccable/review/nov15/parecer.md",
+        "verdictSource": ".impeccable/review/nov15/veredito.md",
+        "manifest": ".design/nov15/captures-verdict-complete.json",
+        "reviewDisposition": "ship restrito às correções visuais F01–F05; todas resolved",
+        "method": "Plugin API screenshot / contentsOnly; ações e variáveis lidas/interpretadas, sem cliques reais.",
+        "limits": "Validação parcial; não certifica projeto inteiro, alcance por navegação/rolagem, backend, autorização, autenticação, teclado/leitor de tela, edição livre ou exportação real.",
+        "automationBlock": "Automação de cliques não iniciou: kernel assets/os error 3.",
+        "historicalClicks": "Cliques desktop em evidence.desktopClickChecks pertencem a outubro e não comprovam alterações de 15/11.",
+        "supplementCaptures": 23,
+        "supplementReview": ".impeccable/review/nov15/complemento.md"
+      }
+    },
+    "previewPolicy": "HTML/CSS são amostras isoladas para renderização do painel, com valores literais extraídos. Não constituem aplicação web, prova de acessibilidade ou duplicação da fonte normativa. Bordas de foco são traduzidas para outline quando apropriado no painel.",
+    "limits": [
+      "Revisão anterior de oito capturas permanece histórica; nova aprovação limitada às onze capturas iniciais, confirmação do achado e destinos examinados em routing-fix.",
+      "Não comprova todas as interações, entrada livre, teclado, leitor de tela ou conformidade WCAG.",
+      "Não comprova backend, integrações, autenticação, envio, assinatura ou publicação reais.",
+      "Não declara conformidade jurídica; modelos e decisões D01–D24 dependem de homologação.",
+      "Decisões e hipóteses permanecem na documentação, fora da UI operacional.",
+      "PDFs, entradas e cenários são predefinidos no protótipo; não comprovam geração ou download operacional de PDF nem envio real de e-mail.",
+      "15/11: validação parcial; ship independente somente F01–F05 nas 53 recapturas. Cliques reais indisponíveis (kernel assets/os error 3); ações/variáveis interpretadas."
+    ],
+    "institutionalAssets": {
+      "source": "assets/institucional/FONTES.md",
+      "brand": "Marca oficial horizontal do IFC Campus Videira com proporção preservada.",
+      "photography": "Fotografia real da biblioteca do Campus Videira, identificada como biblioteca.",
+      "provenance": "Portais institucionais CECOM e SIBI IFC; sem geração de imagem ou alteração do conteúdo."
+    },
+    "navigationContinuity": {
+      "tasks": [
+        "Da minha unidade",
+        "Minhas",
+        "Informações"
+      ],
+      "tasksInformation": "Vista local de Pendências com retorno às outras abas; não abre Notificações.",
+      "expiry": [
+        "Em breve",
+        "Vencidas",
+        "Sem término",
+        "Revogação futura",
+        "Em vigor"
+      ],
+      "preservedExpiryRecords": [
+        "102/2025",
+        "108/2025",
+        "091/2025"
+      ],
+      "administration": [
+        "Contas",
+        "Signatários",
+        "Configurações",
+        "Auditoria"
+      ],
+      "operatorPortarias": [
+        "Todas",
+        "Minhas participações",
+        "Em elaboração"
+      ],
+      "teacherPortarias": [
+        "Todas",
+        "Minhas participações"
+      ],
+      "normativeEditor": [
+        "Minuta nova",
+        "Alterar ato publicado"
+      ],
+      "compilation": [
+        "Redação vigente",
+        "Redação futura",
+        "Documento original"
+      ],
+      "profile": "Conservar identidade, ato em consulta e seleção global; Portarias ativo no contexto docente.",
+      "analytics": "Panorama, Tramitação, Pendências, Servidores e Relatórios; móvel em duas linhas, filtros resumidos.",
+      "tracking": "Ler aviso não conclui tarefa. ID, estado, etapa, situação, responsável/setor, motivo, ação, último evento, histórico e próximas etapas acompanham projeto. Seis marcos obrigatórios; revisão opcional/reaberta; rejeitados/cancelados sem percentual aplicável."
+    },
+    "documentContinuity": {
+      "catalogs": [
+        {
+          "act": "Portaria normativa nº 18",
+          "version": "Versão para assinatura",
+          "revision": "01"
+        },
+        {
+          "act": "Portaria de lotação nº 129/2026",
+          "version": "Minuta",
+          "revision": "02"
+        },
+        {
+          "act": "Portaria nº 128/2026",
+          "profile": "Docente",
+          "version": "Documento assinado",
+          "revision": "04"
+        }
+      ],
+      "currentSignedTab": "Sem reação; conserva documento assinado. Escolha de outra versão pelo catálogo.",
+      "signedTabNodeIds": [
+        "6:3427",
+        "9:1713"
+      ],
+      "pdfPolicy": "Catálogo, resumo e prévia predefinidos; não comprovam geração ou download operacional de PDF.",
+      "editorRevisions": {
+        "revisions": [
+          "04",
+          "05"
+        ],
+        "tabs": [
+          "Texto",
+          "Participações",
+          "Prévia"
+        ],
+        "shell": "Cabeçalho, navegação, estrutura e abas persistentes; somente conteúdo muda.",
+        "revision04": "Helena, Rafael e Beatriz",
+        "revision05": "Rafael e Beatriz; presidência pendente, sem restaurar remoção ao alternar.",
+        "canonicalArticles": [
+          "Art. 1º composição",
+          "Art. 2º dedicação de 4 h/2 h",
+          "Art. 3º entrada em vigor em 1º/11/2026"
+        ],
+        "devices": "Mesmo conteúdo canônico desktop/móvel; sem término divergente de 31/10/2027.",
+        "preview": "Minuta",
+        "verification": "Conteúdo visual revisado; alternâncias interpretadas, sem cliques reais em todas as direções."
+      }
+    },
+    "authenticationReference": {
+      "date": "2026-11-15",
+      "scope": "Composição da referência preservada na entrada única; demonstração opcional, sem níveis antes do login ou Escolher outro acesso. Sem aplicação HTML/backend.",
+      "source": "ENTREGA_REFERENCIA_FIGMA_2026-11-11.md",
+      "collectionId": "VariableCollectionId:208:2",
+      "collectionName": "Acesso IFC · referência aprovada",
+      "fieldFamilyId": "208:128",
+      "fieldVariants": 12,
+      "buttonFamilyId": "208:201",
+      "buttonVariants": 15,
+      "externalAccess": "Conta fictícia externa na entrada única; após Entrar conserva apenas consulta de publicações e documentos de divulgação.",
+      "baseViewport": {
+        "width": 1586,
+        "height": 992
+      },
+      "viewportSamples": [
+        {
+          "width": 1920,
+          "height": 1080,
+          "nodeId": "211:1345"
+        },
+        {
+          "width": 1440,
+          "height": 900,
+          "nodeId": "5:2"
+        },
+        {
+          "width": 1366,
+          "height": 768,
+          "nodeId": "211:1491"
+        },
+        {
+          "width": 1024,
+          "height": 768,
+          "nodeId": "211:1637"
+        },
+        {
+          "width": 768,
+          "height": 1024,
+          "nodeId": "211:3173"
+        },
+        {
+          "width": 375,
+          "height": 812,
+          "nodeId": "211:3308"
+        }
+      ],
+      "responsivePolicy": "Amostras nativas Figma, não breakpoints CSS. Celular/tablet seguem uma coluna rolável; fotos e legenda após o formulário.",
+      "review": {
+        "disposition": "ship limitado ao escopo visual examinado",
+        "source": ".impeccable/review/referencia-2026-11-11.md",
+        "resolved": "Legenda móvel encoberta corrigida; linha própria abaixo das fotos.",
+        "limits": "Não comprova build, backend, teclado real, WCAG ou todos os fluxos."
+      },
+      "assetsSource": "assets/institucional/FONTES.md",
+      "backgroundAdaptation": "Arquitetura e folhagem usam recortes desaturados da foto fornecida; diferem da fachada multipisos da referência.",
+      "auditSources": [
+        ".design/reference-final-audit-computador-2026-11-11.json",
+        ".design/reference-final-audit-movel-2026-11-11.json",
+        ".design/reference-password-test-2026-11-11.json"
+      ],
+      "institutionalAccess": "Removido; entrada única vigente.",
+      "auditSourcesScope": "Auditorias reference-* e four-levels-* são históricas. Evidência atual em evidence.nov15 e accessLevels.sources.",
+      "historicalEntryActions": {
+        "status": "Etapa de três níveis substituída; preservada apenas como histórico.",
+        "scope": "Composição de referência mantida nos logins predefinidos do Figma; extensão de níveis inclui entrada externa própria, recuperação e redefinição externas. Sem aplicação HTML/backend.",
+        "externalAccess": "Entrada própria de nível 1 com estados vazio, preenchido e erro; recuperação, redefinição, consulta, detalhe, documento publicado e Minha conta externa. Retorno explícito à entrada de servidores não concede sessão interna.",
+        "institutionalAccess": "Removido da UI pela decisão de 11/11/2026; servidores dos níveis 2 e 3 usam a entrada única.",
+        "auditSourcesScope": "As auditorias reference-* registram a etapa visual anterior à extensão de níveis; os destinos atuais constam em accessLevels.auditSources."
+      },
+      "entryActions": {
+        "desktopNodeId": "5:2",
+        "mobileNodeId": "8:1663",
+        "mode": "Entrada única",
+        "levelVisibleBeforeLogin": false,
+        "otherAccess": "Removido",
+        "demonstration": "Opcional; quatro contas fictícias com credenciais próprias predefinidas.",
+        "demoAccounts": [
+          "usuário externo",
+          "Helena Martins",
+          "Marina Costa",
+          "Eduardo Almeida"
+        ],
+        "selectionDoesNotGrantPermissions": true,
+        "logout": "Sair retorna à entrada unificada.",
+        "levelPlacement": "Perfil e nível somente após Entrar."
+      },
+      "viewportSamplesScope": "Amostras históricas de composição; 5:2 permanece entrada única vigente.",
+      "historicalFourLoginCheckpoint": {
+        "date": "2026-11-11",
+        "scope": "Composição da referência preservada na seleção inicial e nos quatro logins próprios, em estados predefinidos do Figma; sem aplicação HTML/backend.",
+        "externalAccess": "Login próprio do nível 1 com estados vazio, preenchido e erro; recuperação, redefinição, consulta, detalhe, documento publicado e Minha conta externa. Seleção de entrada não concede sessão interna.",
+        "institutionalAccess": "Removido da UI; quatro entradas próprias por nível substituem a entrada única anterior.",
+        "entryActions": {
+          "selectionTitle": "Escolha seu acesso",
+          "desktopNodeId": "5:2",
+          "mobileNodeId": "8:1663",
+          "entryCount": 4,
+          "entryHeight": "48px",
+          "statesPerLevel": [
+            "vazio",
+            "preenchido",
+            "erro"
+          ],
+          "additionalState": "Nível 4 preenchido com Vice-Diretor autorizado",
+          "distinctLoginStatesPerDevice": 13,
+          "selectionDoesNotGrantPermissions": true,
+          "otherAccess": "Escolher outro acesso retorna à seleção inicial.",
+          "logout": "Sair retorna ao login do nível correspondente, preservando contexto de gestão nos módulos compartilhados."
+        },
+        "auditSourcesScope": "As auditorias reference-* registram a composição anterior à extensão de níveis. A seleção e os destinos vigentes constam em accessLevels.auditSources.",
+        "viewportSamplesScope": "Amostras da etapa visual da referência, preservadas como evidência histórica de composição; 5:2 agora é Escolha seu acesso.",
+        "status": "Histórico de 11/11; quatro logins substituídos em 15/11, composição/tokens preservados."
+      }
+    },
+    "accessLevels": {
+      "date": "2026-11-15",
+      "status": "vigente — quatro níveis, entrada única",
+      "direction": "Extensão da direção institucional existente; preservar tokens auth-* e operacionais, sem tema por nível.",
+      "sources": [
+        "PRODUCT.md",
+        "UX-CONTRACT.md — Contrato vigente 15/11/2026",
+        ".design/nov15/PEDIDO_IMPLEMENTACAO_VALIDACAO.md",
+        ".design/nov15/state.json"
+      ],
+      "levels": {
+        "1": "Conta externa: somente portarias publicadas e documentos de divulgação; sem minutas, dados cadastrais privados ou operações internas.",
+        "2": "Docentes, técnicos, DEPE/DAP e administrador técnico, conforme função e departamento, sem elaboração direta. Administração técnica não concede competência de negócio.",
+        "3": "Gabinete e Gestão de Pessoas (CGP/DGP): elaboração e tramitação; validação quando autorizada, publicação e comunicação no escopo. Sem assinatura ou administração de configurações automática.",
+        "4": "Direção-Geral e Vice-Diretor autorizado: acesso total, inclusive elaboração, conforme confirmação expressa do usuário. Preservar ato e período do Vice, histórico, versões assinadas e competência vigente."
+      },
+      "entryActions": {
+        "desktopNodeId": "5:2",
+        "mobileNodeId": "8:1663",
+        "mode": "Entrada única",
+        "levelVisibleBeforeLogin": false,
+        "otherAccess": "Removido",
+        "demonstration": "Opcional; quatro contas fictícias com credenciais próprias predefinidas.",
+        "demoAccounts": [
+          "usuário externo",
+          "Helena Martins",
+          "Marina Costa",
+          "Eduardo Almeida"
+        ],
+        "selectionDoesNotGrantPermissions": true,
+        "logout": "Sair retorna à entrada unificada.",
+        "levelPlacement": "Perfil e nível somente após Entrar."
+      },
+      "badge": {
+        "familyId": "228:19",
+        "variants": [
+          "Nível=1",
+          "Nível=2",
+          "Nível=3",
+          "Nível=4"
+        ],
+        "formats": {
+          "Completo": {
+            "width": 184,
+            "height": 28
+          },
+          "Compacto": {
+            "width": 68,
+            "height": 24
+          }
+        },
+        "palette": "Cores semânticas existentes; rótulo textual acompanha cor.",
+        "placement": "Após Entrar: conta no computador e cabeçalho no móvel; níveis na lista de contas e catálogo Perfis e níveis. Sem nível na apresentação principal do login.",
+        "variantCount": 8,
+        "ids": {
+          "1": {
+            "full": "228:7",
+            "compact": "228:9"
+          },
+          "2": {
+            "full": "228:11",
+            "compact": "228:13"
+          },
+          "3": {
+            "full": "256:3452",
+            "compact": "256:3454"
+          },
+          "4": {
+            "full": "228:15",
+            "compact": "228:17"
+          }
+        }
+      },
+      "prototypeContinuity": "Nome, papel e nível aparecem após Entrar e acompanham os módulos; Sair retorna à entrada única. Gabinete aguarda assinatura sem assumir signatário. Sem sessão/autorização real comprovada.",
+      "auditSources": [
+        ".design/four-levels-foundation-2026-11-11.json",
+        ".design/four-levels-audit-D-2026-11-11.json",
+        ".design/four-levels-audit-M-2026-11-11.json",
+        ".design/four-levels-waiting-fix-2026-11-11.json",
+        ".design/four-levels-navigation-tests-2026-11-11.json"
+      ],
+      "auditSummary": {
+        "desktopFrames": 250,
+        "mobileFrames": 247,
+        "totalFrames": 497,
+        "distinctLoginStatesPerDevice": 13,
+        "zeroFindings": [
+          "missing",
+          "self",
+          "institutional",
+          "wrongBadge"
+        ],
+        "waitingBadgeCorrection": "Correção pontual posterior: Nível=3, Formato=Compacto, conforme four-levels-waiting-fix.",
+        "status": "Histórico de 11/11; não valida alterações de 15/11."
+      },
+      "navigationVerification": {
+        "source": ".design/four-levels-navigation-tests-2026-11-11.json",
+        "passed": 138,
+        "total": 138,
+        "method": "Avaliação dos arrays de ações e condições relidos do Figma, sem execução visual de autenticação ou backend.",
+        "status": "Histórico de 11/11; não valida alterações de 15/11."
+      },
+      "visualEvidence": {
+        "pattern": ".impeccable/review/quatro-*.png",
+        "count": 14,
+        "sampledByDocumenter": [
+          "quatro-selecao-desktop.png",
+          "quatro-login-3-mobile.png"
+        ],
+        "status": "Histórico de 11/11; não valida alterações de 15/11."
+      },
+      "limits": "Matriz de autorização preservada. Ações/variáveis interpretadas, sem cliques reais em 15/11; não comprova autenticação, backend, autorização, sessão, entrada livre ou acessibilidade.",
+      "historicalCheckpoint": {
+        "date": "2026-11-11",
+        "direction": "Extensão da direção institucional existente; preservar tokens auth-* e operacionais, sem tema por nível.",
+        "sources": [
+          "PRODUCT.md",
+          "UX-CONTRACT.md",
+          "PLANO_INTERFACE_GESTOR_PORTARIAS_v3.2.md §3.3"
+        ],
+        "levels": {
+          "1": "Conta externa: somente portarias publicadas e documentos de divulgação, sem minutas, dados cadastrais privados ou módulos internos.",
+          "2": "Escopo original por função e departamento; administração técnica não concede competência de negócio.",
+          "3": "Exclusivo da Direção-Geral e Vice-Diretor autorizado; todos os módulos e funções, preservando autorização/período do Vice, histórico e competência vigente."
+        },
+        "badge": {
+          "familyId": "228:19",
+          "variants": [
+            "Nível=1",
+            "Nível=2",
+            "Nível=3"
+          ],
+          "formats": {
+            "Completo": {
+              "width": 184,
+              "height": 28
+            },
+            "Compacto": {
+              "width": 68,
+              "height": 24
+            }
+          },
+          "palette": "Cores semânticas existentes; rótulo textual acompanha cor.",
+          "placement": "Conta no computador; cabeçalho no móvel; níveis na lista de contas e catálogo Perfis e níveis."
+        },
+        "prototypeContinuity": "Variáveis preservam nome, papel e nível de Direção/Vice nos módulos compartilhados; Sair restaura entrada. Servidor de nível 2 encaminha para Aguardando assinatura sem assumir signatário.",
+        "auditSources": [
+          ".design/levels-final-audit-D-2026-11-11.json",
+          ".design/levels-final-audit-M-2026-11-11.json",
+          ".design/levels-self-fix-D-2026-11-11.json",
+          ".design/levels-self-fix-M-2026-11-11.json",
+          ".design/levels-navigation-tests-2026-11-11.json"
+        ],
+        "auditSummary": {
+          "desktopFrames": 236,
+          "mobileFrames": 239,
+          "totalFrames": 475,
+          "zeroFindings": [
+            "missing",
+            "institutional",
+            "externalInternalRoutes",
+            "directStaffSign",
+            "unbadged",
+            "longBranches"
+          ],
+          "selfNavigation": "Auditorias finais encontraram três nós; correções pontuais posteriores verificaram remainingSelf=false para 6:301, 6:370 e 8:1998.",
+          "returnToEmployeeEntry": "Três retornos explícitos à entrada de servidores em cada classe; não concedem sessão interna."
+        },
+        "visualEvidence": ".impeccable/review/niveis-*.png; niveis-gestao-desktop.png atualizado após controles de 44 px e intervalo de 24 px.",
+        "limits": "Estados e percursos predefinidos examinados; 16 cenários avaliados por arrays/condições, sem execução visual de sessão. Não comprova todos os fluxos, backend, autorização ou sessão reais, entrada livre ou acessibilidade em execução.",
+        "historicalCheckpoint": {
+          "auditSources": [
+            ".design/levels-foundations-2026-11-11.json",
+            ".design/levels-audit-D-2026-11-11.json",
+            ".design/levels-audit-M-2026-11-11.json",
+            ".design/levels-review-fix-2026-11-11.json"
+          ],
+          "auditSummary": {
+            "desktopFrames": 234,
+            "mobileFrames": 237,
+            "totalFrames": 471,
+            "zeroFindings": [
+              "missing",
+              "selfNav",
+              "institutional",
+              "accountMissing",
+              "directStaffSign",
+              "overflow"
+            ],
+            "externalLeaksInterpretation": "Três registros por auditoria: links explícitos de retorno à entrada de servidores, sem concessão de sessão interna."
+          },
+          "scope": "Checkpoint anterior à correção das condições persistidas e aos quatro quadros automáticos; não substitui a auditoria final."
+        },
+        "automaticTransitions": {
+          "reason": "A terceira opção da primeira implementação foi truncada ao persistir no Figma.",
+          "method": "Primeira condição em dois ramos: nível 3 abre quadro automático; nível 2 abre espera. Após 1 ms, quadro automático escolhe DG ou Vice em dois ramos.",
+          "desktop": [
+            "243:1710",
+            "243:1718"
+          ],
+          "mobile": [
+            "243:4089",
+            "243:4097"
+          ],
+          "visualContinuity": "Source Sans 3, superfície branca, badge nível 3 e nome/papel vinculados às variáveis existentes; sem novo tema."
+        },
+        "navigationVerification": {
+          "source": ".design/levels-navigation-tests-2026-11-11.json",
+          "passed": 16,
+          "total": 16,
+          "method": "Avaliação de arrays e condições relidos do Figma, incluindo transições automáticas intermediárias; sem execução visual de sessão ou backend.",
+          "coverage": "Em computador e móvel: nível 2 espera; DG assina como DG; Vice assina como Vice; externo consulta lista/detalhe/documento; Vice preserva identidade."
+        },
+        "review": {
+          "disposition": "ship",
+          "resolution": "Ambos os achados resolvidos; sem regressão nas transições examinadas.",
+          "scope": "Limitado aos achados e ao acabamento examinados, conforme revisão comunicada."
+        },
+        "status": "Histórico de três níveis, substituído pela matriz vigente de quatro níveis; entrada atual unificada desde 15/11."
+      },
+      "historicalFourLoginCheckpoint": {
+        "date": "2026-11-11",
+        "status": "Histórico de 11/11; apresentação de quatro logins substituída em 15/11; matriz de quatro níveis preservada.",
+        "sources": [
+          "PRODUCT.md",
+          "UX-CONTRACT.md — Quatro níveis e quatro logins",
+          "PLANO_INTERFACE_GESTOR_PORTARIAS_v3.2.md §3.4"
+        ],
+        "entryActions": {
+          "selectionTitle": "Escolha seu acesso",
+          "desktopNodeId": "5:2",
+          "mobileNodeId": "8:1663",
+          "entryCount": 4,
+          "entryHeight": "48px",
+          "statesPerLevel": [
+            "vazio",
+            "preenchido",
+            "erro"
+          ],
+          "additionalState": "Nível 4 preenchido com Vice-Diretor autorizado",
+          "distinctLoginStatesPerDevice": 13,
+          "selectionDoesNotGrantPermissions": true,
+          "otherAccess": "Escolher outro acesso retorna à seleção inicial.",
+          "logout": "Sair retorna ao login do nível correspondente, preservando contexto de gestão nos módulos compartilhados."
+        },
+        "prototypeContinuity": "Nome, papel e nível 4 de Direção/Vice acompanham módulos compartilhados; Sair retorna ao login do nível. Gabinete de nível 3 aguarda assinatura sem assumir signatário. Dados predefinidos, sem sessão ou autorização reais.",
+        "auditSources": [
+          ".design/four-levels-foundation-2026-11-11.json",
+          ".design/four-levels-audit-D-2026-11-11.json",
+          ".design/four-levels-audit-M-2026-11-11.json",
+          ".design/four-levels-waiting-fix-2026-11-11.json",
+          ".design/four-levels-navigation-tests-2026-11-11.json"
+        ],
+        "auditSummary": {
+          "desktopFrames": 250,
+          "mobileFrames": 247,
+          "totalFrames": 497,
+          "distinctLoginStatesPerDevice": 13,
+          "zeroFindings": [
+            "missing",
+            "self",
+            "institutional",
+            "wrongBadge"
+          ],
+          "waitingBadgeCorrection": "Correção pontual posterior: Nível=3, Formato=Compacto, conforme four-levels-waiting-fix."
+        },
+        "navigationVerification": {
+          "source": ".design/four-levels-navigation-tests-2026-11-11.json",
+          "passed": 138,
+          "total": 138,
+          "method": "Avaliação dos arrays de ações e condições relidos do Figma, sem execução visual de autenticação ou backend."
+        },
+        "visualEvidence": {
+          "pattern": ".impeccable/review/quatro-*.png",
+          "count": 14,
+          "sampledByDocumenter": [
+            "quatro-selecao-desktop.png",
+            "quatro-login-3-mobile.png"
+          ]
+        },
+        "limits": "Estados e percursos predefinidos examinados. Não comprova todos os fluxos, autenticação, backend, autorização ou sessão reais, entrada livre ou acessibilidade em execução."
+      }
+    },
+    "statistics": {
+      "date": "2026-11-15",
+      "scope": "Ampliação autorizada do sistema incumbente: 32 indicadores, 12 gráficos, acompanhamento e relatórios, sem novas permissões.",
+      "collection": {
+        "name": "Estatísticas · gráficos",
+        "id": "VariableCollectionId:278:2",
+        "variableCount": 24,
+        "aliasPolicy": "12 variáveis semânticas gráfico/* apontam para 12 primitivas na mesma coleção; frontmatter usa valores resolvidos porque primitivos não aceitam referência entre si.",
+        "mapping": {
+          "grafico-categoria1": {
+            "figmaName": "gráfico/categoria1",
+            "variableId": "VariableID:278:4",
+            "aliasTargetName": "primitiva/categoria1",
+            "webSyntax": "var(--grafico-categoria1)",
+            "primitiveWebSyntax": "var(--grafico-categoria1-base)"
+          },
+          "grafico-categoria2": {
+            "figmaName": "gráfico/categoria2",
+            "variableId": "VariableID:278:6",
+            "aliasTargetName": "primitiva/categoria2",
+            "webSyntax": "var(--grafico-categoria2)",
+            "primitiveWebSyntax": "var(--grafico-categoria2-base)"
+          },
+          "grafico-categoria3": {
+            "figmaName": "gráfico/categoria3",
+            "variableId": "VariableID:278:8",
+            "aliasTargetName": "primitiva/categoria3",
+            "webSyntax": "var(--grafico-categoria3)",
+            "primitiveWebSyntax": "var(--grafico-categoria3-base)"
+          },
+          "grafico-categoria4": {
+            "figmaName": "gráfico/categoria4",
+            "variableId": "VariableID:278:10",
+            "aliasTargetName": "primitiva/categoria4",
+            "webSyntax": "var(--grafico-categoria4)",
+            "primitiveWebSyntax": "var(--grafico-categoria4-base)"
+          },
+          "grafico-categoria5": {
+            "figmaName": "gráfico/categoria5",
+            "variableId": "VariableID:278:12",
+            "aliasTargetName": "primitiva/categoria5",
+            "webSyntax": "var(--grafico-categoria5)",
+            "primitiveWebSyntax": "var(--grafico-categoria5-base)"
+          },
+          "grafico-sequencial1": {
+            "figmaName": "gráfico/sequencial1",
+            "variableId": "VariableID:278:14",
+            "aliasTargetName": "primitiva/sequencial1",
+            "webSyntax": "var(--grafico-sequencial1)",
+            "primitiveWebSyntax": "var(--grafico-sequencial1-base)"
+          },
+          "grafico-sequencial2": {
+            "figmaName": "gráfico/sequencial2",
+            "variableId": "VariableID:278:16",
+            "aliasTargetName": "primitiva/sequencial2",
+            "webSyntax": "var(--grafico-sequencial2)",
+            "primitiveWebSyntax": "var(--grafico-sequencial2-base)"
+          },
+          "grafico-sequencial3": {
+            "figmaName": "gráfico/sequencial3",
+            "variableId": "VariableID:278:18",
+            "aliasTargetName": "primitiva/sequencial3",
+            "webSyntax": "var(--grafico-sequencial3)",
+            "primitiveWebSyntax": "var(--grafico-sequencial3-base)"
+          },
+          "grafico-sequencial4": {
+            "figmaName": "gráfico/sequencial4",
+            "variableId": "VariableID:278:20",
+            "aliasTargetName": "primitiva/sequencial4",
+            "webSyntax": "var(--grafico-sequencial4)",
+            "primitiveWebSyntax": "var(--grafico-sequencial4-base)"
+          },
+          "grafico-sequencial5": {
+            "figmaName": "gráfico/sequencial5",
+            "variableId": "VariableID:278:22",
+            "aliasTargetName": "primitiva/sequencial5",
+            "webSyntax": "var(--grafico-sequencial5)",
+            "primitiveWebSyntax": "var(--grafico-sequencial5-base)"
+          },
+          "grafico-alerta": {
+            "figmaName": "gráfico/alerta",
+            "variableId": "VariableID:278:24",
+            "aliasTargetName": "primitiva/alerta",
+            "webSyntax": "var(--grafico-alerta)",
+            "primitiveWebSyntax": "var(--grafico-alerta-base)"
+          },
+          "grafico-critico": {
+            "figmaName": "gráfico/critico",
+            "variableId": "VariableID:278:26",
+            "aliasTargetName": "primitiva/critico",
+            "webSyntax": "var(--grafico-critico)",
+            "primitiveWebSyntax": "var(--grafico-critico-base)"
+          }
+        }
+      },
+      "styles": {
+        "estatisticas-secao": {
+          "name": "Estatísticas/Seção",
+          "styleId": "S:b88a2f1c649b938e9c74ca5b6c3fe4f8d6e25ada,"
+        },
+        "estatisticas-corpo": {
+          "name": "Estatísticas/Corpo",
+          "styleId": "S:b0d732d7056cf5cbdd25ac4fb0c7ee278584c09a,"
+        },
+        "estatisticas-legenda": {
+          "name": "Estatísticas/Legenda",
+          "styleId": "S:a484e2952c45385558a86c24da149d825ca49cfe,"
+        },
+        "estatisticas-valor": {
+          "name": "Estatísticas/Valor",
+          "styleId": "S:a753dd4363a7156aeb496d9635bc458ec4241e2b,"
+        }
+      },
+      "components": {
+        "plot": "278:31",
+        "container": "278:74",
+        "states": {
+          "Com dados": "278:33",
+          "Sem registros": "278:40",
+          "Carregando": "278:46",
+          "Erro": "278:52",
+          "Acesso restrito": "278:60",
+          "Dados desatualizados": "278:66"
+        },
+        "metric": "278:75",
+        "row": "278:80"
+      },
+      "componentLayout": {
+        "container": {
+          "paddingRef": "spacing.s24",
+          "gapRef": "spacing.s12",
+          "radiusRef": "rounded.lg"
+        },
+        "metric": {
+          "paddingRef": "spacing.s16",
+          "gapRef": "spacing.s8",
+          "radiusRef": "rounded.lg"
+        },
+        "row": {
+          "gapRef": "spacing.s16",
+          "verticalPaddingRef": "spacing.s8"
+        }
+      },
+      "situationMapping": {
+        "Vigente": "grafico-categoria1",
+        "Vigente — sem término": "grafico-categoria1",
+        "Vigência futura": "grafico-alerta",
+        "Vencida": "grafico-critico",
+        "Revogada": "grafico-categoria5",
+        "Encerrada": "grafico-categoria5"
+      },
+      "dataPresentation": "C01–C12 com gráfico/tabela: barras verticais/horizontais, pizza, rosca, linha, área, empilhadas, comparativos e progresso. Pizza/rosca exigidas em 15/11, sobrepondo restrição antiga. Estado atual, eventos e vigência separados. Base anterior zero recebe diferença absoluta; sem conclusão, média Não disponível.",
+      "workloadPresentation": "Horas somadas são informativas, em h/semana; não aplicar teto de 10 horas ao acumulado do servidor.",
+      "pdfPreviews": {
+        "pagesPerCutAndPeriod": 5,
+        "format": "A4",
+        "frameSize": {
+          "width": 794,
+          "height": 1123
+        },
+        "font": "Source Sans 3",
+        "label": "Dados demonstrativos",
+        "excludedFields": [
+          "CPF",
+          "telefone",
+          "endereço",
+          "e-mail"
+        ],
+        "structure": [
+          "Identificação e resumo",
+          "Estoque e situação",
+          "Desempenho",
+          "Pendências e retrabalho",
+          "Evolução, comparação e detalhes"
+        ],
+        "mobileReading": {
+          "action": "Ler em texto ampliado",
+          "bodySize": "16px",
+          "pagination": "Anterior/próxima, cinco páginas",
+          "return": "Voltar à prévia A4 conserva origem/página nas ações persistidas",
+          "source": ".design/nov15/report-reading-result.json"
+        },
+        "limits": "Prévia nativa; Exportar PDF informa que nenhum arquivo é produzido. Retorno e paginação não executados por cliques."
+      },
+      "documentationPageId": "288:2",
+      "sources": [
+        ".design/nov15/PEDIDO_IMPLEMENTACAO_VALIDACAO.md",
+        ".design/nov15/data.json",
+        ".design/nov15/state.json",
+        ".design/nov15/report-reading-result.json"
+      ],
+      "verification": {
+        "initialCaptures": 141,
+        "finalRecaptures": 53,
+        "totalCaptures": 217,
+        "reviewSource": ".impeccable/review/nov15/parecer.md",
+        "verdictSource": ".impeccable/review/nov15/veredito.md",
+        "manifest": ".design/nov15/captures-verdict-complete.json",
+        "reviewDisposition": "ship restrito às correções visuais F01–F05; todas resolved",
+        "method": "Plugin API screenshot / contentsOnly; ações e variáveis lidas/interpretadas, sem cliques reais.",
+        "limits": "Validação parcial; não certifica projeto inteiro, alcance por navegação/rolagem, backend, autorização, autenticação, teclado/leitor de tela, edição livre ou exportação real.",
+        "supplementCaptures": 23,
+        "supplementReview": ".impeccable/review/nov15/complemento.md"
+      },
+      "historicalCheckpoint": {
+        "date": "2026-11-11",
+        "scope": "Extensão visual do protótipo Figma existente autorizada pelo PLANO_ESTATISTICAS_RELATORIOS_v1.1.md; preserva identidade operacional e autenticação.",
+        "dataPresentation": "18 visualizações com gráfico/tabela; celular usa barras simples para colunas e listas para linhas, degraus e Gantt. Rótulos, unidade, referência e atualização acompanham o conteúdo. Sem rankings nominais. Indisponível não vira zero.",
+        "pdfPreviews": {
+          "models": [
+            "R1",
+            "R2 individual",
+            "R2 consolidado",
+            "R3",
+            "R4",
+            "R5"
+          ],
+          "pages": 13,
+          "font": "Source Sans 3",
+          "format": "A4",
+          "frameSize": {
+            "width": 794,
+            "height": 1123
+          },
+          "padding": {
+            "vertical": 48,
+            "horizontal": 64
+          },
+          "label": "Dados demonstrativos",
+          "excludedFields": [
+            "CPF",
+            "telefone",
+            "endereço",
+            "e-mail"
+          ],
+          "limits": "Prévias editáveis Figma; sem geração ou download operacional comprovados."
+        },
+        "sources": [
+          ".design/statistics-foundation.js",
+          ".design/statistics-foundation-result.json",
+          ".design/statistics-scenario.json",
+          ".design/statistics-data-contract.json"
+        ],
+        "verification": {
+          "auditSources": [
+            ".design/statistics-audit-D-final.json",
+            ".design/statistics-audit-M-final.json"
+          ],
+          "desktopFrames": 94,
+          "mobileFrames": 92,
+          "result": "Zero divergências nos critérios inspecionados do protótipo.",
+          "reviewSource": ".impeccable/review/estatisticas-2026-11-11.md",
+          "reviewDisposition": "ship limitado à resolução de F01 e F02 nas recapturas visíveis",
+          "limits": "Não comprova toda a superfície, backend, autorização, filtros livres, geração de PDF, teclado, leitor de tela ou conformidade geral de acessibilidade."
+        },
+        "status": "Etapa histórica de 11/11; 24 métricas, 18 visualizações e biblioteca R1–R5 preservadas."
+      },
+      "metricCount": 32,
+      "scenario": {
+        "reference": "2026-11-15",
+        "projects": 21,
+        "people": 7,
+        "activePeople": 5,
+        "inactivePeople": 2,
+        "tasks": 7,
+        "projectsWithTasks": 6,
+        "label": "Dados demonstrativos",
+        "accessAccountsSeparateFromPeople": true
+      },
+      "mobileLayout": {
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "localTabs": "Cinco abas em duas linhas",
+        "filters": "Resumo aplicado e Ajustar filtros",
+        "reports": "Gerar prévia do relatório visível na primeira dobra, antes da lista longa de KPIs."
+      },
+      "seriesReadability": {
+        "charts": [
+          "C05",
+          "C06"
+        ],
+        "numericAxis": [
+          0,
+          3,
+          6,
+          9
+        ],
+        "requirements": "Base zero, datas, identificação das séries e valores finais; tabelas completas sem corte da última linha. Página 5 das prévias também com referências numéricas.",
+        "verifiedTableCoverage": "12 tabelas desktop e C05/C06 móveis; demais tabelas móveis e alternância não certificadas."
+      },
+      "filters": {
+        "statistics": "Período, departamento, solicitante, tipo, estado, combinação DEPE + em produção e vazio; recortes predefinidos.",
+        "reportCuts": 9,
+        "periods": [
+          "semanal",
+          "mensal",
+          "intervalo personalizado fixo"
+        ],
+        "persistence": "Filtro permanece ao mudar período e acompanha resumo, comparação, detalhes e prévia; condições independentes persistidas, interpretadas sem cliques.",
+        "selection": "Período ativo com fundo verde e texto claro nos estados filtrados.",
+        "limits": "Sem combinações ou datas livres comprovadas."
+      },
+      "documentationPageIdScope": "Página 288:2 da biblioteca histórica de 11/11; definições atuais M01–M32 em painéis nativos registrados no state e recapturas finais de 15/11."
+    },
+    "nov15CoverageSupplement": {
+      "captures": 23,
+      "totalCaptures": 217,
+      "manifest": ".design/nov15/captures-final.json",
+      "review": ".impeccable/review/nov15/complemento.md",
+      "mobileChartsReviewed": 12,
+      "mobileTablesReviewed": 12,
+      "notificationScopeAssertions": 12,
+      "interpretedAssertionsTotal": 1370,
+      "nativeClicksExecuted": false,
+      "publicMobileNavigation": "Avisos ao lado de Portarias e Minha conta; somente publicações.",
+      "documentationFollowup": "Merge inicial pelo documenter; atualização final de contagem/cobertura pelo agente principal após limite de uso do documenter."
+    }
+  },
+  "components": [
+    {
+      "name": "Continuar",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Amostra do tratamento visual; conteúdo e estado do fluxo são demonstrados no Figma.",
+      "html": "<button class=\"ds-button-primary\" type=\"button\">Continuar</button>",
+      "css": ".ds-button-primary{height:44px;padding:0 20px;border-radius:8px;font-family:'Source Sans 3',sans-serif;font-size:15px;line-height:22px;font-weight:600;cursor:pointer;transition:background-color 150ms ease-out;background:#23633B;color:#FFFFFF;border:none;}.ds-button-primary:hover{background:#194E2D;}.ds-button-primary:focus-visible{outline:3px solid #245B83;outline-offset:0;}.ds-button-primary:active{background:#23633B;}.ds-button-primary:disabled{opacity:.42;cursor:default;}"
+    },
+    {
+      "name": "Voltar",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "Amostra do tratamento visual; conteúdo e estado do fluxo são demonstrados no Figma.",
+      "html": "<button class=\"ds-button-secondary\" type=\"button\">Voltar</button>",
+      "css": ".ds-button-secondary{height:44px;padding:0 20px;border-radius:8px;font-family:'Source Sans 3',sans-serif;font-size:15px;line-height:22px;font-weight:600;cursor:pointer;transition:background-color 150ms ease-out;background:#FFFFFF;color:#23633B;border:1px solid #D7DFE3;}.ds-button-secondary:hover{background:#FFFFFF;}.ds-button-secondary:focus-visible{outline:3px solid #245B83;outline-offset:0;}.ds-button-secondary:active{background:#FFFFFF;}.ds-button-secondary:disabled{opacity:.42;cursor:default;}"
+    },
+    {
+      "name": "Ver versões",
+      "kind": "button",
+      "refersTo": "button-quiet",
+      "description": "Amostra do tratamento visual; conteúdo e estado do fluxo são demonstrados no Figma.",
+      "html": "<button class=\"ds-button-quiet\" type=\"button\">Ver versões</button>",
+      "css": ".ds-button-quiet{height:44px;padding:0 20px;border-radius:8px;font-family:'Source Sans 3',sans-serif;font-size:15px;line-height:22px;font-weight:600;cursor:pointer;transition:background-color 150ms ease-out;background:transparent;color:#23633B;border:none;}.ds-button-quiet:hover{background:transparent;}.ds-button-quiet:focus-visible{outline:3px solid #245B83;outline-offset:0;}.ds-button-quiet:active{background:transparent;}.ds-button-quiet:disabled{opacity:.42;cursor:default;}"
+    },
+    {
+      "name": "Revogar",
+      "kind": "button",
+      "refersTo": "button-destructive",
+      "description": "Amostra do tratamento visual; conteúdo e estado do fluxo são demonstrados no Figma.",
+      "html": "<button class=\"ds-button-destructive\" type=\"button\">Revogar</button>",
+      "css": ".ds-button-destructive{height:44px;padding:0 20px;border-radius:8px;font-family:'Source Sans 3',sans-serif;font-size:15px;line-height:22px;font-weight:600;cursor:pointer;transition:background-color 150ms ease-out;background:#B3261E;color:#FFFFFF;border:none;}.ds-button-destructive:hover{background:#B3261E;}.ds-button-destructive:focus-visible{outline:3px solid #245B83;outline-offset:0;}.ds-button-destructive:active{background:#B3261E;}.ds-button-destructive:disabled{opacity:.42;cursor:default;}"
+    },
+    {
+      "name": "Campo",
+      "kind": "input",
+      "refersTo": "field",
+      "description": "Rótulo persistente e valor multilinha; altura acompanha o texto. FILL/HUG é a regra nativa.",
+      "html": "<label class=\"ds-field\"><span class=\"ds-field-label\">Finalidade</span><textarea class=\"ds-field-value\" rows=\"2\">Organização e acompanhamento das comissões do Campus Videira.</textarea><span class=\"ds-field-error\">Revise este campo para continuar.</span></label>",
+      "css": ".ds-field{display:flex;flex-direction:column;gap:6px;max-width:360px;font-family:'Source Sans 3',sans-serif;color:#1D2935;}.ds-field-label{font-size:14px;line-height:20px;font-weight:600;}.ds-field-value{width:100%;box-sizing:border-box;padding:12px;border:1px solid #81919B;border-radius:8px;background:#FFFFFF;color:#1D2935;font:400 16px/23px 'Source Sans 3',sans-serif;resize:vertical;}.ds-field-value:hover{border-color:#81919B;}.ds-field-value:focus-visible{outline:none;border:2px solid #245B83;}.ds-field-value[aria-invalid=\"true\"]{border-color:#B3261E;}.ds-field-error{display:none;font-size:13px;line-height:19px;color:#B3261E;}.ds-field-value[aria-invalid=\"true\"]+.ds-field-error{display:block;}.ds-field-value:disabled{opacity:.5;}"
+    },
+    {
+      "name": "Navegação selecionada",
+      "kind": "nav",
+      "refersTo": "nav-selected",
+      "description": "Seleção textual e tonal. Exemplo do painel; composição e vínculos permanecem no Figma.",
+      "html": "<nav aria-label=\"Menu de exemplo\"><a class=\"ds-nav-link\" href=\"#portarias\" aria-current=\"page\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" aria-hidden=\"true\"><path d=\"M6 3h9l3 3v15H6V3Z M9 10h6 M9 14h6 M9 18h4\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg><span>Portarias</span></a></nav>",
+      "css": ".ds-nav-link{display:flex;align-items:center;gap:10px;min-height:44px;padding:0 10px;background:#EAF3EC;color:#23633B;font:600 14px/20px 'Source Sans 3',sans-serif;text-decoration:none;}.ds-nav-link:hover{background:#EAF3EC;}.ds-nav-link:focus-visible{outline:3px solid #245B83;}.ds-nav-link:active{background:#EAF3EC;}"
+    },
+    {
+      "name": "Situação em vigor",
+      "kind": "chip",
+      "refersTo": "status-current",
+      "description": "Indicador estático; texto distingue a situação sem depender da cor.",
+      "html": "<span class=\"ds-status\">Em vigor</span>",
+      "css": ".ds-status{display:inline-flex;padding:4px 10px;border-radius:4px;background:#EAF3EC;color:#23633B;font:600 13px/19px 'Source Sans 3',sans-serif;}"
+    },
+    {
+      "name": "Painel",
+      "kind": "card",
+      "refersTo": "card",
+      "description": "Agrupamento plano por tarefa, com contorno e respiro.",
+      "html": "<section class=\"ds-card\"><h2 class=\"ds-card-title\">Publicação</h2><p class=\"ds-card-text\">Confira canal, data e evidência antes de concluir a etapa.</p></section>",
+      "css": ".ds-card{padding:24px;border:1px solid #D7DFE3;border-radius:12px;background:#FFFFFF;color:#1D2935;max-width:420px;}.ds-card-title{margin:0 0 20px;font:600 20px/29px 'Source Sans 3',sans-serif;}.ds-card-text{margin:0;font:400 16px/23px 'Source Sans 3',sans-serif;}"
+    },
+    {
+      "name": "Prévia documental normativa",
+      "kind": "custom",
+      "description": "Amostra tipográfica; não é o modelo oficial homologado nem reprodução do documento integral.",
+      "html": "<article class=\"ds-document\"><p class=\"ds-document-title\">PORTARIA NORMATIVA Nº 18, DE 22 DE OUTUBRO DE 2026</p><p>Dispõe sobre os procedimentos de organização e acompanhamento das comissões do Campus Videira.</p><p>Art. 1º Esta Portaria estabelece os procedimentos de organização e acompanhamento das comissões do Campus Videira.</p></article>",
+      "css": ".ds-document{max-width:520px;padding:24px;border:1px solid #D7DFE3;background:#FFFFFF;color:#1D2935;font:400 16px/22.4px Carlito,sans-serif;}.ds-document-title{text-align:center;}.ds-document p{margin:0 0 22px;}"
+    },
+    {
+      "name": "Contêiner analítico",
+      "kind": "custom",
+      "refersTo": "estatisticas-conteiner",
+      "description": "Amostra estática do estado Com dados; os seis estados e a alternância gráfico/tabela estão no Figma.",
+      "html": "<section class=\"ds-stat\"><h2 class=\"ds-stat-title\">Atos por situação em R</h2><p class=\"ds-stat-question\">Quantos atos há em cada situação?</p><p class=\"ds-stat-caption\">Unidade: atos · rótulos diretos · Dados demonstrativos</p><div class=\"ds-stat-row\"><span>Vigente</span><strong>5</strong></div><div class=\"ds-stat-track\"><span class=\"ds-stat-bar\"></span></div><p class=\"ds-stat-caption\">Calculado com os registros existentes em 11/11/2026 às 17:00</p></section>",
+      "css": ".ds-stat{max-width:560px;padding:24px;border:1px solid #D7DFE3;border-radius:12px;background:#FFFFFF;color:#1D2935;font:400 16px/23px \"Source Sans 3\",sans-serif;display:flex;flex-direction:column;gap:12px}.ds-stat-title{margin:0;font:600 20px/29px \"Source Sans 3\",sans-serif}.ds-stat-question{margin:0;color:#52616D}.ds-stat-caption{margin:0;color:#52616D;font:400 13px/19px \"Source Sans 3\",sans-serif}.ds-stat-row{display:flex;justify-content:space-between;gap:16px;padding:8px 0}.ds-stat-track{height:10px;background:#F4F6F8}.ds-stat-bar{display:block;width:100%;height:10px;background:#23633B}"
+    }
+  ],
+  "narrative": {
+    "northStar": "Mesa de trabalho institucional",
+    "overview": "O sistema torna o estado do ato e a próxima ação claros no trabalho institucional. A direção é diurna, sóbria e documental: verde contido, superfícies brancas, linhas finas e hierarquia tipográfica explícita sustentam o uso prolongado em computador e a consulta móvel.\n\nA identidade aparece no contexto IFC Campus Videira, na precisão do conteúdo e na navegação por competência. A densidade atende tarefas e registros; documentos recebem espaço de leitura e ações permanecem identificáveis. Ilustrações decorativas não são necessárias ao ambiente de operação. Esta consolidação substitui a semente provisória com os valores da entrega Figma Design, sem converter o projeto em código web.",
+    "keyCharacteristics": [
+      "Operação institucional sóbria e diurna.",
+      "Estado textual e próxima ação explícitos.",
+      "Tipografia documental e ícones lineares consistentes.",
+      "Componentes editáveis e adaptação móvel por tarefa."
+    ],
+    "rules": [
+      {
+        "name": "The Estado Legível Rule",
+        "body": "Cor deve acompanhar conteúdo: toda situação recebe um rótulo textual inequívoco. Revogada e Rascunho podem compartilhar neutros; seus textos devem distingui-las.",
+        "section": "colors"
+      },
+      {
+        "name": "The Gráfico Legível Rule",
+        "body": "Cor não substitui rótulo, unidade ou legenda; dados indisponíveis não viram zero. Manter a mesma situação e o mesmo valor na visualização e na tabela equivalente.",
+        "section": "colors"
+      },
+      {
+        "name": "The Texto Inteiro Rule",
+        "body": "Rótulo e valor devem preencher a largura disponível (`FILL`), quebrar linha e crescer em altura. Campos multilinha devem conservar `HUG`; nunca redimensionar a caixa interna para altura `FIXED` como solução para conteúdo variável.",
+        "section": "typography"
+      },
+      {
+        "name": "The Profundidade Contida Rule",
+        "body": "Usar superfície, divisória e agrupamento antes de introduzir efeitos de profundidade. Não acrescentar sombras como compensação para hierarquia ou espaçamento insuficientes.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "**Do** usar tokens semânticos e componentes editáveis da biblioteca institucional.",
+      "**Do** nomear estado, próxima ação, versão e competência em texto claro.",
+      "**Do** manter rótulo e valor em FILL e campos multilinha em HUG, sem cortar conteúdo.",
+      "**Do** manter ações alcançáveis no rodapé fixo e reservar espaço no conteúdo rolável.",
+      "**Do** preservar login, recuperação, Home com menu e contexto IFC nas adaptações pertinentes.",
+      "**Do** conservar abas locais, perfil, seleção global e ato documental ao navegar entre vistas do mesmo módulo.",
+      "**Do** manter ações de autenticação dentro do cartão e creditar os ativos institucionais na documentação.",
+      "**Do** registrar decisões D01–D24 e hipóteses na documentação, fora da UI operacional. Em Estatísticas, conservar também a sinalização de hipótese em homologação exigida pelo plano v1.1.",
+      "**Do** manter rótulos diretos, unidade, referência, atualização e alternativa em tabela nas visualizações analíticas."
+    ],
+    "donts": [
+      "**Don't** criar rankings nominais ou aplicar o teto de 10 horas à soma de horas do servidor.",
+      "**Don't** usar somente cor para comunicar situação, erro ou mudança de efeito.",
+      "**Don't** substituir o contorno de campo pela divisória suave.",
+      "**Don't** confundir indicador de documento atual com comando disponível.",
+      "**Don't** ocultar texto ou forçar altura fixa em conteúdo multilinha para fazer uma captura caber.",
+      "**Don't** apresentar dados fictícios, assinatura, publicação, envio ou serviços demonstrados como operação real.",
+      "**Don't** declarar conformidade jurídica, WCAG, leitor de tela, integrações, backend ou todas as interações comprovados pela revisão visual.",
+      "**Don't** inserir referências a IA, afirmações de autoria humana ou decisões de projeto na interface operacional."
+    ]
+  }
+}

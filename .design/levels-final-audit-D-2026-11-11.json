@@ -1,0 +1,10 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"counts\":{\"frames\":236,\"reactions\":4950,\"conditionals\":625},\"missing\":[],\"self\":[\"6:301\",\"6:370\"],\"institutional\":[],\"externalInternalRoutes\":[],\"directStaffSign\":[],\"unbadged\":[],\"longBranches\":[],\"returnToEmployeeEntry\":[\"229:4045\",\"229:4104\",\"229:4183\"],\"gates\":{\"home\":\"243:1710\",\"sign\":\"243:1718\"},\"gateBranches\":2}"
+    }
+  ],
+  "structuredContent": null,
+  "isError": false
+}

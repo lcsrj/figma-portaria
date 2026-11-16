@@ -1,0 +1,11 @@
+# Arquivos temporários e configurações locais
+*.b64
+*.tmp
+*.log
+__pycache__/
+node_modules/
+.env
+.env.*
+!.env.example
+Thumbs.db
+Desktop.ini

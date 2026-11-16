@@ -1,0 +1,153 @@
+{
+  "device": "M",
+  "period": "C",
+  "execution": "Execução interpretada das ações persistidas; não houve cliques reais.",
+  "passed": 36,
+  "total": 36,
+  "tests": [
+    {
+      "name": "normal / all / C aplica 26 campos e navega",
+      "passed": true
+    },
+    {
+      "name": "normal / all / C preserva recorte ao mudar período",
+      "passed": true
+    },
+    {
+      "name": "normal / week / C aplica 26 campos e navega",
+      "passed": true
+    },
+    {
+      "name": "normal / week / C preserva recorte ao mudar período",
+      "passed": true
+    },
+    {
+      "name": "normal / depe / C aplica 26 campos e navega",
+      "passed": true
+    },
+    {
+      "name": "normal / depe / C preserva recorte ao mudar período",
+      "passed": true
+    },
+    {
+      "name": "normal / dap / C aplica 26 campos e navega",
+      "passed": true
+    },
+    {
+      "name": "normal / dap / C preserva recorte ao mudar período",
+      "passed": true
+    },
+    {
+      "name": "normal / server / C aplica 26 campos e navega",
+      "passed": true
+    },
+    {
+      "name": "normal / server / C preserva recorte ao mudar período",
+      "passed": true
+    },
+    {
+      "name": "normal / type / C aplica 26 campos e navega",
+      "passed": true
+    },
+    {
+      "name": "normal / type / C preserva recorte ao mudar período",
+      "passed": true
+    },
+    {
+      "name": "normal / state / C aplica 26 campos e navega",
+      "passed": true
+    },
+    {
+      "name": "normal / state / C preserva recorte ao mudar período",
+      "passed": true
+    },
+    {
+      "name": "normal / combined / C aplica 26 campos e navega",
+      "passed": true
+    },
+    {
+      "name": "normal / combined / C preserva recorte ao mudar período",
+      "passed": true
+    },
+    {
+      "name": "normal / empty / C aplica 26 campos e navega",
+      "passed": true
+    },
+    {
+      "name": "normal / empty / C preserva recorte ao mudar período",
+      "passed": true
+    },
+    {
+      "name": "direction / all / C aplica 26 campos e navega",
+      "passed": true
+    },
+    {
+      "name": "direction / all / C preserva recorte ao mudar período",
+      "passed": true
+    },
+    {
+      "name": "direction / week / C aplica 26 campos e navega",
+      "passed": true
+    },
+    {
+      "name": "direction / week / C preserva recorte ao mudar período",
+      "passed": true
+    },
+    {
+      "name": "direction / depe / C aplica 26 campos e navega",
+      "passed": true
+    },
+    {
+      "name": "direction / depe / C preserva recorte ao mudar período",
+      "passed": true
+    },
+    {
+      "name": "direction / dap / C aplica 26 campos e navega",
+      "passed": true
+    },
+    {
+      "name": "direction / dap / C preserva recorte ao mudar período",
+      "passed": true
+    },
+    {
+      "name": "direction / server / C aplica 26 campos e navega",
+      "passed": true
+    },
+    {
+      "name": "direction / server / C preserva recorte ao mudar período",
+      "passed": true
+    },
+    {
+      "name": "direction / type / C aplica 26 campos e navega",
+      "passed": true
+    },
+    {
+      "name": "direction / type / C preserva recorte ao mudar período",
+      "passed": true
+    },
+    {
+      "name": "direction / state / C aplica 26 campos e navega",
+      "passed": true
+    },
+    {
+      "name": "direction / state / C preserva recorte ao mudar período",
+      "passed": true
+    },
+    {
+      "name": "direction / combined / C aplica 26 campos e navega",
+      "passed": true
+    },
+    {
+      "name": "direction / combined / C preserva recorte ao mudar período",
+      "passed": true
+    },
+    {
+      "name": "direction / empty / C aplica 26 campos e navega",
+      "passed": true
+    },
+    {
+      "name": "direction / empty / C preserva recorte ao mudar período",
+      "passed": true
+    }
+  ]
+}

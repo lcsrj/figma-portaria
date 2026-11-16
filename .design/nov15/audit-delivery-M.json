@@ -1,0 +1,25 @@
+{
+  "screens": 142,
+  "nodes": 9902,
+  "types": {
+    "FRAME": 3080,
+    "VECTOR": 343,
+    "TEXT": 5094,
+    "INSTANCE": 1106,
+    "ELLIPSE": 36,
+    "RECTANGLE": 243
+  },
+  "missing": [],
+  "selfNavigation": [],
+  "overflow": [],
+  "buttonClipping": [],
+  "privateImages": [],
+  "unboundProject": [],
+  "publicLevels": [],
+  "fonts": {
+    "Source Sans 3": 4747,
+    "Roboto": 44,
+    "Inter": 10
+  },
+  "crossDevice": []
+}

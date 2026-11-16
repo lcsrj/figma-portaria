@@ -1,0 +1,22 @@
+[
+  {
+    "root": "6:390",
+    "to": "6:751",
+    "vars": {
+      "VariableID:228:3": true,
+      "VariableID:228:4": false,
+      "VariableID:228:5": "Eduardo Almeida",
+      "VariableID:228:6": "Direção-Geral"
+    }
+  },
+  {
+    "root": "229:4439",
+    "to": "6:751",
+    "vars": {
+      "VariableID:228:3": true,
+      "VariableID:228:4": false,
+      "VariableID:228:5": "Sofia Ribeiro",
+      "VariableID:228:6": "Vice-Diretora autorizada"
+    }
+  }
+]

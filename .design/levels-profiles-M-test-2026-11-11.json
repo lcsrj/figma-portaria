@@ -1,0 +1,21 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "TypeError: cannot read property 'type' of null\n    at <anonymous> (PLUGIN_5_SOURCE:63:74)\n    at some (native)\n    at <anonymous> (PLUGIN_5_SOURCE:63:69)\n    at map (native)\n    at <anonymous> (PLUGIN_5_SOURCE:51:34)\n"
+    },
+    {
+      "type": "text",
+      "text": "Figma Debug UUID: 830cd49f-e6a9-45ab-8733-cb6f32b55886"
+    }
+  ],
+  "structuredContent": {
+    "error": {
+      "message": "TypeError: cannot read property 'type' of null\n    at <anonymous> (PLUGIN_5_SOURCE:63:74)\n    at some (native)\n    at <anonymous> (PLUGIN_5_SOURCE:63:69)\n    at map (native)\n    at <anonymous> (PLUGIN_5_SOURCE:51:34)\n",
+      "debugUuid": "830cd49f-e6a9-45ab-8733-cb6f32b55886"
+    },
+    "safeToRetryWithoutCanvasRead": true,
+    "error_code": "INVALID_ARGUMENT"
+  },
+  "isError": true
+}

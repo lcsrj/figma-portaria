@@ -1,0 +1,44 @@
+{
+  "fileKey": "yHEP1gOormT6A2nBhLhT3b",
+  "sessionId": "96ff7f42-7e38-4cb0-baad-5ff13abe6d79",
+  "date": "2026-11-15",
+  "D": {
+    "signatures": "387:8890",
+    "administration": "387:9018",
+    "accountDG": "387:9170",
+    "accountVice": "387:9380",
+    "accountTech": "387:9590",
+    "accountDept": "387:9785",
+    "accountGateway": "387:9975"
+  },
+  "M": {
+    "signatures": "387:17881",
+    "administration": "387:17926",
+    "accountDG": "387:18024",
+    "accountVice": "387:18100",
+    "accountTech": "387:18176",
+    "accountDept": "387:18252",
+    "accountGateway": "387:18320"
+  },
+  "actualClicks": false,
+  "uiRuntimeError": "failed to write kernel assets: os error 3",
+  "review": {
+    "path": ".impeccable/review/menu-repair/verdict.md",
+    "disposition": "ship",
+    "scope": "F01-F03 resolved; scoped visual verdict, not whole-system approval"
+  },
+  "paused": true,
+  "pauseDate": "2026-11-15",
+  "validation": {
+    "interpretedAssertions": 10042,
+    "failures": 0,
+    "desktopGeneral": 9937,
+    "mobileGeneral": 87,
+    "critical": 18
+  },
+  "snapshots": 15,
+  "pending": [
+    "Validacao por cliques e rolagem reais",
+    "Rever divergencia do menu da conta departamental no celular"
+  ]
+}

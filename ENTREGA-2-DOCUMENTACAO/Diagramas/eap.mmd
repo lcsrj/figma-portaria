@@ -1,0 +1,64 @@
+flowchart TB
+    P0["0 Gestor de Portarias — IFC Campus Videira"]
+    P0 --> F1["1 Gerenciamento"]
+    P0 --> F2["2 Levantamento institucional"]
+    P0 --> F3["3 Concepção e requisitos"]
+    P0 --> F4["4 Design de interface"]
+    P0 --> F5["5 Protótipo navegável e avaliação"]
+    P0 --> F6["6 Implementação L1"]
+    P0 --> F7["7 Implementação L2 e L3"]
+    P0 --> F8["8 Qualidade e homologação"]
+    P0 --> F9["9 Documentação e implantação"]
+
+    F1 --> F11["1.1 Iniciação"]
+    F1 --> F12["1.2 Planejamento"]
+    F1 --> F13["1.3 Decisões institucionais"]
+    F1 --> F14["1.4 Encerramento"]
+
+    F2 --> F21["2.1 SIG/SIPAC e integrações"]
+    F2 --> F22["2.2 Séries e acervo"]
+    F2 --> F23["2.3 Lacunas da fonte"]
+
+    F3 --> F31["3.1 Perfis e níveis"]
+    F3 --> F32["3.2 Arquitetura de informação"]
+    F3 --> F33["3.3 Jornadas J01–J12"]
+    F3 --> F34["3.4 Modelo de informação e ciclo de vida"]
+
+    F4 --> F41["4.1 Fundamentos e componentes"]
+    F4 --> F42["4.2 Acesso — Interface A"]
+    F4 --> F43["4.3 Recuperação — Interface B"]
+    F4 --> F44["4.4 Início e menu — Interface C"]
+    F4 --> F45["4.5 Telas operacionais T04–T20"]
+    F4 --> F46["4.6 Adaptação móvel"]
+    F4 --> F47["4.7 Landing page"]
+    F4 --> F48["4.8 Estatísticas, relatórios e acompanhamento"]
+
+    F5 --> F51["5.1 Navegação e transições"]
+    F5 --> F52["5.2 Verificações estruturais"]
+    F5 --> F53["5.3 Revisões visuais"]
+    F5 --> F54["5.4 Teste de usabilidade"]
+    F5 --> F55["5.5 Percursos por cliques reais"]
+
+    F6 --> F61["6.1 Autenticação e contas"]
+    F6 --> F62["6.2 Consulta e solicitação"]
+    F6 --> F63["6.3 Elaboração e validação"]
+    F6 --> F64["6.4 Assinatura, publicação e e-mail"]
+    F6 --> F65["6.5 Pendências e vigências"]
+
+    F7 --> F71["7.1 L2 — LDAP, relatórios e painel (implementação)"]
+    F7 --> F72["7.2 L3 — melhorias e SIPAC"]
+
+    F8 --> F81["8.1 Testes funcionais e de falhas"]
+    F8 --> F82["8.2 Acessibilidade e privacidade"]
+    F8 --> F83["8.3 Homologação institucional"]
+
+    F9 --> F91["9.1 Documentação de design"]
+    F9 --> F92["9.2 Documentação acadêmica"]
+    F9 --> F93["9.3 Implantação e capacitação"]
+
+    classDef ok fill:#e6f2ea,stroke:#23633b,color:#0f2e1b;
+    classDef pend fill:#fdf3d8,stroke:#805800,color:#3d2a00;
+    classDef foco fill:#e6f2ea,stroke:#23633b,stroke-width:3px,color:#0f2e1b;
+    class F11,F12,F31,F32,F33,F34,F41,F45,F46,F48,F51,F52,F53,F91,F92 ok;
+    class F42,F43,F44 foco;
+    class F13,F14,F21,F22,F23,F47,F54,F55,F61,F62,F63,F64,F65,F71,F72,F81,F82,F83,F93 pend;

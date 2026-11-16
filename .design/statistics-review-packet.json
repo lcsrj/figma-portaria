@@ -1,0 +1,29 @@
+{
+  "request": "Aplicar o plano PLANO_ESTATISTICAS_RELATORIOS_v1.1.md ao projeto Gestor de Portarias existente no Figma.",
+  "root": "C:/Users/User/Documents/ChatGPT/Figma portaria",
+  "artifact": "https://www.figma.com/design/yHEP1gOormT6A2nBhLhT3b",
+  "mode": "Operate; extensão de interface estabelecida; camadas nativas Figma",
+  "direction": "Mesa de trabalho institucional: paleta verde #23633B, fundo #F4F6F8, branco, Source Sans 3, bordas discretas, navegação 232 px, cabeçalhos76/72; rolagem central; identidade IFC preservada. Plano exige cartões e contêineres, seis estados, gráficos/tabelas, móvel.",
+  "scope": "Revisão visual e clareza das capturas fornecidas; checar também limites das alegações. Não executar browser, Figma ou backend. Sem comp aprovado adicional: extensão do sistema existente.",
+  "screenshots": [
+    "C:/Users/User/Documents/ChatGPT/Figma portaria/.design/statistics-previews/carga-computador.png",
+    "C:/Users/User/Documents/ChatGPT/Figma portaria/.design/statistics-previews/painel-computador.png",
+    "C:/Users/User/Documents/ChatGPT/Figma portaria/.design/statistics-previews/carga-celular.png",
+    "C:/Users/User/Documents/ChatGPT/Figma portaria/.design/statistics-previews/servidor-celular.png",
+    "C:/Users/User/Documents/ChatGPT/Figma portaria/.design/statistics-previews/r1-pagina2.png",
+    "C:/Users/User/Documents/ChatGPT/Figma portaria/.design/statistics-previews/r4-pagina2.png",
+    "C:/Users/User/Documents/ChatGPT/Figma portaria/.design/statistics-previews/configuracao.png",
+    "C:/Users/User/Documents/ChatGPT/Figma portaria/.design/statistics-previews/estados.png",
+    "C:/Users/User/Documents/ChatGPT/Figma portaria/.design/statistics-previews/depe-central.png"
+  ],
+  "evidence": [
+    ".design/statistics-audit-D-final.json",
+    ".design/statistics-audit-M-final.json",
+    ".design/statistics-scenario-checks.json",
+    ".design/statistics-data-contract.json"
+  ],
+  "knownLimits": "Dados fictícios. 12 atos publicados, 10 participações, 5 servidores, 34h; Helena16h; DEPE25h. Backend e banco não definidos. D25/26/27 pendentes; gráficos temporais não disponíveis quando falta histórico. Sem garantia de teclado, ARIA, PDF acessível, autenticação ou geração/download real.",
+  "craftFloor": "C:/Users/User/.codex/plugins/cache/openai-curated-remote/impeccable/4.3.1/skills/impeccable/reference/craft-floor.md",
+  "detector": "Não executado: entrega nativa Figma; detector HTML/CSS não aplicável.",
+  "writeBoundary": "Somente .impeccable/review/estatisticas-2026-11-11.md; não editar outros arquivos nem Figma."
+}

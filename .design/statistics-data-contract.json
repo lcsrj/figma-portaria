@@ -1,0 +1,221 @@
+{
+  "status": "Especificação para implementação futura; nenhuma rota executável criada",
+  "version": "1.1",
+  "referenceDate": "data civil ISO YYYY-MM-DD",
+  "eventInstants": "instantes ISO com fuso explícito",
+  "timezone": "America/Sao_Paulo (a homologar)",
+  "metrics": [
+    {
+      "id": "I01",
+      "name": "Atos por situação",
+      "definition": "Contagem de atos em cada categoria da §2.3 em R",
+      "unit": "atos",
+      "dependencies": "D05, D14"
+    },
+    {
+      "id": "I02",
+      "name": "Registros em produção por etapa",
+      "definition": "Registros no nível 1 em R, por etapa",
+      "unit": "registros",
+      "dependencies": "—"
+    },
+    {
+      "id": "I03",
+      "name": "Solicitações enviadas",
+      "definition": "Solicitações com envio no período",
+      "unit": "solicitações",
+      "dependencies": "—"
+    },
+    {
+      "id": "I04",
+      "name": "Atos publicados",
+      "definition": "Atos cuja publicação de referência ocorreu no período",
+      "unit": "atos",
+      "dependencies": "D11"
+    },
+    {
+      "id": "I05",
+      "name": "Atos emitidos no ano",
+      "definition": "Atos com ano de emissão = ano escolhido",
+      "unit": "atos",
+      "dependencies": "D17"
+    },
+    {
+      "id": "I06",
+      "name": "Vigência futura",
+      "definition": "Atos publicados com início de vigência > R",
+      "unit": "atos",
+      "dependencies": "—"
+    },
+    {
+      "id": "I07",
+      "name": "Vencidas sem encerramento",
+      "definition": "Atos com término < R sem encerramento nem revogação",
+      "unit": "atos",
+      "dependencies": "D14"
+    },
+    {
+      "id": "I08",
+      "name": "Vencimentos próximos",
+      "definition": "Atos vigentes com término em R…R+N, por faixa",
+      "unit": "atos",
+      "dependencies": "D13"
+    },
+    {
+      "id": "I09",
+      "name": "Atualizadas",
+      "definition": "Atos com marcador Alterada por ou Renovada por",
+      "unit": "atos (sobreposto)",
+      "dependencies": "D05"
+    },
+    {
+      "id": "I10",
+      "name": "Revogações parciais",
+      "definition": "Atos com revogação parcial eficaz em R",
+      "unit": "atos (complementar)",
+      "dependencies": "D14"
+    },
+    {
+      "id": "I11",
+      "name": "Servidores com participação vigente",
+      "definition": "`COUNT(DISTINCT servidor_id)` entre participações que contam em R",
+      "unit": "servidores",
+      "dependencies": "—"
+    },
+    {
+      "id": "I12",
+      "name": "Participações vigentes",
+      "definition": "Participações que contam em R",
+      "unit": "participações",
+      "dependencies": "—"
+    },
+    {
+      "id": "I13",
+      "name": "Média de participações por servidor participante",
+      "definition": "I12 / I11",
+      "unit": "participações por servidor",
+      "dependencies": "—"
+    },
+    {
+      "id": "I14",
+      "name": "Presidências e vice-presidências vigentes",
+      "definition": "Participações vigentes com essas funções",
+      "unit": "participações",
+      "dependencies": "D07"
+    },
+    {
+      "id": "I15",
+      "name": "Horas semanais do servidor",
+      "definition": "Soma informativa da §2.5 em R",
+      "unit": "h/semana",
+      "dependencies": "D06"
+    },
+    {
+      "id": "I16",
+      "name": "Distribuição de horas semanais",
+      "definition": "Servidores por faixa de horas em R",
+      "unit": "servidores",
+      "dependencies": "D06"
+    },
+    {
+      "id": "I17",
+      "name": "Horas semanais por departamento",
+      "definition": "Soma de I15 dos servidores lotados no departamento em R (histórico de lotação)",
+      "unit": "h/semana",
+      "dependencies": "D06, D15"
+    },
+    {
+      "id": "I18",
+      "name": "Tempo até publicação",
+      "definition": "Mediana e P90, separados por origem (§2.6), só registros concluídos",
+      "unit": "dias",
+      "dependencies": "Histórico, D26"
+    },
+    {
+      "id": "I19",
+      "name": "Tempo por etapa",
+      "definition": "Mediana e P90 por etapa",
+      "unit": "dias",
+      "dependencies": "Histórico, D26"
+    },
+    {
+      "id": "I20",
+      "name": "Tempo sem movimentação",
+      "definition": "R − último evento relevante, por faixa",
+      "unit": "dias",
+      "dependencies": "Histórico"
+    },
+    {
+      "id": "I21",
+      "name": "Taxa de devolução",
+      "definition": "Registros que passaram por Devolvida / registros que passaram por Em validação × 100, na mesma coorte",
+      "unit": "%",
+      "dependencies": "Histórico"
+    },
+    {
+      "id": "I22",
+      "name": "Cumprimento das comunicações",
+      "definition": "Por membro: e-mail enviado · comunicação alternativa · exceção autorizada · pendente (CA54)",
+      "unit": "membros",
+      "dependencies": "D12"
+    },
+    {
+      "id": "I23",
+      "name": "Validações pendentes",
+      "definition": "Registros Em validação, por departamento validador",
+      "unit": "registros",
+      "dependencies": "D04"
+    },
+    {
+      "id": "I24",
+      "name": "Assinaturas pendentes",
+      "definition": "Registros Aguardando assinatura ou Assinatura em verificação",
+      "unit": "registros",
+      "dependencies": "D03, D10"
+    }
+  ],
+  "authorization": {
+    "external": "nenhuma estatística interna",
+    "server": "somente dados próprios e R2 individual próprio",
+    "department": "painel departamental; relatórios completos sob H-D17, nominal sob D16",
+    "operator": "nível 3, conforme escopo",
+    "direction": "nível 4; Vice com autorização e período",
+    "technical": "serviços e eventos técnicos; sem conteúdo de relatórios"
+  },
+  "responseEnvelope": [
+    "data_referencia",
+    "calculado_em",
+    "filtros_aplicados",
+    "hipoteses_vigentes",
+    "unidade",
+    "paginacao"
+  ],
+  "mandatoryChecks": [
+    "Autorizar consulta, geração e download no servidor",
+    "Validar filtros compatíveis sem ignorá-los",
+    "Recontar atos por ID, nunca por versão ou membro",
+    "Reconstruir situação por data de efeito e base de registro",
+    "Calcular participação pela interseção de datas",
+    "Aceitar 10 h por participação docente administrativa; sem teto acumulado",
+    "Registrar autor, momento, modelo, filtros e R em cada geração",
+    "Gerar PDF no servidor com marcação acessível e retenção homologada",
+    "Indisponível não equivale a zero"
+  ],
+  "decisions": {
+    "D25": "CSV permanece requisito em aberto; design desta etapa cobre PDF",
+    "D26": "Prazos/calendário pendentes; não classificar atrasos",
+    "D27": "Retenção de PDFs e logs pendente"
+  },
+  "suggestedRoutes": [
+    "GET /api/estatisticas/situacoes",
+    "GET /api/estatisticas/producao",
+    "GET /api/estatisticas/participacoes",
+    "GET /api/estatisticas/carga-horaria",
+    "GET /api/estatisticas/vencimentos",
+    "GET /api/estatisticas/tramitacao",
+    "GET /api/estatisticas/comunicacoes",
+    "POST /api/relatorios",
+    "GET /api/relatorios/{id}",
+    "GET /api/relatorios/{id}/pdf"
+  ]
+}

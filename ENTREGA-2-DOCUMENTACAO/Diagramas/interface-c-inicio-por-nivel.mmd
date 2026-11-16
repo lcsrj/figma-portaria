@@ -1,0 +1,10 @@
+flowchart TB
+    E["Entrada unificada"] -->|Entrar| G{"Nível da conta"}
+    G -->|Nível 1| P["Portarias publicadas · Minha conta · Notificações"]
+    G -->|Nível 2| H2["Início do perfil<br/>Servidor · DEPE/DAP · Admin. técnico"]
+    G -->|Nível 3| H3["Início do Gabinete / CGP"]
+    G -->|Nível 4| A{"Direção-Geral ou Vice?"}
+    A -->|DG| H4["Gestão da plataforma · DG"]
+    A -->|Vice| H4v["Gestão da plataforma · Vice"]
+    H2 & H3 & H4 & H4v --> M["Menu conforme o perfil<br/>(seção C.6)"]
+    P & H2 & H3 & H4 & H4v -->|Sair| E

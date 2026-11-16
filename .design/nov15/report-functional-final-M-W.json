@@ -1,0 +1,273 @@
+{
+  "device": "M",
+  "period": "W",
+  "execution": "Execução interpretada das ações persistidas; não houve cliques reais.",
+  "passed": 66,
+  "total": 66,
+  "tests": [
+    {
+      "name": "normal / all / W aplica 26 campos e navega",
+      "passed": true
+    },
+    {
+      "name": "normal / all / W preserva recorte ao mudar período",
+      "passed": true
+    },
+    {
+      "name": "normal / week / W aplica 26 campos e navega",
+      "passed": true
+    },
+    {
+      "name": "normal / week / W preserva recorte ao mudar período",
+      "passed": true
+    },
+    {
+      "name": "normal / depe / W aplica 26 campos e navega",
+      "passed": true
+    },
+    {
+      "name": "normal / depe / W preserva recorte ao mudar período",
+      "passed": true
+    },
+    {
+      "name": "normal / dap / W aplica 26 campos e navega",
+      "passed": true
+    },
+    {
+      "name": "normal / dap / W preserva recorte ao mudar período",
+      "passed": true
+    },
+    {
+      "name": "normal / server / W aplica 26 campos e navega",
+      "passed": true
+    },
+    {
+      "name": "normal / server / W preserva recorte ao mudar período",
+      "passed": true
+    },
+    {
+      "name": "normal / type / W aplica 26 campos e navega",
+      "passed": true
+    },
+    {
+      "name": "normal / type / W preserva recorte ao mudar período",
+      "passed": true
+    },
+    {
+      "name": "normal / state / W aplica 26 campos e navega",
+      "passed": true
+    },
+    {
+      "name": "normal / state / W preserva recorte ao mudar período",
+      "passed": true
+    },
+    {
+      "name": "normal / combined / W aplica 26 campos e navega",
+      "passed": true
+    },
+    {
+      "name": "normal / combined / W preserva recorte ao mudar período",
+      "passed": true
+    },
+    {
+      "name": "normal / empty / W aplica 26 campos e navega",
+      "passed": true
+    },
+    {
+      "name": "normal / empty / W preserva recorte ao mudar período",
+      "passed": true
+    },
+    {
+      "name": "normal / preparar abre prévia",
+      "passed": true
+    },
+    {
+      "name": "normal / página 1 seguinte",
+      "passed": true
+    },
+    {
+      "name": "normal / página 1 aviso com retorno preservado",
+      "passed": true
+    },
+    {
+      "name": "normal / página 2 anterior",
+      "passed": true
+    },
+    {
+      "name": "normal / página 2 seguinte",
+      "passed": true
+    },
+    {
+      "name": "normal / página 2 aviso com retorno preservado",
+      "passed": true
+    },
+    {
+      "name": "normal / página 3 anterior",
+      "passed": true
+    },
+    {
+      "name": "normal / página 3 seguinte",
+      "passed": true
+    },
+    {
+      "name": "normal / página 3 aviso com retorno preservado",
+      "passed": true
+    },
+    {
+      "name": "normal / página 4 anterior",
+      "passed": true
+    },
+    {
+      "name": "normal / página 4 seguinte",
+      "passed": true
+    },
+    {
+      "name": "normal / página 4 aviso com retorno preservado",
+      "passed": true
+    },
+    {
+      "name": "normal / página 5 anterior",
+      "passed": true
+    },
+    {
+      "name": "normal / página 5 aviso com retorno preservado",
+      "passed": true
+    },
+    {
+      "name": "normal / aviso volta ao recorte",
+      "passed": true
+    },
+    {
+      "name": "direction / all / W aplica 26 campos e navega",
+      "passed": true
+    },
+    {
+      "name": "direction / all / W preserva recorte ao mudar período",
+      "passed": true
+    },
+    {
+      "name": "direction / week / W aplica 26 campos e navega",
+      "passed": true
+    },
+    {
+      "name": "direction / week / W preserva recorte ao mudar período",
+      "passed": true
+    },
+    {
+      "name": "direction / depe / W aplica 26 campos e navega",
+      "passed": true
+    },
+    {
+      "name": "direction / depe / W preserva recorte ao mudar período",
+      "passed": true
+    },
+    {
+      "name": "direction / dap / W aplica 26 campos e navega",
+      "passed": true
+    },
+    {
+      "name": "direction / dap / W preserva recorte ao mudar período",
+      "passed": true
+    },
+    {
+      "name": "direction / server / W aplica 26 campos e navega",
+      "passed": true
+    },
+    {
+      "name": "direction / server / W preserva recorte ao mudar período",
+      "passed": true
+    },
+    {
+      "name": "direction / type / W aplica 26 campos e navega",
+      "passed": true
+    },
+    {
+      "name": "direction / type / W preserva recorte ao mudar período",
+      "passed": true
+    },
+    {
+      "name": "direction / state / W aplica 26 campos e navega",
+      "passed": true
+    },
+    {
+      "name": "direction / state / W preserva recorte ao mudar período",
+      "passed": true
+    },
+    {
+      "name": "direction / combined / W aplica 26 campos e navega",
+      "passed": true
+    },
+    {
+      "name": "direction / combined / W preserva recorte ao mudar período",
+      "passed": true
+    },
+    {
+      "name": "direction / empty / W aplica 26 campos e navega",
+      "passed": true
+    },
+    {
+      "name": "direction / empty / W preserva recorte ao mudar período",
+      "passed": true
+    },
+    {
+      "name": "direction / preparar abre prévia",
+      "passed": true
+    },
+    {
+      "name": "direction / página 1 seguinte",
+      "passed": true
+    },
+    {
+      "name": "direction / página 1 aviso com retorno preservado",
+      "passed": true
+    },
+    {
+      "name": "direction / página 2 anterior",
+      "passed": true
+    },
+    {
+      "name": "direction / página 2 seguinte",
+      "passed": true
+    },
+    {
+      "name": "direction / página 2 aviso com retorno preservado",
+      "passed": true
+    },
+    {
+      "name": "direction / página 3 anterior",
+      "passed": true
+    },
+    {
+      "name": "direction / página 3 seguinte",
+      "passed": true
+    },
+    {
+      "name": "direction / página 3 aviso com retorno preservado",
+      "passed": true
+    },
+    {
+      "name": "direction / página 4 anterior",
+      "passed": true
+    },
+    {
+      "name": "direction / página 4 seguinte",
+      "passed": true
+    },
+    {
+      "name": "direction / página 4 aviso com retorno preservado",
+      "passed": true
+    },
+    {
+      "name": "direction / página 5 anterior",
+      "passed": true
+    },
+    {
+      "name": "direction / página 5 aviso com retorno preservado",
+      "passed": true
+    },
+    {
+      "name": "direction / aviso volta ao recorte",
+      "passed": true
+    }
+  ]
+}

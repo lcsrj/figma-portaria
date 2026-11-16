@@ -1,0 +1,10 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"mutatedNodeIds\":[\"8:1998\"],\"verified\":[{\"id\":\"8:1998\",\"root\":\"8:1986\",\"remainingSelf\":false}]}"
+    }
+  ],
+  "structuredContent": null,
+  "isError": false
+}

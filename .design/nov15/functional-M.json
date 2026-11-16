@@ -1,0 +1,1922 @@
+{
+  "device": "M",
+  "execution": "Interpretação das ações persistidas no Figma; não houve cliques reais.",
+  "passed": 456,
+  "total": 474,
+  "tests": [
+    {
+      "name": "demo externo → credenciais",
+      "passed": true
+    },
+    {
+      "name": "demo externo → formulário",
+      "passed": true
+    },
+    {
+      "name": "Entrar externo → perfil 1",
+      "passed": true
+    },
+    {
+      "name": "Sessão externo define gestão",
+      "passed": true
+    },
+    {
+      "name": "Perfil externo → saída única",
+      "passed": true
+    },
+    {
+      "name": "demo servidor → credenciais",
+      "passed": true
+    },
+    {
+      "name": "demo servidor → formulário",
+      "passed": true
+    },
+    {
+      "name": "Entrar servidor → perfil 2",
+      "passed": true
+    },
+    {
+      "name": "Sessão servidor define gestão",
+      "passed": true
+    },
+    {
+      "name": "Perfil servidor → saída única",
+      "passed": false,
+      "detail": ""
+    },
+    {
+      "name": "demo operador → credenciais",
+      "passed": true
+    },
+    {
+      "name": "demo operador → formulário",
+      "passed": true
+    },
+    {
+      "name": "Entrar operador → perfil 3",
+      "passed": true
+    },
+    {
+      "name": "Sessão operador define gestão",
+      "passed": true
+    },
+    {
+      "name": "Perfil operador → saída única",
+      "passed": false,
+      "detail": ""
+    },
+    {
+      "name": "demo direcao → credenciais",
+      "passed": true
+    },
+    {
+      "name": "demo direcao → formulário",
+      "passed": true
+    },
+    {
+      "name": "Entrar direcao → perfil 4",
+      "passed": true
+    },
+    {
+      "name": "Sessão direcao define gestão",
+      "passed": true
+    },
+    {
+      "name": "Perfil direcao → saída única",
+      "passed": false,
+      "detail": ""
+    },
+    {
+      "name": "Login sem rótulos de nível",
+      "passed": true
+    },
+    {
+      "name": "Login → demonstração",
+      "passed": true
+    },
+    {
+      "name": "Abas 04 text presentes",
+      "passed": true
+    },
+    {
+      "name": "Aba 04 text → parts",
+      "passed": true
+    },
+    {
+      "name": "Aba 04 text → preview",
+      "passed": true
+    },
+    {
+      "name": "Revisão 04 text preservada",
+      "passed": true
+    },
+    {
+      "name": "Abas 04 parts presentes",
+      "passed": true
+    },
+    {
+      "name": "Aba 04 parts → text",
+      "passed": true
+    },
+    {
+      "name": "Aba 04 parts → preview",
+      "passed": true
+    },
+    {
+      "name": "Revisão 04 parts preservada",
+      "passed": true
+    },
+    {
+      "name": "Abas 04 preview presentes",
+      "passed": true
+    },
+    {
+      "name": "Aba 04 preview → text",
+      "passed": true
+    },
+    {
+      "name": "Aba 04 preview → parts",
+      "passed": true
+    },
+    {
+      "name": "Revisão 04 preview preservada",
+      "passed": true
+    },
+    {
+      "name": "Abas 05 text presentes",
+      "passed": true
+    },
+    {
+      "name": "Aba 05 text → parts",
+      "passed": true
+    },
+    {
+      "name": "Aba 05 text → preview",
+      "passed": true
+    },
+    {
+      "name": "Revisão 05 text preservada",
+      "passed": true
+    },
+    {
+      "name": "Revisão 05 text não volta a 04",
+      "passed": true
+    },
+    {
+      "name": "Abas 05 parts presentes",
+      "passed": true
+    },
+    {
+      "name": "Aba 05 parts → text",
+      "passed": true
+    },
+    {
+      "name": "Aba 05 parts → preview",
+      "passed": true
+    },
+    {
+      "name": "Revisão 05 parts preservada",
+      "passed": true
+    },
+    {
+      "name": "Revisão 05 parts não volta a 04",
+      "passed": true
+    },
+    {
+      "name": "Abas 05 preview presentes",
+      "passed": true
+    },
+    {
+      "name": "Aba 05 preview → text",
+      "passed": true
+    },
+    {
+      "name": "Aba 05 preview → parts",
+      "passed": true
+    },
+    {
+      "name": "Revisão 05 preview preservada",
+      "passed": true
+    },
+    {
+      "name": "Revisão 05 preview não volta a 04",
+      "passed": true
+    },
+    {
+      "name": "C01 gráfico → tabela",
+      "passed": true
+    },
+    {
+      "name": "C01 tabela → gráfico",
+      "passed": true
+    },
+    {
+      "name": "C02 gráfico → tabela",
+      "passed": true
+    },
+    {
+      "name": "C02 tabela → gráfico",
+      "passed": true
+    },
+    {
+      "name": "C03 gráfico → tabela",
+      "passed": true
+    },
+    {
+      "name": "C03 tabela → gráfico",
+      "passed": true
+    },
+    {
+      "name": "C04 gráfico → tabela",
+      "passed": true
+    },
+    {
+      "name": "C04 tabela → gráfico",
+      "passed": true
+    },
+    {
+      "name": "C05 gráfico → tabela",
+      "passed": true
+    },
+    {
+      "name": "C05 tabela → gráfico",
+      "passed": true
+    },
+    {
+      "name": "C06 gráfico → tabela",
+      "passed": true
+    },
+    {
+      "name": "C06 tabela → gráfico",
+      "passed": true
+    },
+    {
+      "name": "C07 gráfico → tabela",
+      "passed": true
+    },
+    {
+      "name": "C07 tabela → gráfico",
+      "passed": true
+    },
+    {
+      "name": "C08 gráfico → tabela",
+      "passed": true
+    },
+    {
+      "name": "C08 tabela → gráfico",
+      "passed": true
+    },
+    {
+      "name": "C09 gráfico → tabela",
+      "passed": true
+    },
+    {
+      "name": "C09 tabela → gráfico",
+      "passed": true
+    },
+    {
+      "name": "C10 gráfico → tabela",
+      "passed": true
+    },
+    {
+      "name": "C10 tabela → gráfico",
+      "passed": true
+    },
+    {
+      "name": "C11 gráfico → tabela",
+      "passed": true
+    },
+    {
+      "name": "C11 tabela → gráfico",
+      "passed": true
+    },
+    {
+      "name": "C12 gráfico → tabela",
+      "passed": true
+    },
+    {
+      "name": "C12 tabela → gráfico",
+      "passed": true
+    },
+    {
+      "name": "A01 abre acompanhamento",
+      "passed": true
+    },
+    {
+      "name": "A01 persiste title",
+      "passed": true
+    },
+    {
+      "name": "A01 persiste state",
+      "passed": true
+    },
+    {
+      "name": "A01 persiste stage",
+      "passed": true
+    },
+    {
+      "name": "A01 persiste actSituation",
+      "passed": true
+    },
+    {
+      "name": "A01 persiste owner",
+      "passed": true
+    },
+    {
+      "name": "A01 persiste department",
+      "passed": true
+    },
+    {
+      "name": "A01 persiste reason",
+      "passed": true
+    },
+    {
+      "name": "A01 persiste last",
+      "passed": true
+    },
+    {
+      "name": "A01 persiste action",
+      "passed": true
+    },
+    {
+      "name": "A01 persiste progress",
+      "passed": true
+    },
+    {
+      "name": "A01 persiste history",
+      "passed": true
+    },
+    {
+      "name": "A01 persiste next",
+      "passed": true
+    },
+    {
+      "name": "A01 persiste progressD",
+      "passed": true
+    },
+    {
+      "name": "A01 persiste progressM",
+      "passed": true
+    },
+    {
+      "name": "A02 abre acompanhamento",
+      "passed": true
+    },
+    {
+      "name": "A02 persiste title",
+      "passed": true
+    },
+    {
+      "name": "A02 persiste state",
+      "passed": true
+    },
+    {
+      "name": "A02 persiste stage",
+      "passed": true
+    },
+    {
+      "name": "A02 persiste actSituation",
+      "passed": true
+    },
+    {
+      "name": "A02 persiste owner",
+      "passed": true
+    },
+    {
+      "name": "A02 persiste department",
+      "passed": true
+    },
+    {
+      "name": "A02 persiste reason",
+      "passed": true
+    },
+    {
+      "name": "A02 persiste last",
+      "passed": true
+    },
+    {
+      "name": "A02 persiste action",
+      "passed": true
+    },
+    {
+      "name": "A02 persiste progress",
+      "passed": true
+    },
+    {
+      "name": "A02 persiste history",
+      "passed": true
+    },
+    {
+      "name": "A02 persiste next",
+      "passed": true
+    },
+    {
+      "name": "A02 persiste progressD",
+      "passed": true
+    },
+    {
+      "name": "A02 persiste progressM",
+      "passed": true
+    },
+    {
+      "name": "A03 abre acompanhamento",
+      "passed": true
+    },
+    {
+      "name": "A03 persiste title",
+      "passed": true
+    },
+    {
+      "name": "A03 persiste state",
+      "passed": true
+    },
+    {
+      "name": "A03 persiste stage",
+      "passed": true
+    },
+    {
+      "name": "A03 persiste actSituation",
+      "passed": true
+    },
+    {
+      "name": "A03 persiste owner",
+      "passed": true
+    },
+    {
+      "name": "A03 persiste department",
+      "passed": true
+    },
+    {
+      "name": "A03 persiste reason",
+      "passed": true
+    },
+    {
+      "name": "A03 persiste last",
+      "passed": true
+    },
+    {
+      "name": "A03 persiste action",
+      "passed": true
+    },
+    {
+      "name": "A03 persiste progress",
+      "passed": true
+    },
+    {
+      "name": "A03 persiste history",
+      "passed": true
+    },
+    {
+      "name": "A03 persiste next",
+      "passed": true
+    },
+    {
+      "name": "A03 persiste progressD",
+      "passed": true
+    },
+    {
+      "name": "A03 persiste progressM",
+      "passed": true
+    },
+    {
+      "name": "A04 abre acompanhamento",
+      "passed": true
+    },
+    {
+      "name": "A04 persiste title",
+      "passed": true
+    },
+    {
+      "name": "A04 persiste state",
+      "passed": true
+    },
+    {
+      "name": "A04 persiste stage",
+      "passed": true
+    },
+    {
+      "name": "A04 persiste actSituation",
+      "passed": true
+    },
+    {
+      "name": "A04 persiste owner",
+      "passed": true
+    },
+    {
+      "name": "A04 persiste department",
+      "passed": true
+    },
+    {
+      "name": "A04 persiste reason",
+      "passed": true
+    },
+    {
+      "name": "A04 persiste last",
+      "passed": true
+    },
+    {
+      "name": "A04 persiste action",
+      "passed": true
+    },
+    {
+      "name": "A04 persiste progress",
+      "passed": true
+    },
+    {
+      "name": "A04 persiste history",
+      "passed": true
+    },
+    {
+      "name": "A04 persiste next",
+      "passed": true
+    },
+    {
+      "name": "A04 persiste progressD",
+      "passed": true
+    },
+    {
+      "name": "A04 persiste progressM",
+      "passed": true
+    },
+    {
+      "name": "A05 abre acompanhamento",
+      "passed": true
+    },
+    {
+      "name": "A05 persiste title",
+      "passed": true
+    },
+    {
+      "name": "A05 persiste state",
+      "passed": true
+    },
+    {
+      "name": "A05 persiste stage",
+      "passed": true
+    },
+    {
+      "name": "A05 persiste actSituation",
+      "passed": true
+    },
+    {
+      "name": "A05 persiste owner",
+      "passed": true
+    },
+    {
+      "name": "A05 persiste department",
+      "passed": true
+    },
+    {
+      "name": "A05 persiste reason",
+      "passed": true
+    },
+    {
+      "name": "A05 persiste last",
+      "passed": true
+    },
+    {
+      "name": "A05 persiste action",
+      "passed": true
+    },
+    {
+      "name": "A05 persiste progress",
+      "passed": true
+    },
+    {
+      "name": "A05 persiste history",
+      "passed": true
+    },
+    {
+      "name": "A05 persiste next",
+      "passed": true
+    },
+    {
+      "name": "A05 persiste progressD",
+      "passed": true
+    },
+    {
+      "name": "A05 persiste progressM",
+      "passed": true
+    },
+    {
+      "name": "A06 abre acompanhamento",
+      "passed": true
+    },
+    {
+      "name": "A06 persiste title",
+      "passed": true
+    },
+    {
+      "name": "A06 persiste state",
+      "passed": true
+    },
+    {
+      "name": "A06 persiste stage",
+      "passed": true
+    },
+    {
+      "name": "A06 persiste actSituation",
+      "passed": true
+    },
+    {
+      "name": "A06 persiste owner",
+      "passed": true
+    },
+    {
+      "name": "A06 persiste department",
+      "passed": true
+    },
+    {
+      "name": "A06 persiste reason",
+      "passed": true
+    },
+    {
+      "name": "A06 persiste last",
+      "passed": true
+    },
+    {
+      "name": "A06 persiste action",
+      "passed": true
+    },
+    {
+      "name": "A06 persiste progress",
+      "passed": true
+    },
+    {
+      "name": "A06 persiste history",
+      "passed": true
+    },
+    {
+      "name": "A06 persiste next",
+      "passed": true
+    },
+    {
+      "name": "A06 persiste progressD",
+      "passed": true
+    },
+    {
+      "name": "A06 persiste progressM",
+      "passed": true
+    },
+    {
+      "name": "A07 abre acompanhamento",
+      "passed": true
+    },
+    {
+      "name": "A07 persiste title",
+      "passed": true
+    },
+    {
+      "name": "A07 persiste state",
+      "passed": true
+    },
+    {
+      "name": "A07 persiste stage",
+      "passed": true
+    },
+    {
+      "name": "A07 persiste actSituation",
+      "passed": true
+    },
+    {
+      "name": "A07 persiste owner",
+      "passed": true
+    },
+    {
+      "name": "A07 persiste department",
+      "passed": true
+    },
+    {
+      "name": "A07 persiste reason",
+      "passed": true
+    },
+    {
+      "name": "A07 persiste last",
+      "passed": true
+    },
+    {
+      "name": "A07 persiste action",
+      "passed": true
+    },
+    {
+      "name": "A07 persiste progress",
+      "passed": true
+    },
+    {
+      "name": "A07 persiste history",
+      "passed": true
+    },
+    {
+      "name": "A07 persiste next",
+      "passed": true
+    },
+    {
+      "name": "A07 persiste progressD",
+      "passed": true
+    },
+    {
+      "name": "A07 persiste progressM",
+      "passed": true
+    },
+    {
+      "name": "A08 abre acompanhamento",
+      "passed": true
+    },
+    {
+      "name": "A08 persiste title",
+      "passed": true
+    },
+    {
+      "name": "A08 persiste state",
+      "passed": true
+    },
+    {
+      "name": "A08 persiste stage",
+      "passed": true
+    },
+    {
+      "name": "A08 persiste actSituation",
+      "passed": true
+    },
+    {
+      "name": "A08 persiste owner",
+      "passed": true
+    },
+    {
+      "name": "A08 persiste department",
+      "passed": true
+    },
+    {
+      "name": "A08 persiste reason",
+      "passed": true
+    },
+    {
+      "name": "A08 persiste last",
+      "passed": true
+    },
+    {
+      "name": "A08 persiste action",
+      "passed": true
+    },
+    {
+      "name": "A08 persiste progress",
+      "passed": true
+    },
+    {
+      "name": "A08 persiste history",
+      "passed": true
+    },
+    {
+      "name": "A08 persiste next",
+      "passed": true
+    },
+    {
+      "name": "A08 persiste progressD",
+      "passed": true
+    },
+    {
+      "name": "A08 persiste progressM",
+      "passed": true
+    },
+    {
+      "name": "A09 abre acompanhamento",
+      "passed": true
+    },
+    {
+      "name": "A09 persiste title",
+      "passed": true
+    },
+    {
+      "name": "A09 persiste state",
+      "passed": true
+    },
+    {
+      "name": "A09 persiste stage",
+      "passed": true
+    },
+    {
+      "name": "A09 persiste actSituation",
+      "passed": true
+    },
+    {
+      "name": "A09 persiste owner",
+      "passed": true
+    },
+    {
+      "name": "A09 persiste department",
+      "passed": true
+    },
+    {
+      "name": "A09 persiste reason",
+      "passed": true
+    },
+    {
+      "name": "A09 persiste last",
+      "passed": true
+    },
+    {
+      "name": "A09 persiste action",
+      "passed": true
+    },
+    {
+      "name": "A09 persiste progress",
+      "passed": true
+    },
+    {
+      "name": "A09 persiste history",
+      "passed": true
+    },
+    {
+      "name": "A09 persiste next",
+      "passed": true
+    },
+    {
+      "name": "A09 persiste progressD",
+      "passed": true
+    },
+    {
+      "name": "A09 persiste progressM",
+      "passed": true
+    },
+    {
+      "name": "A10 abre acompanhamento",
+      "passed": true
+    },
+    {
+      "name": "A10 persiste title",
+      "passed": true
+    },
+    {
+      "name": "A10 persiste state",
+      "passed": true
+    },
+    {
+      "name": "A10 persiste stage",
+      "passed": true
+    },
+    {
+      "name": "A10 persiste actSituation",
+      "passed": true
+    },
+    {
+      "name": "A10 persiste owner",
+      "passed": true
+    },
+    {
+      "name": "A10 persiste department",
+      "passed": true
+    },
+    {
+      "name": "A10 persiste reason",
+      "passed": true
+    },
+    {
+      "name": "A10 persiste last",
+      "passed": true
+    },
+    {
+      "name": "A10 persiste action",
+      "passed": true
+    },
+    {
+      "name": "A10 persiste progress",
+      "passed": true
+    },
+    {
+      "name": "A10 persiste history",
+      "passed": true
+    },
+    {
+      "name": "A10 persiste next",
+      "passed": true
+    },
+    {
+      "name": "A10 persiste progressD",
+      "passed": true
+    },
+    {
+      "name": "A10 persiste progressM",
+      "passed": true
+    },
+    {
+      "name": "A11 abre acompanhamento",
+      "passed": true
+    },
+    {
+      "name": "A11 persiste title",
+      "passed": true
+    },
+    {
+      "name": "A11 persiste state",
+      "passed": true
+    },
+    {
+      "name": "A11 persiste stage",
+      "passed": true
+    },
+    {
+      "name": "A11 persiste actSituation",
+      "passed": true
+    },
+    {
+      "name": "A11 persiste owner",
+      "passed": true
+    },
+    {
+      "name": "A11 persiste department",
+      "passed": true
+    },
+    {
+      "name": "A11 persiste reason",
+      "passed": true
+    },
+    {
+      "name": "A11 persiste last",
+      "passed": true
+    },
+    {
+      "name": "A11 persiste action",
+      "passed": true
+    },
+    {
+      "name": "A11 persiste progress",
+      "passed": true
+    },
+    {
+      "name": "A11 persiste history",
+      "passed": true
+    },
+    {
+      "name": "A11 persiste next",
+      "passed": true
+    },
+    {
+      "name": "A11 persiste progressD",
+      "passed": true
+    },
+    {
+      "name": "A11 persiste progressM",
+      "passed": true
+    },
+    {
+      "name": "A12 abre acompanhamento",
+      "passed": true
+    },
+    {
+      "name": "A12 persiste title",
+      "passed": true
+    },
+    {
+      "name": "A12 persiste state",
+      "passed": true
+    },
+    {
+      "name": "A12 persiste stage",
+      "passed": true
+    },
+    {
+      "name": "A12 persiste actSituation",
+      "passed": true
+    },
+    {
+      "name": "A12 persiste owner",
+      "passed": true
+    },
+    {
+      "name": "A12 persiste department",
+      "passed": true
+    },
+    {
+      "name": "A12 persiste reason",
+      "passed": true
+    },
+    {
+      "name": "A12 persiste last",
+      "passed": true
+    },
+    {
+      "name": "A12 persiste action",
+      "passed": true
+    },
+    {
+      "name": "A12 persiste progress",
+      "passed": true
+    },
+    {
+      "name": "A12 persiste history",
+      "passed": true
+    },
+    {
+      "name": "A12 persiste next",
+      "passed": true
+    },
+    {
+      "name": "A12 persiste progressD",
+      "passed": true
+    },
+    {
+      "name": "A12 persiste progressM",
+      "passed": true
+    },
+    {
+      "name": "P01 abre acompanhamento",
+      "passed": true
+    },
+    {
+      "name": "P01 persiste title",
+      "passed": true
+    },
+    {
+      "name": "P01 persiste state",
+      "passed": true
+    },
+    {
+      "name": "P01 persiste stage",
+      "passed": true
+    },
+    {
+      "name": "P01 persiste actSituation",
+      "passed": true
+    },
+    {
+      "name": "P01 persiste owner",
+      "passed": true
+    },
+    {
+      "name": "P01 persiste department",
+      "passed": true
+    },
+    {
+      "name": "P01 persiste reason",
+      "passed": true
+    },
+    {
+      "name": "P01 persiste last",
+      "passed": true
+    },
+    {
+      "name": "P01 persiste action",
+      "passed": true
+    },
+    {
+      "name": "P01 persiste progress",
+      "passed": true
+    },
+    {
+      "name": "P01 persiste history",
+      "passed": true
+    },
+    {
+      "name": "P01 persiste next",
+      "passed": true
+    },
+    {
+      "name": "P01 persiste progressD",
+      "passed": false,
+      "detail": ""
+    },
+    {
+      "name": "P01 persiste progressM",
+      "passed": false,
+      "detail": ""
+    },
+    {
+      "name": "P02 abre acompanhamento",
+      "passed": true
+    },
+    {
+      "name": "P02 persiste title",
+      "passed": true
+    },
+    {
+      "name": "P02 persiste state",
+      "passed": true
+    },
+    {
+      "name": "P02 persiste stage",
+      "passed": true
+    },
+    {
+      "name": "P02 persiste actSituation",
+      "passed": true
+    },
+    {
+      "name": "P02 persiste owner",
+      "passed": true
+    },
+    {
+      "name": "P02 persiste department",
+      "passed": true
+    },
+    {
+      "name": "P02 persiste reason",
+      "passed": true
+    },
+    {
+      "name": "P02 persiste last",
+      "passed": true
+    },
+    {
+      "name": "P02 persiste action",
+      "passed": true
+    },
+    {
+      "name": "P02 persiste progress",
+      "passed": true
+    },
+    {
+      "name": "P02 persiste history",
+      "passed": true
+    },
+    {
+      "name": "P02 persiste next",
+      "passed": true
+    },
+    {
+      "name": "P02 persiste progressD",
+      "passed": false,
+      "detail": ""
+    },
+    {
+      "name": "P02 persiste progressM",
+      "passed": false,
+      "detail": ""
+    },
+    {
+      "name": "P03 abre acompanhamento",
+      "passed": true
+    },
+    {
+      "name": "P03 persiste title",
+      "passed": true
+    },
+    {
+      "name": "P03 persiste state",
+      "passed": true
+    },
+    {
+      "name": "P03 persiste stage",
+      "passed": true
+    },
+    {
+      "name": "P03 persiste actSituation",
+      "passed": true
+    },
+    {
+      "name": "P03 persiste owner",
+      "passed": true
+    },
+    {
+      "name": "P03 persiste department",
+      "passed": true
+    },
+    {
+      "name": "P03 persiste reason",
+      "passed": true
+    },
+    {
+      "name": "P03 persiste last",
+      "passed": true
+    },
+    {
+      "name": "P03 persiste action",
+      "passed": true
+    },
+    {
+      "name": "P03 persiste progress",
+      "passed": true
+    },
+    {
+      "name": "P03 persiste history",
+      "passed": true
+    },
+    {
+      "name": "P03 persiste next",
+      "passed": true
+    },
+    {
+      "name": "P03 persiste progressD",
+      "passed": false,
+      "detail": ""
+    },
+    {
+      "name": "P03 persiste progressM",
+      "passed": false,
+      "detail": ""
+    },
+    {
+      "name": "P04 abre acompanhamento",
+      "passed": true
+    },
+    {
+      "name": "P04 persiste title",
+      "passed": true
+    },
+    {
+      "name": "P04 persiste state",
+      "passed": true
+    },
+    {
+      "name": "P04 persiste stage",
+      "passed": true
+    },
+    {
+      "name": "P04 persiste actSituation",
+      "passed": true
+    },
+    {
+      "name": "P04 persiste owner",
+      "passed": true
+    },
+    {
+      "name": "P04 persiste department",
+      "passed": true
+    },
+    {
+      "name": "P04 persiste reason",
+      "passed": true
+    },
+    {
+      "name": "P04 persiste last",
+      "passed": true
+    },
+    {
+      "name": "P04 persiste action",
+      "passed": true
+    },
+    {
+      "name": "P04 persiste progress",
+      "passed": true
+    },
+    {
+      "name": "P04 persiste history",
+      "passed": true
+    },
+    {
+      "name": "P04 persiste next",
+      "passed": true
+    },
+    {
+      "name": "P04 persiste progressD",
+      "passed": false,
+      "detail": ""
+    },
+    {
+      "name": "P04 persiste progressM",
+      "passed": false,
+      "detail": ""
+    },
+    {
+      "name": "P05 abre acompanhamento",
+      "passed": true
+    },
+    {
+      "name": "P05 persiste title",
+      "passed": true
+    },
+    {
+      "name": "P05 persiste state",
+      "passed": true
+    },
+    {
+      "name": "P05 persiste stage",
+      "passed": true
+    },
+    {
+      "name": "P05 persiste actSituation",
+      "passed": true
+    },
+    {
+      "name": "P05 persiste owner",
+      "passed": true
+    },
+    {
+      "name": "P05 persiste department",
+      "passed": true
+    },
+    {
+      "name": "P05 persiste reason",
+      "passed": true
+    },
+    {
+      "name": "P05 persiste last",
+      "passed": true
+    },
+    {
+      "name": "P05 persiste action",
+      "passed": true
+    },
+    {
+      "name": "P05 persiste progress",
+      "passed": true
+    },
+    {
+      "name": "P05 persiste history",
+      "passed": true
+    },
+    {
+      "name": "P05 persiste next",
+      "passed": true
+    },
+    {
+      "name": "P05 persiste progressD",
+      "passed": false,
+      "detail": ""
+    },
+    {
+      "name": "P05 persiste progressM",
+      "passed": false,
+      "detail": ""
+    },
+    {
+      "name": "P06 abre acompanhamento",
+      "passed": true
+    },
+    {
+      "name": "P06 persiste title",
+      "passed": true
+    },
+    {
+      "name": "P06 persiste state",
+      "passed": true
+    },
+    {
+      "name": "P06 persiste stage",
+      "passed": true
+    },
+    {
+      "name": "P06 persiste actSituation",
+      "passed": true
+    },
+    {
+      "name": "P06 persiste owner",
+      "passed": true
+    },
+    {
+      "name": "P06 persiste department",
+      "passed": true
+    },
+    {
+      "name": "P06 persiste reason",
+      "passed": true
+    },
+    {
+      "name": "P06 persiste last",
+      "passed": true
+    },
+    {
+      "name": "P06 persiste action",
+      "passed": true
+    },
+    {
+      "name": "P06 persiste progress",
+      "passed": true
+    },
+    {
+      "name": "P06 persiste history",
+      "passed": true
+    },
+    {
+      "name": "P06 persiste next",
+      "passed": true
+    },
+    {
+      "name": "P06 persiste progressD",
+      "passed": false,
+      "detail": ""
+    },
+    {
+      "name": "P06 persiste progressM",
+      "passed": false,
+      "detail": ""
+    },
+    {
+      "name": "P07 abre acompanhamento",
+      "passed": true
+    },
+    {
+      "name": "P07 persiste title",
+      "passed": true
+    },
+    {
+      "name": "P07 persiste state",
+      "passed": true
+    },
+    {
+      "name": "P07 persiste stage",
+      "passed": true
+    },
+    {
+      "name": "P07 persiste actSituation",
+      "passed": true
+    },
+    {
+      "name": "P07 persiste owner",
+      "passed": true
+    },
+    {
+      "name": "P07 persiste department",
+      "passed": true
+    },
+    {
+      "name": "P07 persiste reason",
+      "passed": true
+    },
+    {
+      "name": "P07 persiste last",
+      "passed": true
+    },
+    {
+      "name": "P07 persiste action",
+      "passed": true
+    },
+    {
+      "name": "P07 persiste progress",
+      "passed": true
+    },
+    {
+      "name": "P07 persiste history",
+      "passed": true
+    },
+    {
+      "name": "P07 persiste next",
+      "passed": true
+    },
+    {
+      "name": "P07 persiste progressD",
+      "passed": false,
+      "detail": ""
+    },
+    {
+      "name": "P07 persiste progressM",
+      "passed": false,
+      "detail": ""
+    },
+    {
+      "name": "P08 abre acompanhamento",
+      "passed": true
+    },
+    {
+      "name": "P08 persiste title",
+      "passed": true
+    },
+    {
+      "name": "P08 persiste state",
+      "passed": true
+    },
+    {
+      "name": "P08 persiste stage",
+      "passed": true
+    },
+    {
+      "name": "P08 persiste actSituation",
+      "passed": true
+    },
+    {
+      "name": "P08 persiste owner",
+      "passed": true
+    },
+    {
+      "name": "P08 persiste department",
+      "passed": true
+    },
+    {
+      "name": "P08 persiste reason",
+      "passed": true
+    },
+    {
+      "name": "P08 persiste last",
+      "passed": true
+    },
+    {
+      "name": "P08 persiste action",
+      "passed": true
+    },
+    {
+      "name": "P08 persiste progress",
+      "passed": true
+    },
+    {
+      "name": "P08 persiste history",
+      "passed": true
+    },
+    {
+      "name": "P08 persiste next",
+      "passed": true
+    },
+    {
+      "name": "P08 persiste progressD",
+      "passed": true
+    },
+    {
+      "name": "P08 persiste progressM",
+      "passed": true
+    },
+    {
+      "name": "P09 abre acompanhamento",
+      "passed": true
+    },
+    {
+      "name": "P09 persiste title",
+      "passed": true
+    },
+    {
+      "name": "P09 persiste state",
+      "passed": true
+    },
+    {
+      "name": "P09 persiste stage",
+      "passed": true
+    },
+    {
+      "name": "P09 persiste actSituation",
+      "passed": true
+    },
+    {
+      "name": "P09 persiste owner",
+      "passed": true
+    },
+    {
+      "name": "P09 persiste department",
+      "passed": true
+    },
+    {
+      "name": "P09 persiste reason",
+      "passed": true
+    },
+    {
+      "name": "P09 persiste last",
+      "passed": true
+    },
+    {
+      "name": "P09 persiste action",
+      "passed": true
+    },
+    {
+      "name": "P09 persiste progress",
+      "passed": true
+    },
+    {
+      "name": "P09 persiste history",
+      "passed": true
+    },
+    {
+      "name": "P09 persiste next",
+      "passed": true
+    },
+    {
+      "name": "P09 persiste progressD",
+      "passed": true
+    },
+    {
+      "name": "P09 persiste progressM",
+      "passed": true
+    },
+    {
+      "name": "Detalhe vinculado title",
+      "passed": true
+    },
+    {
+      "name": "Detalhe vinculado state",
+      "passed": true
+    },
+    {
+      "name": "Detalhe vinculado stage",
+      "passed": true
+    },
+    {
+      "name": "Detalhe vinculado actSituation",
+      "passed": true
+    },
+    {
+      "name": "Detalhe vinculado owner",
+      "passed": true
+    },
+    {
+      "name": "Detalhe vinculado department",
+      "passed": true
+    },
+    {
+      "name": "Detalhe vinculado reason",
+      "passed": true
+    },
+    {
+      "name": "Detalhe vinculado last",
+      "passed": true
+    },
+    {
+      "name": "Detalhe vinculado action",
+      "passed": true
+    },
+    {
+      "name": "Detalhe vinculado progress",
+      "passed": true
+    },
+    {
+      "name": "Detalhe vinculado history",
+      "passed": true
+    },
+    {
+      "name": "Detalhe vinculado next",
+      "passed": true
+    },
+    {
+      "name": "Detalhe vinculado progressD",
+      "passed": false,
+      "detail": ""
+    },
+    {
+      "name": "Detalhe vinculado progressM",
+      "passed": true
+    },
+    {
+      "name": "Filtro week alcançável",
+      "passed": true
+    },
+    {
+      "name": "Filtro week IDs exatos",
+      "passed": true
+    },
+    {
+      "name": "Filtro week limpar",
+      "passed": true
+    },
+    {
+      "name": "Filtro depe alcançável",
+      "passed": true
+    },
+    {
+      "name": "Filtro depe IDs exatos",
+      "passed": true
+    },
+    {
+      "name": "Filtro depe limpar",
+      "passed": true
+    },
+    {
+      "name": "Filtro dap alcançável",
+      "passed": true
+    },
+    {
+      "name": "Filtro dap IDs exatos",
+      "passed": true
+    },
+    {
+      "name": "Filtro dap limpar",
+      "passed": true
+    },
+    {
+      "name": "Filtro server alcançável",
+      "passed": true
+    },
+    {
+      "name": "Filtro server IDs exatos",
+      "passed": true
+    },
+    {
+      "name": "Filtro server limpar",
+      "passed": true
+    },
+    {
+      "name": "Filtro type alcançável",
+      "passed": true
+    },
+    {
+      "name": "Filtro type IDs exatos",
+      "passed": true
+    },
+    {
+      "name": "Filtro type limpar",
+      "passed": true
+    },
+    {
+      "name": "Filtro state alcançável",
+      "passed": true
+    },
+    {
+      "name": "Filtro state IDs exatos",
+      "passed": true
+    },
+    {
+      "name": "Filtro state limpar",
+      "passed": true
+    },
+    {
+      "name": "Filtro combined alcançável",
+      "passed": true
+    },
+    {
+      "name": "Filtro combined IDs exatos",
+      "passed": true
+    },
+    {
+      "name": "Filtro combined limpar",
+      "passed": true
+    },
+    {
+      "name": "Filtro empty alcançável",
+      "passed": true
+    },
+    {
+      "name": "Filtro empty IDs exatos",
+      "passed": true
+    },
+    {
+      "name": "Filtro empty limpar",
+      "passed": true
+    },
+    {
+      "name": "W gerar prévia",
+      "passed": true
+    },
+    {
+      "name": "W após espera → página 1",
+      "passed": true
+    },
+    {
+      "name": "W página 1 → seguinte",
+      "passed": true
+    },
+    {
+      "name": "W página 1 aviso exportação",
+      "passed": true
+    },
+    {
+      "name": "W página 2 → anterior",
+      "passed": true
+    },
+    {
+      "name": "W página 2 → seguinte",
+      "passed": true
+    },
+    {
+      "name": "W página 2 aviso exportação",
+      "passed": true
+    },
+    {
+      "name": "W página 3 → anterior",
+      "passed": true
+    },
+    {
+      "name": "W página 3 → seguinte",
+      "passed": true
+    },
+    {
+      "name": "W página 3 aviso exportação",
+      "passed": true
+    },
+    {
+      "name": "W página 4 → anterior",
+      "passed": true
+    },
+    {
+      "name": "W página 4 → seguinte",
+      "passed": true
+    },
+    {
+      "name": "W página 4 aviso exportação",
+      "passed": true
+    },
+    {
+      "name": "W página 5 → anterior",
+      "passed": true
+    },
+    {
+      "name": "W página 5 aviso exportação",
+      "passed": true
+    },
+    {
+      "name": "M gerar prévia",
+      "passed": true
+    },
+    {
+      "name": "M após espera → página 1",
+      "passed": true
+    },
+    {
+      "name": "M página 1 → seguinte",
+      "passed": true
+    },
+    {
+      "name": "M página 1 aviso exportação",
+      "passed": true
+    },
+    {
+      "name": "M página 2 → anterior",
+      "passed": true
+    },
+    {
+      "name": "M página 2 → seguinte",
+      "passed": true
+    },
+    {
+      "name": "M página 2 aviso exportação",
+      "passed": true
+    },
+    {
+      "name": "M página 3 → anterior",
+      "passed": true
+    },
+    {
+      "name": "M página 3 → seguinte",
+      "passed": true
+    },
+    {
+      "name": "M página 3 aviso exportação",
+      "passed": true
+    },
+    {
+      "name": "M página 4 → anterior",
+      "passed": true
+    },
+    {
+      "name": "M página 4 → seguinte",
+      "passed": true
+    },
+    {
+      "name": "M página 4 aviso exportação",
+      "passed": true
+    },
+    {
+      "name": "M página 5 → anterior",
+      "passed": true
+    },
+    {
+      "name": "M página 5 aviso exportação",
+      "passed": true
+    },
+    {
+      "name": "C gerar prévia",
+      "passed": true
+    },
+    {
+      "name": "C após espera → página 1",
+      "passed": true
+    },
+    {
+      "name": "C página 1 → seguinte",
+      "passed": true
+    },
+    {
+      "name": "C página 1 aviso exportação",
+      "passed": true
+    },
+    {
+      "name": "C página 2 → anterior",
+      "passed": true
+    },
+    {
+      "name": "C página 2 → seguinte",
+      "passed": true
+    },
+    {
+      "name": "C página 2 aviso exportação",
+      "passed": true
+    },
+    {
+      "name": "C página 3 → anterior",
+      "passed": true
+    },
+    {
+      "name": "C página 3 → seguinte",
+      "passed": true
+    },
+    {
+      "name": "C página 3 aviso exportação",
+      "passed": true
+    },
+    {
+      "name": "C página 4 → anterior",
+      "passed": true
+    },
+    {
+      "name": "C página 4 → seguinte",
+      "passed": true
+    },
+    {
+      "name": "C página 4 aviso exportação",
+      "passed": true
+    },
+    {
+      "name": "C página 5 → anterior",
+      "passed": true
+    },
+    {
+      "name": "C página 5 aviso exportação",
+      "passed": true
+    },
+    {
+      "name": "Não simula arquivo exportado",
+      "passed": true
+    },
+    {
+      "name": "Ler aviso preserva 7 tarefas",
+      "passed": true
+    },
+    {
+      "name": "Ler aviso mantém texto de pendências",
+      "passed": true
+    }
+  ]
+}

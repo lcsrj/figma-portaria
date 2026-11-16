@@ -1,0 +1,55 @@
+{
+  "checks": [
+    {
+      "label": "Reconciliação: 1+1+2+1+5+2=12",
+      "passed": true
+    },
+    {
+      "label": "10 participações, 5 servidores, 34 horas",
+      "passed": true
+    },
+    {
+      "label": "Helena: 3 participações e 16 horas; soma informativa",
+      "passed": true
+    },
+    {
+      "label": "Departamentos reconciliados",
+      "passed": true
+    },
+    {
+      "label": "Dia final igual a R permanece vigente",
+      "passed": true
+    },
+    {
+      "label": "Revogação agendada não antecipa efeito",
+      "passed": true
+    },
+    {
+      "label": "Encerramento retroativo depende da base de registros",
+      "passed": true
+    },
+    {
+      "label": "Participação substituída não conta em R",
+      "passed": true
+    },
+    {
+      "label": "Sem término e rascunho vencido separados",
+      "passed": true
+    },
+    {
+      "label": "10 h exatas permitidas por participação docente",
+      "passed": true
+    },
+    {
+      "label": "Comunicações reconciliam 6+2+1+1=10",
+      "passed": true
+    },
+    {
+      "label": "Meses e comparação anual por janelas iguais reconciliados",
+      "passed": true
+    }
+  ],
+  "passed": 12,
+  "total": 12,
+  "scope": "Verifica o cenário fictício; não é teste de backend."
+}

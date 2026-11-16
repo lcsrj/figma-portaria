@@ -1,0 +1,10 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"createdNodeIds\":[\"VariableCollectionId:228:2\",\"VariableID:228:3\",\"VariableID:228:4\",\"VariableID:228:5\",\"VariableID:228:6\",\"228:7\",\"228:8\",\"228:9\",\"228:10\",\"228:11\",\"228:12\",\"228:13\",\"228:14\",\"228:15\",\"228:16\",\"228:17\",\"228:18\",\"228:19\"],\"collectionId\":\"VariableCollectionId:228:2\",\"variables\":{\"gestaoAtiva\":\"VariableID:228:3\",\"servidorAtivo\":\"VariableID:228:4\",\"nomeGestao\":\"VariableID:228:5\",\"perfilGestao\":\"VariableID:228:6\"},\"badges\":[{\"id\":\"228:7\",\"name\":\"Nível=1, Formato=Completo\"},{\"id\":\"228:9\",\"name\":\"Nível=1, Formato=Compacto\"},{\"id\":\"228:11\",\"name\":\"Nível=2, Formato=Completo\"},{\"id\":\"228:13\",\"name\":\"Nível=2, Formato=Compacto\"},{\"id\":\"228:15\",\"name\":\"Nível=3, Formato=Completo\"},{\"id\":\"228:17\",\"name\":\"Nível=3, Formato=Compacto\"}],\"setId\":\"228:19\"}"
+    }
+  ],
+  "structuredContent": null,
+  "isError": false
+}

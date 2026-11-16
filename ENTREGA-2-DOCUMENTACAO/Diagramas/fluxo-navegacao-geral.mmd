@@ -1,0 +1,55 @@
+flowchart TB
+    subgraph ACESSO["Acesso"]
+        E["Entrada unificada<br/>5:2 / 8:1663"]
+        ER["Entrada com erro"]
+        DM["Acesso demonstrativo<br/>4 contas fictícias"]
+    end
+    subgraph REC["Recuperação de senha"]
+        R1["Recupere seu acesso<br/>5:92"]
+        R2["Confira seu e-mail<br/>5:118"]
+        R3["Defina uma nova senha<br/>5:143"]
+        R4["Conclusão<br/>5:167"]
+    end
+    subgraph INT["Área interna"]
+        G1{"Nível da conta"}
+        G2{"DG ou Vice?<br/>243:1710"}
+        H2["Início nível 2<br/>Servidor · DEPE/DAP · Admin. técnico"]
+        H3["Início nível 3<br/>Gabinete 6:49 · CGP"]
+        HDG["Gestão · Direção-Geral<br/>6:390"]
+        HV["Gestão · Vice<br/>229:4439"]
+        MOD["Módulos do menu<br/>Solicitações · Portarias · Pendências · Vencimentos ·<br/>Notificações · Relatórios · Cadastros · Administração"]
+        ST["Estatísticas administrativas<br/>282:1848"]
+        NT["Notificações e acompanhamento<br/>7:10597"]
+    end
+    subgraph EXT["Ambiente externo (nível 1)"]
+        P["Portarias publicadas<br/>229:4207"]
+        PD["Detalhe e documento publicado"]
+        MC["Minha conta · Avisos"]
+    end
+
+    E -->|"Entrar · credenciais válidas"| G1
+    E -->|"Entrar · credenciais inválidas"| ER
+    ER -->|"Entrar · campos corrigidos"| E
+    E -->|"Ver usuários demonstrativos"| DM
+    DM -->|"Usar estas credenciais"| E
+    DM -->|"Voltar ao login"| E
+    E -->|"Esqueci minha senha"| R1
+    R1 -->|"Enviar instruções"| R2
+    R2 -->|"Reenviar instruções"| R2
+    R2 -->|"Abrir link de recuperação"| R3
+    R3 -->|"Salvar nova senha"| R4
+    R4 --> E
+    R1 -->|"Voltar ao acesso"| E
+    G1 -->|"1"| P
+    G1 -->|"2"| H2
+    G1 -->|"3"| H3
+    G1 -->|"4"| G2
+    G2 -->|"DG"| HDG
+    G2 -->|"Vice"| HV
+    H2 & H3 & HDG & HV --> MOD
+    MOD --> ST
+    MOD --> NT
+    MOD -->|"Sair"| E
+    P --> PD
+    P --> MC
+    P -->|"Sair"| E

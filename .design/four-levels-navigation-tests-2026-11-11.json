@@ -1,0 +1,973 @@
+{
+  "method": "Avaliação dos arrays de ações e condições lidos novamente do Figma, sem execução visual de autenticação ou backend.",
+  "passed": 138,
+  "total": 138,
+  "cases": [
+    {
+      "device": "D",
+      "name": "Seleção do login 1",
+      "actual": "5:182",
+      "expected": "5:182",
+      "pass": true
+    },
+    {
+      "device": "D",
+      "name": "Seleção limpa contexto de gestão 1",
+      "actual": false,
+      "expected": false,
+      "pass": true
+    },
+    {
+      "device": "D",
+      "name": "Seleção do login 2",
+      "actual": "260:1712",
+      "expected": "260:1712",
+      "pass": true
+    },
+    {
+      "device": "D",
+      "name": "Seleção limpa contexto de gestão 2",
+      "actual": false,
+      "expected": false,
+      "pass": true
+    },
+    {
+      "device": "D",
+      "name": "Seleção do login 3",
+      "actual": "260:1948",
+      "expected": "260:1948",
+      "pass": true
+    },
+    {
+      "device": "D",
+      "name": "Seleção limpa contexto de gestão 3",
+      "actual": false,
+      "expected": false,
+      "pass": true
+    },
+    {
+      "device": "D",
+      "name": "Seleção do login 4",
+      "actual": "260:2182",
+      "expected": "260:2182",
+      "pass": true
+    },
+    {
+      "device": "D",
+      "name": "Seleção limpa contexto de gestão 4",
+      "actual": false,
+      "expected": false,
+      "pass": true
+    },
+    {
+      "device": "D",
+      "name": "Badge 1/empty",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "device": "D",
+      "name": "Voltar 1/empty",
+      "actual": "5:2",
+      "expected": "5:2",
+      "pass": true
+    },
+    {
+      "device": "D",
+      "name": "Campo abre preenchido 1",
+      "actual": "229:4047",
+      "expected": "229:4047",
+      "pass": true
+    },
+    {
+      "device": "D",
+      "name": "Entrada vazia mostra erro 1",
+      "actual": "229:4126",
+      "expected": "229:4126",
+      "pass": true
+    },
+    {
+      "device": "D",
+      "name": "Badge 1/filled",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "device": "D",
+      "name": "Voltar 1/filled",
+      "actual": "5:2",
+      "expected": "5:2",
+      "pass": true
+    },
+    {
+      "device": "D",
+      "name": "Entrada preenchida 1/filled",
+      "actual": "229:4207",
+      "expected": "229:4207",
+      "pass": true
+    },
+    {
+      "device": "D",
+      "name": "Contexto de gestão 1/filled",
+      "actual": false,
+      "expected": false,
+      "pass": true
+    },
+    {
+      "device": "D",
+      "name": "Credencial do perfil 1/filled",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "device": "D",
+      "name": "Badge 1/error",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "device": "D",
+      "name": "Voltar 1/error",
+      "actual": "5:2",
+      "expected": "5:2",
+      "pass": true
+    },
+    {
+      "device": "D",
+      "name": "Badge 2/empty",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "device": "D",
+      "name": "Voltar 2/empty",
+      "actual": "5:2",
+      "expected": "5:2",
+      "pass": true
+    },
+    {
+      "device": "D",
+      "name": "Campo abre preenchido 2",
+      "actual": "260:1790",
+      "expected": "260:1790",
+      "pass": true
+    },
+    {
+      "device": "D",
+      "name": "Entrada vazia mostra erro 2",
+      "actual": "260:1868",
+      "expected": "260:1868",
+      "pass": true
+    },
+    {
+      "device": "D",
+      "name": "Badge 2/filled",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "device": "D",
+      "name": "Voltar 2/filled",
+      "actual": "5:2",
+      "expected": "5:2",
+      "pass": true
+    },
+    {
+      "device": "D",
+      "name": "Entrada preenchida 2/filled",
+      "actual": "6:178",
+      "expected": "6:178",
+      "pass": true
+    },
+    {
+      "device": "D",
+      "name": "Contexto de gestão 2/filled",
+      "actual": false,
+      "expected": false,
+      "pass": true
+    },
+    {
+      "device": "D",
+      "name": "Credencial do perfil 2/filled",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "device": "D",
+      "name": "Badge 2/error",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "device": "D",
+      "name": "Voltar 2/error",
+      "actual": "5:2",
+      "expected": "5:2",
+      "pass": true
+    },
+    {
+      "device": "D",
+      "name": "Badge 3/empty",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "device": "D",
+      "name": "Voltar 3/empty",
+      "actual": "5:2",
+      "expected": "5:2",
+      "pass": true
+    },
+    {
+      "device": "D",
+      "name": "Campo abre preenchido 3",
+      "actual": "5:30",
+      "expected": "5:30",
+      "pass": true
+    },
+    {
+      "device": "D",
+      "name": "Entrada vazia mostra erro 3",
+      "actual": "5:58",
+      "expected": "5:58",
+      "pass": true
+    },
+    {
+      "device": "D",
+      "name": "Badge 3/filled",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "device": "D",
+      "name": "Voltar 3/filled",
+      "actual": "5:2",
+      "expected": "5:2",
+      "pass": true
+    },
+    {
+      "device": "D",
+      "name": "Entrada preenchida 3/filled",
+      "actual": "6:49",
+      "expected": "6:49",
+      "pass": true
+    },
+    {
+      "device": "D",
+      "name": "Contexto de gestão 3/filled",
+      "actual": false,
+      "expected": false,
+      "pass": true
+    },
+    {
+      "device": "D",
+      "name": "Credencial do perfil 3/filled",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "device": "D",
+      "name": "Badge 3/error",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "device": "D",
+      "name": "Voltar 3/error",
+      "actual": "5:2",
+      "expected": "5:2",
+      "pass": true
+    },
+    {
+      "device": "D",
+      "name": "Badge 4/empty",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "device": "D",
+      "name": "Voltar 4/empty",
+      "actual": "5:2",
+      "expected": "5:2",
+      "pass": true
+    },
+    {
+      "device": "D",
+      "name": "Campo abre preenchido 4",
+      "actual": "260:2260",
+      "expected": "260:2260",
+      "pass": true
+    },
+    {
+      "device": "D",
+      "name": "Entrada vazia mostra erro 4",
+      "actual": "260:2338",
+      "expected": "260:2338",
+      "pass": true
+    },
+    {
+      "device": "D",
+      "name": "Badge 4/filled",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "device": "D",
+      "name": "Voltar 4/filled",
+      "actual": "5:2",
+      "expected": "5:2",
+      "pass": true
+    },
+    {
+      "device": "D",
+      "name": "Entrada preenchida 4/filled",
+      "actual": "6:390",
+      "expected": "6:390",
+      "pass": true
+    },
+    {
+      "device": "D",
+      "name": "Contexto de gestão 4/filled",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "device": "D",
+      "name": "Credencial do perfil 4/filled",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "device": "D",
+      "name": "Identidade da gestão filled",
+      "actual": "Eduardo Almeida",
+      "expected": "Eduardo Almeida",
+      "pass": true
+    },
+    {
+      "device": "D",
+      "name": "Badge 4/error",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "device": "D",
+      "name": "Voltar 4/error",
+      "actual": "5:2",
+      "expected": "5:2",
+      "pass": true
+    },
+    {
+      "device": "D",
+      "name": "Badge 4/vice",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "device": "D",
+      "name": "Voltar 4/vice",
+      "actual": "5:2",
+      "expected": "5:2",
+      "pass": true
+    },
+    {
+      "device": "D",
+      "name": "Entrada preenchida 4/vice",
+      "actual": "229:4439",
+      "expected": "229:4439",
+      "pass": true
+    },
+    {
+      "device": "D",
+      "name": "Contexto de gestão 4/vice",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "device": "D",
+      "name": "Credencial do perfil 4/vice",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "device": "D",
+      "name": "Identidade da gestão vice",
+      "actual": "Sofia Ribeiro",
+      "expected": "Sofia Ribeiro",
+      "pass": true
+    },
+    {
+      "device": "D",
+      "name": "Logout do perfil 6:178",
+      "actual": "260:1712",
+      "expected": "260:1712",
+      "pass": true
+    },
+    {
+      "device": "D",
+      "name": "Logout encerra contexto 6:178",
+      "actual": false,
+      "expected": false,
+      "pass": true
+    },
+    {
+      "device": "D",
+      "name": "Logout do perfil 6:49",
+      "actual": "260:1948",
+      "expected": "260:1948",
+      "pass": true
+    },
+    {
+      "device": "D",
+      "name": "Logout encerra contexto 6:49",
+      "actual": false,
+      "expected": false,
+      "pass": true
+    },
+    {
+      "device": "D",
+      "name": "Logout do perfil 6:390",
+      "actual": "260:2182",
+      "expected": "260:2182",
+      "pass": true
+    },
+    {
+      "device": "D",
+      "name": "Logout encerra contexto 6:390",
+      "actual": false,
+      "expected": false,
+      "pass": true
+    },
+    {
+      "device": "D",
+      "name": "Logout do perfil 229:4439",
+      "actual": "260:2182",
+      "expected": "260:2182",
+      "pass": true
+    },
+    {
+      "device": "D",
+      "name": "Logout encerra contexto 229:4439",
+      "actual": false,
+      "expected": false,
+      "pass": true
+    },
+    {
+      "device": "D",
+      "name": "Quatro fluxos nomeados",
+      "actual": 4,
+      "expected": 4,
+      "pass": true
+    },
+    {
+      "device": "M",
+      "name": "Seleção do login 1",
+      "actual": "8:1843",
+      "expected": "8:1843",
+      "pass": true
+    },
+    {
+      "device": "M",
+      "name": "Seleção limpa contexto de gestão 1",
+      "actual": false,
+      "expected": false,
+      "pass": true
+    },
+    {
+      "device": "M",
+      "name": "Seleção do login 2",
+      "actual": "260:4555",
+      "expected": "260:4555",
+      "pass": true
+    },
+    {
+      "device": "M",
+      "name": "Seleção limpa contexto de gestão 2",
+      "actual": false,
+      "expected": false,
+      "pass": true
+    },
+    {
+      "device": "M",
+      "name": "Seleção do login 3",
+      "actual": "260:4776",
+      "expected": "260:4776",
+      "pass": true
+    },
+    {
+      "device": "M",
+      "name": "Seleção limpa contexto de gestão 3",
+      "actual": false,
+      "expected": false,
+      "pass": true
+    },
+    {
+      "device": "M",
+      "name": "Seleção do login 4",
+      "actual": "260:4995",
+      "expected": "260:4995",
+      "pass": true
+    },
+    {
+      "device": "M",
+      "name": "Seleção limpa contexto de gestão 4",
+      "actual": false,
+      "expected": false,
+      "pass": true
+    },
+    {
+      "device": "M",
+      "name": "Badge 1/empty",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "device": "M",
+      "name": "Voltar 1/empty",
+      "actual": "8:1663",
+      "expected": "8:1663",
+      "pass": true
+    },
+    {
+      "device": "M",
+      "name": "Campo abre preenchido 1",
+      "actual": "229:4653",
+      "expected": "229:4653",
+      "pass": true
+    },
+    {
+      "device": "M",
+      "name": "Entrada vazia mostra erro 1",
+      "actual": "229:4727",
+      "expected": "229:4727",
+      "pass": true
+    },
+    {
+      "device": "M",
+      "name": "Badge 1/filled",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "device": "M",
+      "name": "Voltar 1/filled",
+      "actual": "8:1663",
+      "expected": "8:1663",
+      "pass": true
+    },
+    {
+      "device": "M",
+      "name": "Entrada preenchida 1/filled",
+      "actual": "229:4803",
+      "expected": "229:4803",
+      "pass": true
+    },
+    {
+      "device": "M",
+      "name": "Contexto de gestão 1/filled",
+      "actual": false,
+      "expected": false,
+      "pass": true
+    },
+    {
+      "device": "M",
+      "name": "Credencial do perfil 1/filled",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "device": "M",
+      "name": "Badge 1/error",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "device": "M",
+      "name": "Voltar 1/error",
+      "actual": "8:1663",
+      "expected": "8:1663",
+      "pass": true
+    },
+    {
+      "device": "M",
+      "name": "Badge 2/empty",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "device": "M",
+      "name": "Voltar 2/empty",
+      "actual": "8:1663",
+      "expected": "8:1663",
+      "pass": true
+    },
+    {
+      "device": "M",
+      "name": "Campo abre preenchido 2",
+      "actual": "260:4628",
+      "expected": "260:4628",
+      "pass": true
+    },
+    {
+      "device": "M",
+      "name": "Entrada vazia mostra erro 2",
+      "actual": "260:4701",
+      "expected": "260:4701",
+      "pass": true
+    },
+    {
+      "device": "M",
+      "name": "Badge 2/filled",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "device": "M",
+      "name": "Voltar 2/filled",
+      "actual": "8:1663",
+      "expected": "8:1663",
+      "pass": true
+    },
+    {
+      "device": "M",
+      "name": "Entrada preenchida 2/filled",
+      "actual": "8:1932",
+      "expected": "8:1932",
+      "pass": true
+    },
+    {
+      "device": "M",
+      "name": "Contexto de gestão 2/filled",
+      "actual": false,
+      "expected": false,
+      "pass": true
+    },
+    {
+      "device": "M",
+      "name": "Credencial do perfil 2/filled",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "device": "M",
+      "name": "Badge 2/error",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "device": "M",
+      "name": "Voltar 2/error",
+      "actual": "8:1663",
+      "expected": "8:1663",
+      "pass": true
+    },
+    {
+      "device": "M",
+      "name": "Badge 3/empty",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "device": "M",
+      "name": "Voltar 3/empty",
+      "actual": "8:1663",
+      "expected": "8:1663",
+      "pass": true
+    },
+    {
+      "device": "M",
+      "name": "Campo abre preenchido 3",
+      "actual": "8:1691",
+      "expected": "8:1691",
+      "pass": true
+    },
+    {
+      "device": "M",
+      "name": "Entrada vazia mostra erro 3",
+      "actual": "8:1719",
+      "expected": "8:1719",
+      "pass": true
+    },
+    {
+      "device": "M",
+      "name": "Badge 3/filled",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "device": "M",
+      "name": "Voltar 3/filled",
+      "actual": "8:1663",
+      "expected": "8:1663",
+      "pass": true
+    },
+    {
+      "device": "M",
+      "name": "Entrada preenchida 3/filled",
+      "actual": "8:1874",
+      "expected": "8:1874",
+      "pass": true
+    },
+    {
+      "device": "M",
+      "name": "Contexto de gestão 3/filled",
+      "actual": false,
+      "expected": false,
+      "pass": true
+    },
+    {
+      "device": "M",
+      "name": "Credencial do perfil 3/filled",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "device": "M",
+      "name": "Badge 3/error",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "device": "M",
+      "name": "Voltar 3/error",
+      "actual": "8:1663",
+      "expected": "8:1663",
+      "pass": true
+    },
+    {
+      "device": "M",
+      "name": "Badge 4/empty",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "device": "M",
+      "name": "Voltar 4/empty",
+      "actual": "8:1663",
+      "expected": "8:1663",
+      "pass": true
+    },
+    {
+      "device": "M",
+      "name": "Campo abre preenchido 4",
+      "actual": "260:5068",
+      "expected": "260:5068",
+      "pass": true
+    },
+    {
+      "device": "M",
+      "name": "Entrada vazia mostra erro 4",
+      "actual": "260:5141",
+      "expected": "260:5141",
+      "pass": true
+    },
+    {
+      "device": "M",
+      "name": "Badge 4/filled",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "device": "M",
+      "name": "Voltar 4/filled",
+      "actual": "8:1663",
+      "expected": "8:1663",
+      "pass": true
+    },
+    {
+      "device": "M",
+      "name": "Entrada preenchida 4/filled",
+      "actual": "8:2014",
+      "expected": "8:2014",
+      "pass": true
+    },
+    {
+      "device": "M",
+      "name": "Contexto de gestão 4/filled",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "device": "M",
+      "name": "Credencial do perfil 4/filled",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "device": "M",
+      "name": "Identidade da gestão filled",
+      "actual": "Eduardo Almeida",
+      "expected": "Eduardo Almeida",
+      "pass": true
+    },
+    {
+      "device": "M",
+      "name": "Badge 4/error",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "device": "M",
+      "name": "Voltar 4/error",
+      "actual": "8:1663",
+      "expected": "8:1663",
+      "pass": true
+    },
+    {
+      "device": "M",
+      "name": "Badge 4/vice",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "device": "M",
+      "name": "Voltar 4/vice",
+      "actual": "8:1663",
+      "expected": "8:1663",
+      "pass": true
+    },
+    {
+      "device": "M",
+      "name": "Entrada preenchida 4/vice",
+      "actual": "229:4987",
+      "expected": "229:4987",
+      "pass": true
+    },
+    {
+      "device": "M",
+      "name": "Contexto de gestão 4/vice",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "device": "M",
+      "name": "Credencial do perfil 4/vice",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "device": "M",
+      "name": "Identidade da gestão vice",
+      "actual": "Sofia Ribeiro",
+      "expected": "Sofia Ribeiro",
+      "pass": true
+    },
+    {
+      "device": "M",
+      "name": "Logout menu 8:2091/3",
+      "actual": "260:4776",
+      "expected": "260:4776",
+      "pass": true
+    },
+    {
+      "device": "M",
+      "name": "Menu encerra contexto 8:2091/3",
+      "actual": false,
+      "expected": false,
+      "pass": true
+    },
+    {
+      "device": "M",
+      "name": "Logout menu 8:2091/4",
+      "actual": "260:4995",
+      "expected": "260:4995",
+      "pass": true
+    },
+    {
+      "device": "M",
+      "name": "Menu encerra contexto 8:2091/4",
+      "actual": false,
+      "expected": false,
+      "pass": true
+    },
+    {
+      "device": "M",
+      "name": "Logout menu 11:3252/2",
+      "actual": "260:4555",
+      "expected": "260:4555",
+      "pass": true
+    },
+    {
+      "device": "M",
+      "name": "Menu encerra contexto 11:3252/2",
+      "actual": false,
+      "expected": false,
+      "pass": true
+    },
+    {
+      "device": "M",
+      "name": "Logout menu 11:3307/2",
+      "actual": "260:4555",
+      "expected": "260:4555",
+      "pass": true
+    },
+    {
+      "device": "M",
+      "name": "Menu encerra contexto 11:3307/2",
+      "actual": false,
+      "expected": false,
+      "pass": true
+    },
+    {
+      "device": "M",
+      "name": "Logout menu 11:3307/4",
+      "actual": "260:4995",
+      "expected": "260:4995",
+      "pass": true
+    },
+    {
+      "device": "M",
+      "name": "Menu encerra contexto 11:3307/4",
+      "actual": false,
+      "expected": false,
+      "pass": true
+    },
+    {
+      "device": "M",
+      "name": "Quatro fluxos nomeados",
+      "actual": 4,
+      "expected": 4,
+      "pass": true
+    }
+  ]
+}

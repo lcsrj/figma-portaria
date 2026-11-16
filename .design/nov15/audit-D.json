@@ -1,0 +1,10 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"screens\":109,\"nodes\":15878,\"types\":{\"FRAME\":5730,\"RECTANGLE\":330,\"TEXT\":6708,\"VECTOR\":2175,\"INSTANCE\":899,\"ELLIPSE\":36},\"missing\":[],\"selfNavigation\":[],\"overflow\":[{\"key\":\"external-notifications\",\"id\":\"321:10900\",\"name\":\"Portarias publicadas\",\"width\":164,\"x\":28,\"parentWidth\":184},{\"key\":\"external-read\",\"id\":\"321:10902\",\"name\":\"Portarias publicadas\",\"width\":164,\"x\":28,\"parentWidth\":184}],\"buttonClipping\":[],\"privateImages\":[],\"unboundProject\":[],\"publicLevels\":[]}"
+    }
+  ],
+  "structuredContent": null,
+  "isError": false
+}

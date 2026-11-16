@@ -1,0 +1,37 @@
+{
+  "screens": 132,
+  "nodes": 18241,
+  "types": {
+    "FRAME": 6623,
+    "RECTANGLE": 381,
+    "TEXT": 7504,
+    "VECTOR": 2638,
+    "INSTANCE": 1059,
+    "ELLIPSE": 36
+  },
+  "missing": [],
+  "selfNavigation": [],
+  "overflow": [],
+  "buttonClipping": [],
+  "privateImages": [],
+  "unboundProject": [],
+  "publicLevels": [],
+  "fonts": {
+    "Source Sans 3": 4912,
+    "Roboto": 44,
+    "Inter": 10
+  },
+  "crossDevice": [],
+  "recheckedBounds": [
+    {
+      "id": "321:9854",
+      "x": 28,
+      "width": 146,
+      "parentWidth": 184,
+      "y": 10,
+      "height": 22,
+      "parentHeight": 42,
+      "passed": true
+    }
+  ]
+}
