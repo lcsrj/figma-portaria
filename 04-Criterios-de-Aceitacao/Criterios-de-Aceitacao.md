@@ -6,7 +6,7 @@
 >
 > **Situação da evidência** (o que existe no projeto em 15/11/2026):
 >
-> - **Protótipo — captura:** comportamento visível em captura do Figma incluída em [Capturas](../07-Interfaces-do-Sistema/Capturas).
+> - **Protótipo — captura:** comportamento visível em captura do Figma incluída em [Capturas](../07-Interfaces-do-Sistema/Capturas/).
 > - **Protótipo — registro de teste:** verificado por teste registrado no projeto (clique no protótipo ou avaliação das ações do Figma).
 > - **Protótipo — especificação:** a tela existe segundo os registros de entrega, mas não há captura nem teste registrado.
 > - **Implementação:** só verificável no software, que ainda não existe.

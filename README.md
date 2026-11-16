@@ -1,22 +1,21 @@
-# Gestor de Portarias — documentação
+# Gestor de Portarias — nove artefatos do projeto
 
-Documentação do Gestor de Portarias do Instituto Federal Catarinense, Campus Videira.
+Instituto Federal Catarinense — Campus Videira.
 
-O repositório reúne a **Entrega 2 — nove artefatos**, os documentos de produto, interação e design, os dois relatórios de 15/11/2026 e oito referências originais.
+Este repositório contém os nove artefatos solicitados na referência da entrega:
 
-## Consulta
+| # | Artefato | Documentação |
+|---|---|---|
+| 1 | Plano de Projeto | [Plano de Projeto](01-Plano-de-Projeto/Plano-de-Projeto.md) |
+| 2 | EAP do Projeto | [EAP](02-EAP-do-Projeto/EAP.md) · [Dicionário da EAP](02-EAP-do-Projeto/Dicionario-da-EAP.md) |
+| 3 | Mapeamento de Talentos e Habilidades | [Mapeamento](03-Mapeamento-de-Talentos/Mapeamento-de-Talentos.md) |
+| 4 | Critérios de Aceitação do Projeto | [Critérios de Aceitação](04-Criterios-de-Aceitacao/Criterios-de-Aceitacao.md) |
+| 5 | Requisitos Funcionais e Não Funcionais | [Funcionais](05-Requisitos/Requisitos-Funcionais.md) · [Não funcionais](05-Requisitos/Requisitos-Nao-Funcionais.md) |
+| 6 | Regras de Negócio | [Regras de Negócio](06-Regras-de-Negocio/Regras-de-Negocio.md) |
+| 7 | Interfaces do Sistema | [Documentação e capturas](07-Interfaces-do-Sistema/Documentacao-das-Interfaces.md) |
+| 8 | Prototipação Funcional e Navegável | [Prototipação](08-Prototipacao/Prototipacao-Funcional.md) · [Fluxos de Navegação](08-Prototipacao/Fluxos-de-Navegacao.md) |
+| 9 | Landing Page de Apresentação do Sistema | [Documentação da Landing Page](09-Landing-Page/Documentacao-Landing-Page.md) |
 
-- [Índice geral](LEIA-ME_DOCUMENTACAO.md)
-- [Entrega 2: nove artefatos, matriz e diagramas](ENTREGA-2-DOCUMENTACAO/README.md)
-- [Produto e decisões vigentes](PRODUCT.md)
-- [Contratos de interação](UX-CONTRACT.md)
-- [Sistema visual](DESIGN.md)
-- [Relatório de implementação e validação de 15/11](ENTREGA_IMPLEMENTACAO_VALIDACAO_FIGMA_2026-11-15.md)
-- [Catálogo de validação visual de 15/11](VALIDACAO_VISUAL_FIGMA_2026-11-15.md)
-- [Referências originais](referencias)
+O artefato 7 documenta as interfaces exigidas: acesso com usuário e senha, recuperação de senha e Home com menu de acesso. As capturas acompanham esse artefato; os diagramas estão nas pastas dos respectivos artefatos. A matriz de rastreabilidade integra o artefato 8.
 
-A Entrega 2 inclui 20 capturas atuais, 13 capturas históricas identificadas e oito diagramas Mermaid. O Plano de Projeto faz parte do artefato 1. Os planos avulsos da raiz e os arquivos internos de construção não integram esta versão do repositório.
-
-O [protótipo editável está no Figma](https://www.figma.com/design/yHEP1gOormT6A2nBhLhT3b). Não há aplicação implementada. O trabalho no protótipo permanece pausado; esta atualização organiza somente a documentação.
-
-Os relatórios preservam os resultados e limites de sua data. Links para evidências técnicas fora desta seleção consultam o commit de arquivo anterior. Eles não representam validação por cliques reais, teste com usuários ou homologação institucional.
+O protótipo navegável é documentado no artefato 8. A landing page está especificada no artefato 9, mas sua criação continua pendente. Os documentos preservam os limites da validação realizada, sem afirmar implementação ou teste por cliques reais em 15/11/2026.

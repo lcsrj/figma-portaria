@@ -10,7 +10,7 @@
 
 ## 2. Representação visual
 
-Fonte também em [`Diagramas/eap.mmd`](../Diagramas/eap.mmd).
+Fonte também em [`Diagramas/eap.mmd`](Diagramas/eap.mmd).
 
 ```mermaid
 flowchart TB

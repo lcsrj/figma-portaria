@@ -90,7 +90,7 @@ Projetar e validar, por meio de protótipo navegável, a interface de uma aplica
 
 ### 6.2 Objetivos específicos
 
-Os identificadores abaixo são usados na [Matriz de Rastreabilidade](../Matriz-de-Rastreabilidade.md).
+Os identificadores abaixo são usados na [Matriz de Rastreabilidade](../08-Prototipacao/Matriz-de-Rastreabilidade.md).
 
 | ID | Objetivo específico | Base na fonte | Situação em 15/11/2026 |
 |---|---|---|---|

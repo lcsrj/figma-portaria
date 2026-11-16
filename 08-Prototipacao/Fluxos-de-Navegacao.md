@@ -1,6 +1,6 @@
 # Fluxos de Navegação — Gestor de Portarias
 
-> **Artefato 8 (parte 2) da Entrega 2.** Fluxos FL-01 a FL-17 do protótipo Figma, com os quadros envolvidos e a evidência de cada um. Os IDs entre crases são os nós do arquivo Figma. Fontes dos diagramas também em [`Diagramas/`](../Diagramas).
+> **Artefato 8 (parte 2) da Entrega 2.** Fluxos FL-01 a FL-17 do protótipo Figma, com os quadros envolvidos e a evidência de cada um. Os IDs entre crases são os nós do arquivo Figma. Fontes dos diagramas também em [`Diagramas/`](Diagramas/).
 >
 > **Atualizado em 15/11/2026:** entrada unificada, quatro níveis e os fluxos FL-13 a FL-17 (acesso demonstrativo, estatísticas, relatórios por período, notificações e abas do editor). Os fluxos de 15/11/2026 foram avaliados nas ações do Figma, **sem cliques reais**.
 

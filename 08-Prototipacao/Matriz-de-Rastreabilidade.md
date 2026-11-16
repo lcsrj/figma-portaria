@@ -4,7 +4,7 @@
 >
 > **Atualizada em 15/11/2026:** quatro níveis, entrada unificada e os acréscimos RF-030 a RF-034, RN-021 a RN-026, CA-045 a CA-050, Interface D e FL-13 a FL-17.
 
-Documentos de origem: [Plano](01-Plano-de-Projeto/Plano-de-Projeto.md) (OE) · [EAP](02-EAP-do-Projeto/EAP.md) · [Requisitos Funcionais](05-Requisitos/Requisitos-Funcionais.md) (RF) · [Regras](06-Regras-de-Negocio/Regras-de-Negocio.md) (RN) · [Critérios](04-Criterios-de-Aceitacao/Criterios-de-Aceitacao.md) (CA) · [Interfaces](07-Interfaces-do-Sistema/Documentacao-das-Interfaces.md) (A, B, C, D) · [Landing](09-Landing-Page/Documentacao-Landing-Page.md) (LP) · [Fluxos](08-Prototipacao/Fluxos-de-Navegacao.md) (FL).
+Documentos de origem: [Plano](../01-Plano-de-Projeto/Plano-de-Projeto.md) (OE) · [EAP](../02-EAP-do-Projeto/EAP.md) · [Requisitos Funcionais](../05-Requisitos/Requisitos-Funcionais.md) (RF) · [Regras](../06-Regras-de-Negocio/Regras-de-Negocio.md) (RN) · [Critérios](../04-Criterios-de-Aceitacao/Criterios-de-Aceitacao.md) (CA) · [Interfaces](../07-Interfaces-do-Sistema/Documentacao-das-Interfaces.md) (A, B, C, D) · [Landing](../09-Landing-Page/Documentacao-Landing-Page.md) (LP) · [Fluxos](Fluxos-de-Navegacao.md) (FL).
 
 ## 1. Matriz principal
 
